@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<title>Page Not Found | Chase Farm Electrical Ltd | Local Domestic Electrician Winchester | Electrical Maintenance Hampshire | Landlord Certificate Southampton</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta charset="utf-8"> 
+		<meta name="viewport"  content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+
+					<link rel="icon" type="image/png"  href="https://content.webfactorysite.co.uk/14340-chase%20farm%20logo.png">
+			<link rel="shortcut icon" href="https://content.webfactorysite.co.uk/14340-chase%20farm%20logo.png">
+					<link rel="apple-touch-icon" href="https://content.webfactorysite.co.uk/14340-chase%20farm%20logo.png"/>
+		
+		<script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "Chase Farm Electrical Ltd",
+		"url": "https://www.chasefarmelectrical.co.uk"
+		}
+		</script>
+
+
+        <meta property="og:site_name" content="Chase Farm Electrical Ltd" />
+        
+
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+
+		
+        <link rel="stylesheet" href="/templates/css/stylesheet.css?sid=14340&hamburger=1&v=d1747127611&r=1">
+		
+
+		
+		<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" type="text/css">
+		
+
+
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+		<script src="/scripts/owl.carousel.min.js?v=250326"></script>
+
+		<script src="/scripts/owl.carousel.min.js?v=250326"></script>
+		<script src="/scripts/core.js?v=250326"></script>
+		<script src="https://assets.webfactory.co.uk/libraries/lightbox2/dist/js/lightbox.min.js"></script>
+		<script src="/scripts/validator.min.js?v=250326"></script>
+		<script src="/scripts/jquery.cookie.js?v=250326"></script>
+		<script src="/scripts/bower_components/matchHeight/dist/jquery.matchHeight-min.js?v=250326"></script>
+		<script src="/scripts/bower_components/bootstrap-select/dist/js/bootstrap-select.min.js?v=250326"></script>
+		<script src="/scripts/bower_components/wow/dist/wow.min.js?v=250326"></script>
+
+		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+					<script>
+
+				// to top right away
+				//if ( window.location.hash ) scroll(0,0);
+				// void some browsers issue
+				//setTimeout( function() { scroll(0,0); }, 1);
+
+				$(window).on("load",function() {
+                    
+                    if ( window.location.hash ) scroll(0,0);
+					// *only* if we have anchor on the url
+					if(window.location.hash) {
+
+						// smooth scroll to the anchor id
+						$('html, body').animate({
+							scrollTop: $(window.location.hash).offset().top + 'px'
+						}, 1000, 'swing');
+					}
+
+				});
+          
+			</script>
+					<script src="/scripts/mmenu-js-master/dist/mmenu.js?v=a250326"  crossorigin="anonymous"></script>
+			<script src="/scripts/mhead-js-master/dist/mhead.js?v=a250326"  crossorigin="anonymous"></script>
+			<script  type="module" src="/scripts/mburger-css-master/dist/mburger.js?v=a250326"  crossorigin="anonymous"></script>
+					<script>
+
+				document.addEventListener(
+					"DOMContentLoaded", () => {
+						new Mmenu( "#hamburger-mobile-nav", {
+							"extensions": [
+								"border-full",
+								"fx-menu-slide",
+								"fx-panels-slide-100",
+								"fx-listitems-slide",
+								"pagedim-black",
+								"position-right",
+								"shadow-page"
+							]
+						});
+					}
+				);
+				$( document ).ready(function() {
+					$('#hamburger-mobile-nav').removeClass('hide');
+				});
+	
+
+				document.addEventListener(
+					"DOMContentLoaded", () => {
+						new Mhead( "#mobile-header-section-hamburger", {
+							scroll: {
+								hide: 200
+							}
+						});
+
+					}
+				);
+
+			</script>
+			        
+
+
+		<script src="/scripts/bower_components/masonry-layout/dist/masonry.pkgd.min.js?v=250326"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				
+
+				
+				new WOW().init();
+			});
+		</script>
+
+		<style></style><style>.float{
+	position:fixed;
+	bottom:30%;
+	right:0px;	
+  z-index:100;
+}
+.my-float{
+	margin-top:10px;
+}
+
+.float2 {
+	position:fixed;
+	bottom:42%;
+	right:0px;	
+  z-index:100;
+}
+.my-float2 {
+	margin-top:10px;
+}
+
+.float3 {
+	position:fixed;
+	bottom:50%;
+	right:0px;	
+  z-index:100;
+}
+.my-float3 {
+	margin-top:10px;
+}
+
+p, ul, ul li, label, .product-reference, td, th {
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.element_text h3 {
+
+    color: #007ba7;
+    margin: 25px 0 25px;
+  
+}
+
+.btn-success {
+    padding: 14px 38px !important;
+
+    font-size: 20px;
+    margin-top: 12px;
+}
+#pagesection-617168 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617217 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617213 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617209 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617205 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617201 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617197 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617193 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617189 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617185 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617177 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617221 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617225 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617229 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617233 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617237 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617241 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617245 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+#pagesection-617249 {
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+
+.horizontalnav nav > ul > li a {
+    padding: 0 13px !important;
+font-size: 17px;
+    font-weight: 500;
+    right: 5px !important; }
+    
+    .horizontalnav nav > ul > li.has-sub > a::after {
+  
+    right: 5px !important; }
+    
+    .horizontalnav nav ul ul li a {
+    padding: 11px 25px;
+    height: auto;
+    line-height: 1.8;
+    font-size: 16px !important;
+    font-weight: 400;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+   
+
+</style>
+<!-- Hotjar Tracking Code for https://www.chasefarmelectrical.co.uk/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:5153408,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MB45XHQQ');</script>
+<!-- End Google Tag Manager -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Chase Farm Electrical",
+  "description": "Chase Farm Electrical provides professional domestic and commercial electrical services, including installations, repairs, testing, and emergency support in Hampshire.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Conway, Warnford Road, Corhampton",
+    "addressLocality": "Southampton",
+    "addressRegion": "Hampshire",
+    "postalCode": "SO32 3ND",
+    "addressCountry": "GB"
+  },
+  "telephone": "07813720204",
+  "email": "info@chasefarmelectrical.co.uk",
+  "openingHours": "Mo-Fr 08:00-18:00, Sa 09:00-14:00",
+  "areaServed": ["Winchester", "Southampton", "Portsmouth", "Hampshire"],
+  "url": "https://www.chasefarmelectrical.co.uk",
+  "sameAs": ["https://www.instagram.com/chasefarmelectrical"],
+  "logo": "https://www.chasefarmelectrical.co.uk/images/logo.png",
+  "image": "https://www.chasefarmelectrical.co.uk/images/business-image.jpg",
+  "priceRange": "££",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "51.0165",
+    "longitude": "-1.1518"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.chasefarmelectrical.co.uk/contact?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "150"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": "Tanya Wearn",
+      "reviewBody": "Very happy with the work carried out for me in my new home, needed lots doing but Nathan was more than happy to help. Such a nice guy, and an expert in his field!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": "Edward Carpenter",
+      "reviewBody": "Chase Farm Electrical have done work on my behalf on several occasions now. Always does a professional job, I shall definitely be using again! Highly recommended.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": "Lucy Westbridge",
+      "reviewBody": "We have used Nathan and Chase Farm Electrical for a number of years now and would have no hesitation in recommending them. Their efficiency and professionalism is a breath of fresh air when it comes to dealing with contractors and tradesmen.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": "Justin keil",
+      "reviewBody": "The team at Chase Farm Electrical were fantastic. They provided clear communication, arrived on time, and did a thorough, high-quality job. Five stars!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    }
+  ],
+  "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Bank Transfer"],
+  "foundingDate": "2012-07-01",
+  "numberOfEmployees": 5,
+  "slogan": "Powering Your Home and Business",
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Electrical Installations",
+        "description": "Professional electrical installation services for homes and businesses."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Electrical Installation Condition Reports",
+        "description": "Electrical testing for all property types."
+      }
+    }
+  ]
+}
+</script>
+<script>
+    jQuery(document).ready(function($) {
+        $('#header-section').affix({
+            offset: {
+                top: 10
+            }
+        });
+    });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73558870-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FGHH5Q0X56"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FGHH5Q0X56');
+</script>        
+				<script>
+			document.cookie = "jscheck=1; path=/";
+		</script>
+
+
+        <script src="https://www.google.com/recaptcha/api.js?render=6LdkReQlAAAAAH23tp1qGirQxwV92ZCFsu-mDOP1" async defer ></script>
+	</head>
+
+	
+
+
+	<body id="page" class="footercolourset unconstrained hassubpages page404 basketempty nav nav-desktop-type-horizontal nav-mobile-type-hamburger element-style-74 page nouid">
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MB45XHQQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		
+		<div id=""></div>
+
+
+			<div id="fb-root"></div>
+			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v24.0"></script>
+
+			 
+        <div id="mobile-navigation"  >
+                        <nav id="hamburger-mobile-nav" class="hide  element-style-74 ">
+      
+          
+                <ul>
+                    
+        
+            
+                                        <li id="mobile-navigation-0-parent-page-170387" class="navigation-0-page navigation-parent-page-li template-id-2896">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/" >Home</a>
+                                </li>
+                            <li id="mobile-navigation-0-parent-page-171265" class="navigation-0-page navigation-parent-page-li template-id-2896 has-sub-pages">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/services" >Services</a>
+                                    <ul id="mobile-navigation-0-subs-ul-171265" class="navigation-subs-ul">
+                                            <li id="mobile-navigation0-sub-page-208819" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/commercial-electrician" >Commercial Electrician</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-208830" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/domestic-electrician" >Domestic Electrician</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-177752" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/electrical-installation-condition-report-eicr" >Electrical Installation Condition Report (EICR) </a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-175386" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/fixed-wiring-test" >Fixed Wiring Test</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-177759" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/electrical-testing-and-inspection" >Electrical Testing and Inspection </a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-175391" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/electrical-alterations" >Electrical Alterations </a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-197345" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/rewires" >Rewires</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-197348" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/fuseboard-upgrade" >Fuseboard Upgrade</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-202515" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/domestic-lighting-services" >Domestic Lighting Services</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-175394" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/commercial--lighting-services" >Commercial  Lighting Services</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-175393" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/proactive-and-reactive-maintenance-services" >Proactive and Reactive Maintenance Services</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-175392" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/services/3-phase-power-installation" >3 Phase Power Installation</a>
+                        </li>
+
+                                        </ul>
+                                </li>
+                            <li id="mobile-navigation-0-parent-page-170439" class="navigation-0-page navigation-parent-page-li template-id-6180">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/project-portfolio" >Project Portfolio </a>
+                                </li>
+                            <li id="mobile-navigation-0-parent-page-170389" class="navigation-0-page navigation-parent-page-li template-id-2896">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/who-we-are" >Who We Are</a>
+                                </li>
+                            <li id="mobile-navigation-0-parent-page-175952" class="navigation-0-page navigation-parent-page-li template-id-2896 has-sub-pages">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/areas" >Areas</a>
+                                    <ul id="mobile-navigation-0-subs-ul-175952" class="navigation-subs-ul">
+                                            <li id="mobile-navigation0-sub-page-177765" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/areas/hampshire" >Hampshire </a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-175961" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/areas/electrician-in-southampton" >Electrician in Southampton</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-177766" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/areas/winchester" >Winchester </a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-177767" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/areas/waterlooville" >Waterlooville</a>
+                        </li>
+
+                                            <li id="mobile-navigation0-sub-page-177768" class="navigation-0-sub-page navigation-parent-page-li template-id-2896 has-sub-pages">
+                            <a href="/areas/corhampton" >Corhampton </a>
+                        </li>
+
+                                        </ul>
+                                </li>
+                            <li id="mobile-navigation-0-parent-page-186249" class="navigation-0-page navigation-parent-page-li template-id-6180">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/blog" >Blog</a>
+                                </li>
+                            <li id="mobile-navigation-0-parent-page-170391" class="navigation-0-page navigation-parent-page-li template-id-2896">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/contact" >Contact</a>
+                                </li>
+                            <li id="mobile-navigation-0-parent-page-175253" class="navigation-0-page navigation-parent-page-li template-id-2953">                    
+                    
+										<a href="https://www.chasefarmelectrical.co.uk/call-07813-720-204" >Call: 07813 720 204</a>
+                                </li>
+                                 
+                
+                </ul>
+            
+        </nav>
+            </div>
+    
+
+
+			<div id="body-container">
+           
+							<div id="mobile-header-section-hamburger" class="visible-xs visible-sm">
+
+					<div class="mobile-header-section-hamburger-droppoint">
+							
+						        <div id="mobilelogo" class="visible-xs visible-sm" style="padding-top: 5px; padding-bottom: 5px;">
+            <a id="mobilelogolink" href="https://www.chasefarmelectrical.co.uk">
+                <img  style="max-height:70px;" class="img-responsive" src="https://res.cloudinary.com/webfactory/image/fetch/f_auto,q_auto/https://content.webfactorysite.co.uk/73b40bc8-cc12-421c-8596-559c8e0d82ee.png%3Ft%3D1715097768" alt="Chase Farm Electrical Ltd | Local Domestic Electrician Winchester | Electrical Maintenance Hampshire | Landlord Certificate Southampton"/>
+               </a>
+        </div>
+    					</div>
+
+					<a  id="mobile-header-section-hamburger-button" class="mburger mburger--squeeze" href="#hamburger-mobile-nav">
+						<b></b>
+						<b></b>
+						<b></b>
+					</a>
+						
+				</div>
+				
+
+			<div id="header-section">
+								<div id="header-section-container" class="wrapper container bottom-corners-none desktop-logo-align-left ">
+											<div class="row sideoflogonav" id="logo-left" >
+							
+							<div class="col-md-3">
+								        <div id="logo" class="logoimage hidden-xs hidden-sm">
+                            <a id="logolink" href="https://www.chasefarmelectrical.co.uk">
+                <img  class="img-responsive" src="https://res.cloudinary.com/webfactory/image/fetch/f_auto,q_auto/https://content.webfactorysite.co.uk/4ae03597-b430-450d-a104-bca8a173278d.png%3Ft%3D1714567467" alt="Chase Farm Electrical Ltd | Local Domestic Electrician Winchester | Electrical Maintenance Hampshire | Landlord Certificate Southampton"/>
+                </a>
+                        <h1><a id="logolink_headertext" href="https://www.chasefarmelectrical.co.uk">Chase Farm Electrical Ltd | Local Domestic Electrician Winchester | Electrical Maintenance Hampshire | Landlord Certificate Southampton</a></h1>
+                    </div>
+        							</div>
+							
+							<div class="col-md-9">
+								<div class="row">
+									<div class="col-sm-12  text-right">
+										    
+                    
+        
+        <div class="social-buttons social-buttons-list socialmedialinkscontainer  shape-none size-medium">
+        
+                    
+                        <ul class="clearfix">                                                                                    
+                        <li class="social-link-instagram"><a target="_blank" class="btn rounded-pill btn-social-icon btn-sm  btn-instagram" href="https://www.instagram.com/chasefarmelectrical_ltd/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i> <span>Instagram</span></a></li>                                                                                    </ul>        </div>
+        
+                		
+									</div>
+                            
+																			<div class="col-sm-12 nextologo-nav   mainnavigation hidden-sm hidden-xs pull-right ">
+																						<div  class="horizontalnav">
+												        
+        
+            <nav  id="nav_navigation"  >
+                <ul class=" " id="nav_navigation_ul">
+                                    
+                        <li id="nav_link170387"  class="parentnavli  firstli   temp2896">
+                                
+                                                        <a  href="/">
+                                Home                            </a>
+                                                    </li>
+                                        
+                        <li id="nav_link171265"  class="parentnavli    has-sub temp2896">
+                                
+                                                        <a  href="/services">
+                                Services                            </a>
+                                                            <ul id="nav_navsub171265" class="  childnav">
+                                                                            <li id="link208819" class="firstli  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/commercial-electrician">
+                                                <i class="fa-angle-double-right fa-regular"></i>Commercial Electrician                                            </a>
+                                        </li>
+                                                                                <li id="link208830" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/domestic-electrician">
+                                                <i class="fa-angle-double-right fa-regular"></i>Domestic Electrician                                            </a>
+                                        </li>
+                                                                                <li id="link177752" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/electrical-installation-condition-report-eicr">
+                                                <i class="fa-angle-double-right fa-regular"></i>Electrical Installation Condition Report (EICR)                                             </a>
+                                        </li>
+                                                                                <li id="link175386" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/fixed-wiring-test">
+                                                <i class="fa-angle-double-right fa-regular"></i>Fixed Wiring Test                                            </a>
+                                        </li>
+                                                                                <li id="link177759" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/electrical-testing-and-inspection">
+                                                <i class="fa-angle-double-right fa-regular"></i>Electrical Testing and Inspection                                             </a>
+                                        </li>
+                                                                                <li id="link175391" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/electrical-alterations">
+                                                <i class="fa-angle-double-right fa-regular"></i>Electrical Alterations                                             </a>
+                                        </li>
+                                                                                <li id="link197345" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/rewires">
+                                                <i class="fa-angle-double-right fa-regular"></i>Rewires                                            </a>
+                                        </li>
+                                                                                <li id="link197348" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/fuseboard-upgrade">
+                                                <i class="fa-angle-double-right fa-regular"></i>Fuseboard Upgrade                                            </a>
+                                        </li>
+                                                                                <li id="link202515" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/domestic-lighting-services">
+                                                <i class="fa-angle-double-right fa-regular"></i>Domestic Lighting Services                                            </a>
+                                        </li>
+                                                                                <li id="link175394" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/commercial--lighting-services">
+                                                <i class="fa-angle-double-right fa-regular"></i>Commercial  Lighting Services                                            </a>
+                                        </li>
+                                                                                <li id="link175393" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/services/proactive-and-reactive-maintenance-services">
+                                                <i class="fa-angle-double-right fa-regular"></i>Proactive and Reactive Maintenance Services                                            </a>
+                                        </li>
+                                                                                <li id="link175392" class=" lastli ">
+                                                                                        <a  class="childnava  temp2896" href="/services/3-phase-power-installation">
+                                                <i class="fa-angle-double-right fa-regular"></i>3 Phase Power Installation                                            </a>
+                                        </li>
+                                                                        </ul>
+                                                        </li>
+                                        
+                        <li id="nav_link170439"  class="parentnavli     temp6180">
+                                
+                                                        <a  href="/project-portfolio">
+                                Project Portfolio                             </a>
+                                                    </li>
+                                        
+                        <li id="nav_link170389"  class="parentnavli     temp2896">
+                                
+                                                        <a  href="/who-we-are">
+                                Who We Are                            </a>
+                                                    </li>
+                                        
+                        <li id="nav_link175952"  class="parentnavli    has-sub temp2896">
+                                
+                                                        <a  href="/areas">
+                                Areas                            </a>
+                                                            <ul id="nav_navsub175952" class="  childnav">
+                                                                            <li id="link177765" class="firstli  ">
+                                                                                        <a  class="childnava  temp2896" href="/areas/hampshire">
+                                                <i class="fa-angle-double-right fa-regular"></i>Hampshire                                             </a>
+                                        </li>
+                                                                                <li id="link175961" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/areas/electrician-in-southampton">
+                                                <i class="fa-angle-double-right fa-regular"></i>Electrician in Southampton                                            </a>
+                                        </li>
+                                                                                <li id="link177766" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/areas/winchester">
+                                                <i class="fa-angle-double-right fa-regular"></i>Winchester                                             </a>
+                                        </li>
+                                                                                <li id="link177767" class="  ">
+                                                                                        <a  class="childnava  temp2896" href="/areas/waterlooville">
+                                                <i class="fa-angle-double-right fa-regular"></i>Waterlooville                                            </a>
+                                        </li>
+                                                                                <li id="link177768" class=" lastli ">
+                                                                                        <a  class="childnava  temp2896" href="/areas/corhampton">
+                                                <i class="fa-angle-double-right fa-regular"></i>Corhampton                                             </a>
+                                        </li>
+                                                                        </ul>
+                                                        </li>
+                                        
+                        <li id="nav_link186249"  class="parentnavli     temp6180">
+                                
+                                                        <a  href="/blog">
+                                Blog                            </a>
+                                                    </li>
+                                        
+                        <li id="nav_link170391"  class="parentnavli     temp2896">
+                                
+                                                        <a  href="/contact">
+                                Contact                            </a>
+                                                    </li>
+                                        
+                        <li id="nav_link175253"  class="parentnavli lastli    temp2953">
+                                
+                                                        <a  href="tel:07813720204">
+                                Call: 07813 720 204                            </a>
+                                                    </li>
+                                        </ul>
+            </nav>
+            											</div>
+																					</div>
+									
+									
+                            
+                           		</div>
+                            
+								                            
+                            </div>
+
+
+							
+							
+                            
+                  	  	</div>
+                
+                						</div>
+							</div>
+
+
+
+			
+ 
+			<div id="banner-section">
+								<div id="banner-section-container" class="wrapper top-corners-none bottom-corners-none ">
+												<div id="banner">
+								    
+        <style>
+            .owl-banner-bde93f36-f910-4678-b4c8-bedb623d595d .banner-slide img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        </style>
+    
+        
+            <script>
+            $(document).ready(function() {
+            
+                $(".owl-banner-bde93f36-f910-4678-b4c8-bedb623d595d").owlCarousel({
+                
+                    
+                                            navigation : false,
+                        pagination: false,
+                    
+                    center: true,
+                    
+                    slideSpeed : 400,
+                    paginationSpeed : 500,
+                
+                                            singleItem:true,
+                                            
+                    transitionStyle : 'fade',
+                        
+                                            autoPlay: '4000',
+                    
+                    itemsScaleUp :true,
+                    autoHeight: true,
+                    addClassActive: true
+                
+                });
+                
+                
+                                                                
+                });
+            </script>
+
+
+        <div id="owl-banner-21190" class="owl-banner-bde93f36-f910-4678-b4c8-bedb623d595d owl-carousel owl-theme owl-banner-desktop ">
+                        <div class="banner-slide item element-style-133 element-style-99"  id="banner-slide-2386652" >
+                                            <img src="https://res.cloudinary.com/webfactory/image/fetch/f_auto,q_auto/https://content.webfactorysite.co.uk/a04fa806-eaf2-4b2f-b074-c9acf40b37f7_large.jpg%3Ft%3D1733387769" alt="At Chase Farm Electrical, we provide top-quality electrical services for both homes and businesses. Our experienced team offers reliable, safe, and efficient solutions for all your electrical needs. Contact us today to learn more!">
+                                            <div class="slide-content-container container">
+                
+                            <div class="slide-content">
+                                <div class="pagetitle-wrapper"><h2 id="pagetitle" class=" ">404 Not Found</h2></div>                            </div>
+                        </div>
+                                        </div>
+                                <div class="banner-slide item element-style-133 element-style-99"  id="banner-slide-2386755" >
+                                            <img src="https://res.cloudinary.com/webfactory/image/fetch/f_auto,q_auto/https://content.webfactorysite.co.uk/d19a7df1-e228-43b3-9ecd-7fb3aa205ddd_large.jpg%3Ft%3D1733387777" alt="At Chase Farm Electrical, we provide top-quality electrical services for both homes and businesses. Our experienced team offers reliable, safe, and efficient solutions for all your electrical needs. Contact us today to learn more!">
+                                            <div class="slide-content-container container">
+                
+                            <div class="slide-content">
+                                <div class="pagetitle-wrapper"><h2 id="pagetitle" class=" ">404 Not Found</h2></div>                            </div>
+                        </div>
+                                        </div>
+                        </div>
+        							</div>
+																</div>
+							</div>
+
+
+
+				
+	
+
+
+
+
+			<div id="content-section">
+								<div id="content-section-container" class="top-corners-none bottom-corners-none wrapper container top-corners-none">
+					       
+    
+       				<div id="main" class="row">
+		
+													<div id="sidebar" class="hidden">
+								<div id="sidebarcontainer">
+																</div>
+							</div> 
+							
+
+
+						<div id="maincontent"  class="col-sm-12   "> 
+							<div id="main-contentcontainer">
+								<p>The page that you have requested could not be found.</p>
+
+													</div>
+					</div>
+				         	</div>
+        
+
+
+				
+					</div>
+			</div>
+
+
+		
+
+
+
+	<div id="footer-section" class="unconstrained">
+					<div id="footer-section-container" class=" top-corners-none   container">
+									<div id="footer-page-content" class="gutter-top">
+					            <div class="pagesection cols-multiple pagesection-element-style-154 pagesection-element-style-122 odd    pagesection-" id="printed-pagesection-599244">
+                <div class="pagesection-container   " >
+                    <div id="" class="row  row-2cols-4-8">
+
+
+                        
+                                                <div class="col-sm-4">
+                                            <div  class="page_element  page_element_65ffbcf64a element-style-154  el_col_1 el_col_1_1 page_element_type_21 element_php">
+                        
+                    
+        
+        <div class="social-buttons social-buttons-list socialmedialinkscontainer  shape-none size-medium">
+        
+                    
+            <h3>FOLLOW US</h3>            <ul class="clearfix">                                                                                    
+                        <li class="social-link-instagram"><a target="_blank" class="btn rounded-pill btn-social-icon btn-sm  btn-instagram" href="https://www.instagram.com/chasefarmelectrical_ltd/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i> <span>Instagram</span></a></li>                                                                                    </ul>        </div>
+        
+                            </div>
+                                        </div>
+
+                                                <div class="col-sm-8">
+                                            <div  class="page_element  page_element_592e3bda10 element-style-122 text-left footernav el_col_2 el_col_2_1 page_element_type_18 element_text  gutter-bottom">
+                    <h3 class="">Information</h3>
+<p><a href="https://www.chasefarmelectrical.co.uk/">Home</a> <strong>|</strong> <a href="https://www.chasefarmelectrical.co.uk/services">Services</a> <strong>|</strong> <a href="https://www.chasefarmelectrical.co.uk/project-portfolio">Our work</a> <strong>|</strong> <a href="https://www.chasefarmelectrical.co.uk/who-we-are">Who we are</a> <strong>|</strong> <a href="https://www.chasefarmelectrical.co.uk/areas">Areas</a> <strong>|</strong><a href="https://www.chasefarmelectrical.co.uk/contact">Contact</a></p>                </div>
+                                        </div>
+
+
+                    </div>
+                </div>
+            </div>	
+
+        					</div>
+								<hr>
+
+			<div class="footertext"><p>Telephone: <a href="tel:01489878244">01489 878 244</a> | Email: <a href="mailto:info@chasefarmelectrical.co.uk">info@chasefarmelectrical.co.uk</a></p></div>
+            <ul id="footer_seo_links_list">
+                                    <li><a href="https://www.chasefarmelectrical.co.uk/services">Local Domestic Electrician Winchester</a></li>
+                                        <li><a href="https://www.chasefarmelectrical.co.uk/who-we-are">Electrical Maintenance Hampshire</a></li>
+                                        <li><a href="https://www.chasefarmelectrical.co.uk/contact">Landlord Electrical Certificate Southampton</a></li>
+                                </ul>
+                        <p class="footerbrand webfactore"><a  href="https://www.webfactory.co.uk">Website Design</a> by <span class="brandlogo dark">Webfactory</span></p>
+                
+    
+    					</div>
+							</div>
+
+		</div>
+						<style>
+					.element-style-99 {   }  .element-style-99 .slide-content-container{ position:absolute;   left:0!important;   right:0!important;   bottom:0!important;   top:0!important;   text-align:center; } .element-style-99 .slide-content{  position:absolute;   left:50%;   top:50%;   transform:translate(-50%, -50%);   width:100%;   padding:0 75px; }   @media only screen and (max-width :1200px) {   }  @media only screen and (max-width :992px) {   }  @media only screen and (max-width :768px) {   }  @media only screen and (max-width :480px) {   } 
+				</style>
+								<style>
+					.element-style-133 {   }   @media only screen and (max-width :1200px) {   }  @media only screen and (max-width :992px) {   }  @media only screen and (max-width :768px) {   }  @media only screen and (max-width :480px) {   } 
+				</style>
+				
+
+		<!-- SID:14340-->
+		<!-- PageID:-->
+		<!-- TempID:-->
+		<!-- TID: Webfactory 10-->
+		<!-- 2a02:c204:2312:259::1 -->
+		<!-- 172.30.3.7 -->
+		<!-- CSS:462-->
+		<!-- Con:https80-->
+
+		<script>
+
+
+
+
+			$(window).on("load ", function() {
+
+				
+				$('.gallery-image-div').matchHeight();
+				$('.item-container').matchHeight();
+				$('.equalheight').matchHeight();
+				$('.matchheight').matchHeight();
+				$('.element_smart_featurebox').matchHeight();
+				$('.page_element.well').matchHeight();
+				$('.page_element.element_smart_featurebox').matchHeight();
+				$('.departmentwithinitem').matchHeight();
+				$('.page_element.equal').matchHeight({ byRow: false});
+				$('.productitem ').matchHeight({ byRow: true});
+				$('.listerfeed.itemlisterlist .col-md-4').matchHeight();
+							
+			});
+
+			
+		</script>		
+
+		<script src="/scripts/translation.js"></script>
+					<div id="sitemodal" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+						<div id="sitemodal2" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+						<div id="sitemodal3" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+						<div id="sitemodal4" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+						<div id="sitemodal5" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+						<div id="sitemodal6" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+						<div id="sitemodal7" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+						<div id="sitemodal8" class="modal fade" tabindex="-1" role="dialog" aria-label="modal">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span >&times;</span></button>
+                        </div>
+						<div class="modal-body">
+								
+														</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			
+
+
+		<div id="popup-modal" class="modal fade" tabindex="-1" role="dialog">
+			
+		</div>
+
+        <!-- 1723037 -->
+        <!-- 2a02:c204:2312:259::1 -->
+      
+		<a href="https://api.whatsapp.com/send?phone=447813720204" target="_blank" class="float">
+<img src="https://content.webfactorysite.co.uk/14340-whatsapp-4.png" class="my-float">
+</a>
+<a href="tel:01489878244" class="float2">
+<img src="https://content.webfactorysite.co.uk/14340-call-now.png" class="my-float2">
+</a>
+
+<!-- Clear Ring Tracking Code -->
+<script type="text/javascript">
+
+var _da_uid = '8920a5254955f23c7a4b2e235d351b3ac3b6b32603646fa3eccc21b6dd48';
+
+var tel = '01489878244';
+
+</script>
+<script type='text/javascript' src='https://cdn.clearring.co.uk/ClearRing.js'></script>
+
+
+
+	</body>
+</html>
