@@ -1,0 +1,1642 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    <meta charset="utf-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'http://www.macroofingservices.co.uk/',
+
+        AccountUUID: 'ec67f6f7a96244188e27982dd3aee63d',
+
+        SystemID: '1AND1_EU_PROD',
+        SiteAlias: '893a3b5a7a444aff81005d56b6a31333',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Wed Aug 20 13:16:09 UTC 2025',
+        ExternalUid: 'cd33ed33-9f9d-405e-8868-e3c37e317466',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'home',
+        InitialPageUuid: 'fb8cd2f3597c4ddcaf8e00db76e5d51f',
+        InitialPageId: '695901970',
+        InitialEncodedPageAlias: 'aG9tZQ==',
+        InitialHeaderUuid: '0d5578d4898247c4be4158dff9d0d798',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: true,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '500000',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en-gb',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'http://www.macroofingservices.co.uk/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: '2202',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false,
+        defaultLang: 'en-gb',
+        hamburgerMigration: null,
+        isFlexSite: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<link rel="manifest" href="/manifest.json">
+<!-- Tell the browser it's a PWA -->
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Tell iOS it's a PWA -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- End PWA settings -->
+
+
+
+<link rel="canonical" href="https://www.macroofingservices.co.uk/">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon"
+      href="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/Profileicon.png?Expires=1776879295&Signature=rYdOq6mkjlAmbGfIL3iE29uzKdcWXjiXWtlSRgyABbLqYyn4g595ZonkVP6iY-IIkK3GH8lIM76xUtD9XUIVWqkss14oItkBOy7em1Y6JYYWuHQ6vzOVoNlEwYapZaZMDUZo68sObdQd3yeZVfebEbHw3NKkt6W-y0DNwvmwcZIHbWDdpCt-YysSrzINQey81qIN7LvPdazNKlNwWZOnKtB1~Q1lbvyOhf5A0YbgsiutE1uvvd51Xn1MSLq4GgS-qBFtK~7qtKQR0leIzgUa0ygYi~WIhfHg7qn2G95wjwgHAMHrtUDIp0JY~58AGoo8joLc2pMYjP~o4Q7rglCRhA__&Key-Pair-Id=K2NXBXLF010TJW"/>
+
+<link rel="icon" type="image/x-icon" href="https://cdn.website-editor.net/893a3b5a7a444aff81005d56b6a31333/site_favicon_16_1713779998313.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://le-cdn.website-editor.net/"/>
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script id='d-js-dmapi'>
+    window.SystemID = '1AND1_EU_PROD';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            },
+            runOnReady: (ns, fn) => {
+                const safeFn = dmAPI.toSafeFn(fn);
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
+
+                if (document.readyState === 'complete') {
+                    $.DM.events.off(eventName).on(eventName, safeFn);
+                    setTimeout(function () {
+                        safeFn({
+                            isAjax: false,
+                        });
+                    }, 0);
+                } else {
+                    window?.waitForDeferred?.('dmAjax', () => {
+                        $.DM.events.off(eventName).on(eventName, safeFn);
+                        safeFn({
+                            isAjax: false,
+                        });
+                    });
+                }
+            },
+            toSafeFn: (fn) => {
+                if (fn?.safe) {
+                    return fn;
+                }
+                const safeFn = function (...args) {
+                    try {
+                        return fn?.apply(null, args);
+                    } catch (e) {
+                        console.log('function failed ' + e.message);
+                    }
+                };
+                safeFn.safe = true;
+                return safeFn;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/fonts/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Karla:wght@200..800&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.website-editor.net/mnlt/production/6300/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/WIDGET_CSS/2bfb666da2e5e900668b333323145ad4.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="home"] #dm [data-show-on-page-only="home"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/files/893a3b5a7a444aff81005d56b6a31333_withFlex_1.min.css?v=9&Expires=1776879295&Signature=fA6vEw-AK-T20~jMr85qC4amwyxCtHL712aRfkGwC5XgXZvjUCXDtaF2CH146B3IIspILAfeuKclZ9uQrXImBHAHj5G5~z~SlINaKBOBuAO0X0X2maXYgNDG9vkz1K9fqxmb4HGCDuA7lYO4zPpFbkuUv~5y2csRlGWnV8RntIx5xc6zU~BAnv3I3YnSFU6NNRjnWXB69N8jbg2KIRUElthvrMiZoQSIXJ16L~52-b6RQRLDvWwHbgTPCBoO69L1WTT4s7oJBAflLRZbMtCoAbepxAwO-zaiq7amOCrbKE2HeourWb31CFtcuA8l09Hk5dgoh-HBA5eYDossBYpl6w__&Key-Pair-Id=K2NXBXLF010TJW" id="siteGlobalCss" />
+
+
+<!-- additional css file per platform -->
+<link
+        type="text/css" rel="stylesheet"
+        href="/_dm/s/rt/css/oneUndOne/1and1-runtime.css?version=2026-03-23T13_48_19"
+/>
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<!-- Page CSS -->
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/files/893a3b5a7a444aff81005d56b6a31333_home_withFlex_1.min.css?v=9&Expires=1776879296&Signature=Dt4jgrZ~6NZEghqunk~AEoKemqQfrsBz~57xweuHgun9UGLTpvi2zwYyqM~QlmuJxfrgkia-WGIGmoWFIbfjo7rGrLfdD4Yv~55-KDVOwpXs0FaidIKEnwqubbCLM9YiY12SmoDlFVro3zWBFhhtAjw7vbdMDOmmoTz1CoBWrEbvjwzjvD0oyHAjARitWzE2kxftFVJsyB0FDz3n4Vi8qgX8OMs2XlLPq5VXi5sYbCXiEJtz67Te32H37z1Mx-HIOyyVhTW1rHEVI33AtLHPvKOUI2SroJ588E5TuU2vANUExQm4iW9rDoUhgBXVlCi7bqguDvqDw-88okUEDfcizg__&Key-Pair-Id=K2NXBXLF010TJW" id="homeCssLink" />
+
+<style id="pagestyle" type="text/css">
+    
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-31, .size-31, .size-31 > font { font-size: 31px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Poppins Fallback";
+  src: local('Arial');
+  ascent-override: 92.326%;
+  descent-override: 30.7753%;
+  line-gap-override: 8.793%;
+  size-adjust: 113.7274%;
+}@font-face {
+  font-family: "Lato Fallback";
+  src: local('Arial');
+  ascent-override: 101.3181%;
+  descent-override: 21.865%;
+  size-adjust: 97.4159%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Karla Fallback";
+  src: local('Arial');
+  ascent-override: 88.668%;
+  descent-override: 24.3668%;
+  size-adjust: 103.4195%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="https://www.macroofingservices.co.uk/feed/rss2"/>
+  <link type="application/atom+xml" rel="alternate" href="https://www.macroofingservices.co.uk/feed/atom"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.macroofingservices.co.uk/"/>
+  <meta property="og:image" content="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/Social-1920w.png?Expires=1776879295&amp;Signature=LhKws6Cj~mPM-Io-3YgK2Yduc4mBL0Tbb5ybHFYFmXXdjtQJsBBWXB2JOCtyOfQlPHv0TjCTmkiDKjN1hLFcpMh30h-LL3uE6Z8gjIfLwABXZYW5-AL7keGxV5ib39wNcw6r2JzjFJmARIhQFYlXNqALleJ-JoqCbqBhI5JWC5XmIau3ALOBdBg0aS7KloMlAsxp7ub0RmO7RUu4hdyGXH6cG7-unxvE081xRPsCduAxUCs~WKRTNEeIE-pjtD3gTT0LAh2rTqmjK8MXZBnaiXqfE~g03MVw3UAfKCEUJ50QeU9mqJmHZOmICik0CYx1THXwi1j5Irb3S9XaHX2DOQ__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+  <title>
+    
+    MAC Roofing Services LTD - Roofers | Northampton
+  
+  </title>
+  <meta name="description" content="Our Roofers in Northampton are fully qualified, insured and provide the very best in customer service! If you're looking for roofers in Northampton, Contact us!"/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="MAC Roofing Services LTD - Roofers | Northampton"/>
+  <meta name="twitter:description" content="Our Roofers in Northampton are fully qualified, insured and provide the very best in customer service! If you're looking for roofers in Northampton, Contact us!"/>
+  <meta property="og:description" content="Our Roofers in Northampton are fully qualified, insured and provide the very best in customer service! If you're looking for roofers in Northampton, Contact us!"/>
+  <meta property="og:title" content="MAC Roofing Services LTD - Roofers | Northampton"/>
+
+
+
+
+<!-- SYS- MUFORDFfRVVfUFJPRA== -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="home"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-home hasAnimations rows-1200 dmPageBody d-page-1716942098 inputs-css-clean dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1571063569 dmRespRow dmHeaderContent freeHeaderRow1 fullBleedChanged fullBleedMode" id="1571063569"> <div class="dmRespColsWrapper clearfix" id="1618005341"> <div class="u_1639054215 dmRespCol small-12 large-3 medium-3" id="1639054215"> <div class="u_1216302914 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1216302914"> <a href="/" id="1301666193" file="false"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/Logo-1920w.png?Expires=1776879295&Signature=WXP5LOfibJI1jQPVpQsCLV5Ie64GZ-MKVVDVxNRhU8ASWkUVKWPiKn-WvUonFfmJ7tjdJWcV-rf-c-zsY2JjTJgCA0tQRs~-OHm3dCJHXhxyojukuqV6uVKZiM1J2fH4S5aIjQqRbOMaJkU4C-UEJvy42XbAKXmLca3o1Ojc2Suv855YfO7oeNkkx9llqXxB~D6cMsKymdkLZ6M5GGVuLLlMmtBA3-Q3141RvWU8GPRqJR7e5U0EOuc-s0zgTtUPp1GvS6WTFWtdpHHODEKFvhyQjZpIZwfHOY19~KSgPXnaPfCAR4yG-Rf4-kSmJQty6E9Yz-Es~pQURMFWB-2n~A__&Key-Pair-Id=K2NXBXLF010TJW" id="1969036441" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/Logo.png" width="1381" height="506" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1713311601 dmRespCol small-12 large-9 medium-9" id="1713311601"> <nav class="u_1284501632 effect-background main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_7" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1284501632" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" navigation_id="" data-logo-src="https://cdn.website-editor.net/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/desktop/logo_empty-871ebb7f.png" data-nav-structure="HORIZONTAL" wr="false" icon="true" surround="false" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_00  " target="" data-target-page-alias="" aria-current="page" data-auto="selected-page"> <span class="nav-item-text " data-link-text="Home" data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/our-services" class="unifiednav__item  dmUDNavigationItem_010101359587  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Our Services" data-auto="page-text-style">Our Services<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/roof-tiling-and-slating" class="unifiednav__item  dmUDNavigationItem_010101852343  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Roof Tiling and Slating" data-auto="page-text-style">Roof Tiling and Slating<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/roof-replacements" class="unifiednav__item  dmUDNavigationItem_010101636094  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Roof Replacements" data-auto="page-text-style">Roof Replacements<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/flat-roofing" class="unifiednav__item  dmUDNavigationItem_010101994872  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Flat Roofing" data-auto="page-text-style">Flat Roofing<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/conservatory-roofing" class="unifiednav__item  dmUDNavigationItem_010101196912  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Conservatory Roofing" data-auto="page-text-style">Conservatory Roofing<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/roofing-carpentry" class="unifiednav__item  dmUDNavigationItem_010101343858  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Roofing Carpentry" data-auto="page-text-style">Roofing Carpentry<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/prefabricated-timber-truss-roofing" class="unifiednav__item  dmUDNavigationItem_010101447807  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Prefabricated Timber Truss Roofing" data-auto="page-text-style">Prefabricated Timber Truss Roofing<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/fascias-soffits-guttering" class="unifiednav__item  dmUDNavigationItem_010101415766  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Fascias, Soffits and Guttering" data-auto="page-text-style">Fascias, Soffits and Guttering<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/lead-work" class="unifiednav__item  dmUDNavigationItem_010101712084  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Lead Work" data-auto="page-text-style">Lead Work<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/velux-window-installations" class="unifiednav__item  dmUDNavigationItem_010101923063  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Velux Window Installations" data-auto="page-text-style">Velux Window Installations<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/chimney-repairs-and-repointing" class="unifiednav__item  dmUDNavigationItem_010101621437  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Chimney Repairs and Repointing" data-auto="page-text-style">Chimney Repairs and Repointing<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/roof-cleaning" class="unifiednav__item  dmUDNavigationItem_010101181193  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Roof Cleaning" data-auto="page-text-style">Roof Cleaning<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact" class="unifiednav__item  dmUDNavigationItem_010101717557  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Contact" data-auto="page-text-style">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"></div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_home dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent" role="main"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098"> <div class="u_1035874394 dmRespRow fullBleedChanged fullBleedMode hide-for-small" id="1035874394"> <div class="dmRespColsWrapper" id="1889440040"> <div class="u_1770844720 dmRespCol small-12 large-9 medium-9" id="1770844720"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1193679784" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-left m-size-24" style="line-height: 2;"><span class="m-font-size-24" style="display: unset;">Tel:</span><span single-space="true" class="m-font-size-24" style="display: unset; color: rgb(255, 255, 255);"> <span class="m-font-size-24" style="display: unset; color: rgb(255, 255, 255);"></span> 
+</span><span class="m-font-size-24" style="display: unset; color: rgb(255, 255, 255); font-weight: bold;">07547 127654</span><span class="m-font-size-24" style="display: unset; font-weight: bold;"><span class="m-font-size-24" style="display: unset; font-weight: bold;">&nbsp; &nbsp; &nbsp; &nbsp;</span> 
+</span><span class="m-font-size-24" style="display: unset;"><span class="m-font-size-24" style="display: unset;">Email:</span> 
+</span><span class="m-font-size-24" style="display: unset; color: rgb(255, 255, 255); font-weight: bold;">mac.roofing@outlook.com</span></p></div> 
+</div> 
+ <div class="u_1051309725 dmRespCol small-12 large-3 medium-3" id="1051309725"> <div class="u_1622922351 align-center text-align-center dmSocialHub gapSpacing" id="1622922351" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/profile.php?id=100093190369049" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="mailto:mac.roofing@outlook.com" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Email&apos;)"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="tel:07547 127654" target="_blank" dm_dont_rewrite_url="true" aria-label="phone" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Phone&apos;)"> <span class="dmSocialPhone icon-phone oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="https://www.instagram.com/mac.roofing.services/?img_index=1" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1954235549 dmRespRow fullBleedChanged fullBleedMode dmSectionParallaxNew hasBackgroundOverlay hasExtraLayerOverlay relativePos" style="text-align: center;" id="1954235549" data-video-bg="eyJzcmMiOiJodHRwczovL3ZpZC1jZG4ud2Vic2l0ZS1lZGl0b3IubmV0L3MvODkzYTNiNWE3YTQ0NGFmZjgxMDA1ZDU2YjZhMzEzMzMvdmlkZW9zLzlPU3VqWGtXUUZ0UE55ajVRVVFRX2Jhbm5lci12Lm1wND9FeHBpcmVzPTE3NzY4NzkyOTUmU2lnbmF0dXJlPVJmVFFKQ0pIdlhUMUNaYTJxMmp4T21ib1hKfmdtbTUyZDFYRWhxQ0p2bmRubmZqR251TlRaWnNuZjZyMUo4cDVJYS1UR2ppMUs2aTh3UmV1OGFZbzhhOEhxNlJiYU5WU3IxSmNoeUxjWjVZVTJVSkxWNzdQNnktMzFOR2h5TWplMDZaSWdWdWFxdTZ+ekNnTG81Y2ktWE1GUXZxcFFMSlNpRzNhTFJWdTR2S29wcVl4RGl4U09uMkRkZzZIZmRkOUZJZGZERTNrV21IVUpLa3VFQU40ZzBTRkZHR0hsQkU1R0haaU5KenowTVI1M2ZpUXpZNHRRWmN0QWNScHBXNEIwYmw5MDlSenZsMkt1Zms2fjBCWTlvNXp4d0VpYTFYQUdTTWpKflhPajNUdEphMTRCVDhJWERwMUd3NG8tc1pmbVBFSzJIZGRORkYydXlpdTRoNzRLd19fJktleS1QYWlyLUlkPUsyTlhCWExGMDEwVEpXIiwiaWQiOiJodHRwczovL3ZpZC1jZG4ud2Vic2l0ZS1lZGl0b3IubmV0L3MvODkzYTNiNWE3YTQ0NGFmZjgxMDA1ZDU2YjZhMzEzMzMvdmlkZW9zLzlPU3VqWGtXUUZ0UE55ajVRVVFRX2Jhbm5lci12Lm1wND9FeHBpcmVzPTE3NzY4NzkyOTUmU2lnbmF0dXJlPVJmVFFKQ0pIdlhUMUNaYTJxMmp4T21ib1hKfmdtbTUyZDFYRWhxQ0p2bmRubmZqR251TlRaWnNuZjZyMUo4cDVJYS1UR2ppMUs2aTh3UmV1OGFZbzhhOEhxNlJiYU5WU3IxSmNoeUxjWjVZVTJVSkxWNzdQNnktMzFOR2h5TWplMDZaSWdWdWFxdTZ+ekNnTG81Y2ktWE1GUXZxcFFMSlNpRzNhTFJWdTR2S29wcVl4RGl4U09uMkRkZzZIZmRkOUZJZGZERTNrV21IVUpLa3VFQU40ZzBTRkZHR0hsQkU1R0haaU5KenowTVI1M2ZpUXpZNHRRWmN0QWNScHBXNEIwYmw5MDlSenZsMkt1Zms2fjBCWTlvNXp4d0VpYTFYQUdTTWpKflhPajNUdEphMTRCVDhJWERwMUd3NG8tc1pmbVBFSzJIZGRORkYydXlpdTRoNzRLd19fJktleS1QYWlyLUlkPUsyTlhCWExGMDEwVEpXIiwicHJvdmlkZXIiOiJjZG4iLCJlbWJlZCI6Imh0dHBzOi8vdmlkLWNkbi53ZWJzaXRlLWVkaXRvci5uZXQvcy84OTNhM2I1YTdhNDQ0YWZmODEwMDVkNTZiNmEzMTMzMy92aWRlb3MvOU9TdWpYa1dRRnRQTnlqNVFVUVFfYmFubmVyLXYubXA0P0V4cGlyZXM9MTc3Njg3OTI5NSZTaWduYXR1cmU9UmZUUUpDSkh2WFQxQ1phMnEyanhPbWJvWEp+Z21tNTJkMVhFaHFDSnZuZG5uZmpHbnVOVFpac25mNnIxSjhwNUlhLVRHamkxSzZpOHdSZXU4YVlvOGE4SHE2UmJhTlZTcjFKY2h5TGNaNVlVMlVKTFY3N1A2eS0zMU5HaHlNamUwNlpJZ1Z1YXF1Nn56Q2dMbzVjaS1YTUZRdnFwUUxKU2lHM2FMUlZ1NHZLb3BxWXhEaXhTT24yRGRnNkhmZGQ5RklkZkRFM2tXbUhVSktrdUVBTjRnMFNGRkdHSGxCRTVHSFppTkp6ejBNUjUzZmlRelk0dFFaY3RBY1JwcFc0QjBibDkwOVJ6dmwyS3VmazZ+MEJZOW81enh3RWlhMVhBR1NNakp+WE9qM1R0SmExNEJUOElYRHAxR3c0by1zWmZtUEVLMkhkZE5GRjJ1eWl1NGg3NEt3X18mS2V5LVBhaXItSWQ9SzJOWEJYTEYwMTBUSlciLCJyYXRpbyI6MC41NjI1LCJ0aHVtYm5haWwiOiJodHRwczovL2Nkbi53ZWJzaXRlLWVkaXRvci5uZXQvcy84OTNhM2I1YTdhNDQ0YWZmODEwMDVkNTZiNmEzMTMzMy9kbXMzcmVwL211bHRpLzlPU3VqWGtXUUZ0UE55ajVRVVFRX2Jhbm5lci52Mi4wMDAwMDAwLmpwZz9FeHBpcmVzPTE3NzY4NzkyOTUmU2lnbmF0dXJlPWJMSlgtdlMwSW9kQ0xXVU5Sb2VnYjJEaWpXd2dhNzRKaXBzcURaU25qQ1Nqd1VTb1lFOHc4fk9lQnNYMUhHVThseWstUzdyNlZJeG03Yy1LempCRHVUai1xN0x0MDJQcnNNYlgzNGJodGI1NVZKUGpNdFlWNWduRi1USH5NSzJDdzgzVWVYa0hTVDNJQXBBSW5kMkNSZ0dka0dPUWU1MWFFMnpvMWY2dlhxY3Y0SGx1b1lVU0RmZnZBdVhIWjZOS2VUNWRyc2FXYzJVaFpQTXBmREtFUld1SS1GbmlRTUFBOW5jTzNmZUZFM1pkTFJ0SmhYZUNGUzN2VHZpOElHS0NFS2FjZkdLdnRTcUdVODAyVmNUSTVrNFdPbnozcTZvQkg4V1ZXbHpVLW84T0JFRG42RVBSUFJxMk9pOHl1OUNQZ0luU3J2SGVpdWZQcFJrNUxtSmlwUV9fJktleS1QYWlyLUlkPUsyTlhCWExGMDEwVEpXIiwic3VwcG9ydEJnT25Nb2JpbGUiOnRydWUsInN1cHBvcnRCZ0xvb3AiOnRydWUsInBvc3RlciI6Imh0dHBzOi8vY2RuLndlYnNpdGUtZWRpdG9yLm5ldC9zLzg5M2EzYjVhN2E0NDRhZmY4MTAwNWQ1NmI2YTMxMzMzL2RtczNyZXAvbXVsdGkvOU9TdWpYa1dRRnRQTnlqNVFVUVFfYmFubmVyLnYyLjAwMDAwMDAuanBnP0V4cGlyZXM9MTc3Njg3OTI5NSZTaWduYXR1cmU9YkxKWC12UzBJb2RDTFdVTlJvZWdiMkRpald3Z2E3NEppcHNxRFpTbmpDU2p3VVNvWUU4dzh+T2VCc1gxSEdVOGx5ay1TN3I2Vkl4bTdjLUt6akJEdVRqLXE3THQwMlByc01iWDM0Ymh0YjU1VkpQak10WVY1Z25GLVRIfk1LMkN3ODNVZVhrSFNUM0lBcEFJbmQyQ1JnR2RrR09RZTUxYUUyem8xZjZ2WHFjdjRIbHVvWVVTRGZmdkF1WEhaNk5LZVQ1ZHJzYVdjMlVoWlBNcGZES0VSV3VJLUZuaVFNQUE5bmNPM2ZlRkUzWmRMUnRKaFhlQ0ZTM3ZUdmk4SUdLQ0VLYWNmR0t2dFNxR1U4MDJWY1RJNWs0V09uejNxNm9CSDhXVldselUtbzhPQkVEbjZFUFJQUnEyT2k4eXU5Q1BnSW5TcnZIZWl1ZlBwUms1TG1KaXBRX18mS2V5LVBhaXItSWQ9SzJOWEJYTEYwMTBUSlcifQ==" data-video-bg-mobile="true" data-video-init="true"> <div class="videobgwrapper video-ssr" data-ratio="0.5625"> <video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" class="videobgframe" poster="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/9OSujXkWQFtPNyj5QUQQ_banner.v2.0000000-1920w.jpg?Expires=1776879295&Signature=bLJX-vS0IodCLWUNRoegb2DijWwga74JipsqDZSnjCSjwUSoYE8w8~OeBsX1HGU8lyk-S7r6VIxm7c-KzjBDuTj-q7Lt02PrsMbX34bhtb55VJPjMtYV5gnF-TH~MK2Cw83UeXkHST3IApAInd2CRgGdkGOQe51aE2zo1f6vXqcv4HluoYUSDffvAuXHZ6NKeT5drsaWc2UhZPMpfDKERWuI-FniQMAA9ncO3feFE3ZdLRtJhXeCFS3vTvi8IGKCEKacfGKvtSqGU802VcTI5k4WOnz3q6oBH8WVWlzU-o8OBEDn6EPRPRq2Oi8yu9CPgInSrvHeiufPpRk5LmJipQ__&Key-Pair-Id=K2NXBXLF010TJW" src="https://vid-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/videos/9OSujXkWQFtPNyj5QUQQ_banner-v.mp4?Expires=1776879295&Signature=RfTQJCJHvXT1CZa2q2jxOmboXJ~gmm52d1XEhqCJvndnnfjGnuNTZZsnf6r1J8p5Ia-TGji1K6i8wReu8aYo8a8Hq6RbaNVSr1JchyLcZ5YU2UJLV77P6y-31NGhyMje06ZIgVuaqu6~zCgLo5ci-XMFQvqpQLJSiG3aLRVu4vKopqYxDixSOn2Ddg6Hfdd9FIdfDE3kWmHUJKkuEAN4g0SFFGGHlBE5GHZiNJzz0MR53fiQzY4tQZctAcRppW4B0bl909Rzvl2Kufk6~0BY9o5zxwEia1XAGSMjJ~XOj3TtJa14BT8IXDp1Gw4o-sZfmPEK2HddNFF2uyiu4h74Kw__&Key-Pair-Id=K2NXBXLF010TJW" style="object-position: 50% 50%" id="videobgframe-1954235549"></video> 
+</div> 
+ <div class="bgExtraLayerOverlay"></div> 
+ <div class="dmRespColsWrapper" id="1119244389"> <div class="dmRespCol small-12 medium-12 large-12 u_1173512236" id="1173512236"> <div class="u_1484342434 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1484342434"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/little+icon-1920w.png?Expires=1776879295&Signature=fqWQTwyu7oskvuViNi96lz5AHpmG9urTQUwhQe6Af3wJEqBbzQecX7sbX5MTO8z4Z-ZmGeEjkXkYYFd~-uKvrPWSQuLTvBv8Swyk4foh8UBtHiCTiMqmrlbAgxRmbn1xqmdiM7ULkeI6K0lBNTH12Wy0fpDNG0iFWGioTaGKdKJkJuW0EcWg~jmMi9YHDNp1UMPCBLekPp9Pn~J770fcMZwwxidrA9yIOs6VXRZ0A4W4RMBNQntusTpXXdNX32xPSkZPlt1KXYtLJedgZjuvqg8cMmv53kkFJOgdAIcPgqzns07LT7pjBLx0zabphj9B6pE6ZXbr21Lt31RlYNOXHQ__&Key-Pair-Id=K2NXBXLF010TJW" alt="" id="1863650789" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/little+icon.png" width="1381" height="253" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1342477740 dmNewParagraph" data-element-type="paragraph" id="1342477740" style="transition: none 0s ease 0s; display: block; text-align: center;" data-version="5"> <h1><span class="" style="color: rgb(255, 255, 255); display: initial;"><span style="color: rgb(255, 255, 255); display: initial;">TRUSTWORTHY</span> 
+</span><span style="color: rgb(255, 255, 255); display: initial; font-weight: normal;">AND</span><span class="" style="color: rgb(255, 255, 255); display: initial;"> <span style="color: rgb(255, 255, 255); display: initial;">RELIABLE ROOFERS</span></span></h1> 
+ <h1><span style="color: rgb(255, 255, 255); display: initial; font-weight: normal;">IN</span><span class="" style="color: rgb(255, 255, 255); display: initial;"> <span style="color: rgb(255, 255, 255); display: initial;">NORTHAMPTON</span></span></h1> 
+</div> <div class="u_1414117020 dmRespRow" id="1414117020"> <div class="dmRespColsWrapper" id="1921120102"> <div class="dmRespCol large-6 medium-6 small-12 u_1955691359" id="1955691359"> <a data-display-type="block" class="u_1116657205 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:07547 127654" data-element-type="dButtonLinkId" id="1116657205"> <span class="iconBg" aria-hidden="true" id="1121866149"> <span class="icon hasFontIcon icon-star" id="1491911473"></span> 
+</span> 
+ <span class="text" id="1159305118">CALL US NOW</span> 
+</a> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12 u_1508668313" id="1508668313"> <a data-display-type="block" class="u_1500193813 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/our-services" data-element-type="dButtonLinkId" id="1500193813"> <span class="iconBg" aria-hidden="true" id="1712770791"> <span class="icon hasFontIcon icon-star" id="1885659975"></span> 
+</span> 
+ <span class="text" id="1321130395">OUR SERVICES</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1770357112 dmRespRow" id="1770357112"> <div class="dmRespColsWrapper" id="1690873647"> <div class="dmRespCol large-12 medium-12 small-12" id="1256023476"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1837002336" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255); font-weight: normal;">WELCOME TO</span><span class="" style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255);"> <span style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255);">MAC ROOFING SERVICES LTD</span></span></h2> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow fullBleedChanged fullBleedMode u_1217794737" id="1217794737"> <div class="dmRespColsWrapper" id="1051210774"> <div class="u_1260860466 dmRespCol small-12 large-8 medium-8" id="1260860466"> <div class="u_1687752025 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1687752025" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="m-size-19 text-align-left size-24 m-text-align-center" style="line-height: 2;"><span class="m-font-size-19 font-size-24" style="font-weight: bold; display: initial;">MAC Roofing Services LTD</span><span class="m-font-size-19 font-size-24" style="font-weight: normal; display: initial;">, Your premier</span><span class="m-font-size-19 font-size-24" style="font-weight: bold; display: initial;"> <span class="m-font-size-19 font-size-24" style="font-weight: bold; display: initial;">Roofing Solution</span> 
+</span><span class="m-font-size-19 font-size-24" style="font-weight: normal; display: initial;">in</span><span class="m-font-size-19 font-size-24" style="font-weight: bold; display: initial;"> <span class="m-font-size-19 font-size-24" style="font-weight: bold; display: initial;">Northampton</span> 
+</span><span class="m-font-size-19 font-size-24" style="font-weight: normal; display: initial;">and beyond.</span><span single-space="true" class="" style="font-weight: normal; display: initial;"> <span style="font-weight: normal; display: initial;"></span> 
+</span></p><p class="text-align-left m-text-align-center" style="line-height: 2;"><span style="display: initial;"><br/></span></p><p class="text-align-left m-text-align-center" style="line-height: 2;"><span style="display: initial;">With a commitment to excellence and a dedication to customer satisfaction, we provide a comprehensive range of roofing services tailored to meet your needs. From traditional roof tiling and slating to cutting-edge flat roof installations, we've got you covered.</span></p></div> 
+ <div class="u_1031994073 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1031994073" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="m-text-align-center text-align-left m-size-24 size-30"><span class="font-size-30 m-font-size-24" style="display: unset; color: rgb(28, 162, 93);">Tel:</span><span single-space="true" class="font-size-30 m-font-size-24" style="display: unset;"> <span class="font-size-30 m-font-size-24" style="display: unset;"></span> 
+</span><span class="font-size-30 m-font-size-24" style="display: unset; font-weight: bold;">01604 315 366 / 07547 127654</span></p><p class="m-text-align-center text-align-left m-size-24 size-30"><span class="font-size-30 m-font-size-24" style="display: unset; color: rgb(28, 162, 93);"><span class="font-size-30 m-font-size-24" style="display: unset; color: rgb(28, 162, 93);">Email:</span> 
+</span><span class="font-size-30 m-font-size-24" style="display: unset; font-weight: bold;">mac.roofing@outlook.com</span></p></div> 
+ <div class="u_1367966810 align-center text-align-center dmSocialHub gapSpacing" id="1367966810" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/profile.php?id=100093190369049" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="mailto:mac.roofing@outlook.com" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Email&apos;)"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="tel:07547 127654" target="_blank" dm_dont_rewrite_url="true" aria-label="phone" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Phone&apos;)"> <span class="dmSocialPhone icon-phone oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="https://www.instagram.com/mac.roofing.services/?img_index=1" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1548402703 dmRespCol small-12 large-4 medium-4" id="1548402703"> <div class="u_1173143537 dmform default native-inputs" data-element-type="dContactUsRespId" captcha="true" data-captcha-position="bottomleft" id="1173143537"> <h3 class="dmform-title dmwidget-title" id="1193834065" hide="true">Contact Us</h3> 
+ <div class="dmform-wrapper" id="1222122161" captcha-lang="en"> <form method="post" class="dmRespDesignRow" locale="UK" id="1062737860"> <div class="spacing-container" id="1190566241"> <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1232787400"> <label for="1054590423" id="1120467753" data-dm-for="dmform-0">Name:</label> 
+<input type="text" class="" name="dmform-0" id="1054590423"/><input type="hidden" name="label-dmform-0" value="Name" id="1282746423"/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1570639895"> <label for="1635753793" id="1445651178" data-dm-for="dmform-1">Email:</label> 
+<input type="email" class="" name="dmform-1" id="1635753793"/><input type="hidden" name="label-dmform-1" value="Email" id="1474642353"/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1712461797"> <label for="1168339001" id="1508529520" data-dm-for="dmform-2">Phone:</label> 
+<input type="tel" class="" name="dmform-2" id="1168339001"/><input type="hidden" name="label-dmform-2" value="Phone" id="1975799706"/></div> 
+ <div class="dmforminput large-12 medium-12 dmRespDesignCol required" id="1723694647"> <label for="1155802045" id="1793151120" data-dm-for="dmform-3">Message:</label> 
+ <textarea name="dmform-3" id="1155802045"></textarea> 
+<input type="hidden" name="label-dmform-3" value="Message" id="1784307473"/></div> 
+</div> 
+ <span id="1176466938" class="dmWidgetClear"></span> 
+ <span id="1104431861" class="dmWidgetClear"></span> 
+ <div class="dmformsubmit dmWidget R" id="1315481083"><input class="" name="submit" type="submit" value="Send Message" id="1796045683"/></div> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLvWAeRAiJVwcOFCSg4XBGDhQu8VSj+GBGgpx1xp12bQHeNnsWoOcTDWN3KYLdnOLG8=" id="1351879932" class="" data-dec="true"/><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1401088863"/><input name="dmformsubject" type="hidden" value="Website Message" id="1055881590" class="" data-email-subject="Website Message"/><input name="dmformfrom" type="hidden" id="1942179642" class="" value="www.macroofingservices.uk"/><input name="dmformautoreplyenabled" type="hidden" value="true" id="1302401674"/><input name="dmformautoreplyfrom" type="hidden" value="form-processor" id="1733206291"/><input name="dmformautoreplysubject" type="hidden" value="Thank you for your submission" id="1048813250"/><input name="dmformautoreplymsg" type="hidden" value="V2UndmUgcmVjZWl2ZWQgeW91ciBtZXNzYWdlIOKAkyB0aGFuayB5b3UuIE9uZSBvZiBvdXIgdGVhbSBtZW1iZXJzIHdpbGwgZ2V0IGJhY2sgdG8geW91IHNvb24u" id="1145319722"/><input name="dmformautoreplyincludeformcopy" type="hidden" value="true" id="1980732788"/><input name="dmformsubmitparams" type="hidden" value="8mpKnCSiNQXK/d9M7IDrS0Hahh0tGT3j6E8rAEIZvHCp4BpuR9LXllqAA2FHZotHNGd1IOc6Z/ax8xFrPkwBRTVYD2skaT8sR9EBqwr0OwVyNGxAwkGxjamx0H9LqV5YrhpU2pYWFBcJH4lY+hgQt3I+Dp1THb4cXDu78jkZMQwJH0QP0/k3TjIydhodeNvExcrFTxcNUs+lQKwrwAQP5m/FDecMvgzysihDSsNTYQ/XghnZKb8q532XOH56qRWLCIngQb4Tt92S9AP3YLDAFXcNPlERgTrf/IYPWtmxDgXpqLKZ/10sTDiBadzQOqd/TheOBHcbHG9JW4UGDlyaWyVFJ7PWth4k1mWhXgwyQt4ngdOJaBGsqMubyTnqzkhqeGFK+ThFacu3GM1D3228gfGbIdhUGxMf5VHlouIDZqdSdfI1YhxJ5AneFGHQJcjTYKpg/qGPOZHrtPZkd8vVDRBsGb7LJbJepUMs09AsBevahoewq+njK4FScILo+T/mOHmmaXmXVPPk16vWh5+LdMVuNw+84UY9Yorgv1ATHxB71fJ8xOLUtOg7TcWmhMiK" data-dec="true"/><input type="hidden" name="page_uuid" value="fb8cd2f3597c4ddcaf8e00db76e5d51f"/></form> 
+</div> 
+ <div class="dmform-success" style="display:none" id="1696153138"><br/><p class="rteBlock">Thank you for contacting us.</p><br/><p class="rteBlock">We will get back to you as soon as possible.</p></div> 
+ <div class="dmform-error" style="display:none" id="1064132127">Oops, there was an error sending your message.<br id="1881184848"/>Please try again later.</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1005121619 dmRespRow" id="1005121619"> <div class="dmRespColsWrapper" id="1460956434"> <div class="dmRespCol large-12 medium-12 small-12" id="1655247760"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1856985537" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="font-weight: normal; color: rgb(255, 255, 255); display: unset; text-transform: uppercase;">OUR</span><span class="" style="color: rgb(255, 255, 255); display: unset; text-transform: uppercase;"> <span style="color: rgb(255, 255, 255); display: unset; text-transform: uppercase;">ROOFING SERVICES</span></span></h2> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1920484484 fullBleedChanged fullBleedMode" style="text-align: center;" id="1920484484"> <div class="dmRespColsWrapper" id="1278554652"> <div class="u_1942617760 dmRespCol small-12 medium-4 large-4" id="1942617760"> <div class="imageWidget align-center u_1316067225" data-widget-type="image" id="1316067225" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/369532535_168652719584406_5435103828804180416_n-a06c61da-1920w.jpeg?Expires=1776879295&Signature=F0CvMEYgvCWifRP4Ocukgm8PU5n5Q84KnXYAEYWJafPqAHUiQLmxS1ocYh6aBrX4s6jMjZI3VcYx61Kx~3pgIyNTRF3leOCDHvvgCjXy5K6mte9SZ6FB3OxJkzubYTHWx2R-WbJfaW9cdwFUZ45Z7qaqSVKz2XTM2gVDn2JKcWq5R2FgLbWjXQjYfuOra8TGkyNYD88H4aGypW~oCzJJSFkVFal1FeM-GGYNq~Jt7tEp9M1mN6IS7-LzIEpui7pH6SX8Slc3SAOKhBqFexnd0eC-skvxpk2LWgd94ax-LlW8oIxOFNT0EYXSeZu4XVt9wCtrSitVxUtpcl8lbGTqMg__&Key-Pair-Id=K2NXBXLF010TJW" id="1658137773" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/369532535_168652719584406_5435103828804180416_n-a06c61da.jpeg" width="1440" height="1080" onerror="handleImageLoadError(this)"/></div> 
+ <div class="dmNewParagraph u_1387962597" id="1387962597" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="text-align-center size-24 m-size-24"><span class="font-size-24 m-font-size-24" style="text-transform: uppercase; font-weight: bold; display: initial; color: rgb(255, 255, 255);" m-font-size-set="true">Roof Tiling and Slating</span></p></div> <div class="u_1061126377 dmNewParagraph" id="1061126377" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(255, 255, 255);">Whether it's a repair or a new installation, our expert team ensures your roof is built to last.</span></p></div> <a data-display-type="block" class="u_1316391484 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/roof-tiling-and-slating" data-element-type="dButtonLinkId" id="1316391484"> <span class="iconBg" aria-hidden="true" id="1214869700"> <span class="icon hasFontIcon icon-star" id="1631036060"></span> 
+</span> 
+ <span class="text" id="1398451081">READ MORE</span> 
+</a> 
+</div> 
+ <div class="u_1858431373 dmRespCol small-12 medium-4 large-4" id="1858431373"> <div class="imageWidget align-center u_1634089311" data-widget-type="image" id="1634089311" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/123739-9a088ee4-1920w.jpeg?Expires=1776879295&Signature=oAOej-TSmxM8RpHJ3Ksvu875qf5~r1B0d2df~qQJQvP4E9LLLYK-Lm4gt1FolIx0ZZRF0gTr09UvRlN3cB4ONjGUT40mlMjbdLR2LxfjQ3cVtp4N1FZCOWPbH5QwRsUR9~FaX5~y8dhw5wWPlWf1Sa5oeeCakRPEnh1vfNZ4p9dCC~zt6-KFSLgTSNDcPEoVLcS0kQW4e~0kGfy-0A9YC8dhdWy3KOOPMbUNVHpPD4H~iAwtK759inXaEw7gBjL01pgf~fPsxa4dMmsoWXuE8WfBm4o3z8MXXHaDQOCKAgWTqfA3bryyF7gyCLQ3yBgYEfJXed4NOY-CvCT31kzFEw__&Key-Pair-Id=K2NXBXLF010TJW" id="1729797544" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/123739-9a088ee4.jpeg" width="1505" height="1129" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1033447074 dmNewParagraph" id="1033447074" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-24 text-align-center size-24"><span class="m-font-size-24 font-size-24" m-font-size-set="true" style="color: rgb(255, 255, 255); display: initial; font-weight: bold; text-transform: uppercase;">Roof Replacements</span></p></div> <div class="u_1473294187 dmNewParagraph" id="1473294187" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(255, 255, 255);">Trust us to handle complete roof replacements with precision and efficiency.</span></p></div> <a data-display-type="block" class="u_1477645256 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/roof-replacements" data-element-type="dButtonLinkId" id="1477645256"> <span class="iconBg" aria-hidden="true" id="1965509603"> <span class="icon hasFontIcon icon-star" id="1637923461"></span> 
+</span> 
+ <span class="text" id="1278661360">READ MORE</span> 
+</a> 
+</div> 
+ <div class="u_1730223436 dmRespCol small-12 medium-4 large-4" id="1730223436"> <div class="u_1918365244 imageWidget align-center" data-widget-type="image" id="1918365244" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/425413953_284514911331519_1917754771602676864_n-1272d7a0-1920w.jpeg?Expires=1776879295&Signature=gAzStHBiIsJCTUD7Wj2zZ2YxqBAmkloLtxvhnBUVWLAwLF2ODmt9ZLOljL8fz4kdVf9N06Gtdmz8DKqKM75ZCgA65zW~k4RZc7nDLeWND~QzBnVh8wk4znfyMZQ1c9HbtU6j3mxUSi4gIQOT~2heOCYY4gUl3fCk~ygsvKk7SOrjjhgjWFAvBZSUmXxl7KNx-1BZ5dreVrcc-T~45eVgOAQsy-TgyS6~hJZBMrHN~ZwwRMXi6nJW4RUMmyc1Z1Bu59eeY~rsbL~Hzo6Dj5q57aw~-hJ11R11jaUCjz692Qz-6uXUQ~ls2rDTCaPwOFXDHiahGrLtdufPvzt9TKySQw__&Key-Pair-Id=K2NXBXLF010TJW" id="1483886249" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/425413953_284514911331519_1917754771602676864_n-1272d7a0.jpeg" width="687" height="515" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1239635391 dmNewParagraph" id="1239635391" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-24 text-align-center size-24"><span class="m-font-size-24 font-size-24" m-font-size-set="true" style="color: rgb(255, 255, 255); display: initial; font-weight: bold; text-transform: uppercase;">FLAT ROOFING</span></p></div> <div class="u_1958693584 dmNewParagraph" id="1958693584" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-16 text-align-center"><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial;">From felt to GRP Fiberglass to EPDM rubber, we offer high-quality flat roof solutions.</span></p></div> <a data-display-type="block" class="u_1433586807 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/flat-roofing" data-element-type="dButtonLinkId" id="1433586807"> <span class="iconBg" aria-hidden="true" id="1378946644"> <span class="icon hasFontIcon icon-star" id="1521557136"></span> 
+</span> 
+ <span class="text" id="1043771697">READ MORE</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1917698059 fullBleedChanged fullBleedMode" style="text-align: center;" id="1917698059"> <div class="dmRespColsWrapper" id="1486628769"> <div class="u_1068423045 dmRespCol small-12 medium-4 large-4" id="1068423045"> <div class="u_1044566170 imageWidget align-center" data-widget-type="image" id="1044566170" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/424992844_17902197995941752_1006452958683291932_n-fce02705-1920w.jpeg?Expires=1776879295&Signature=i0N1cv2747hnn3UWSXwEqaWroqnUJE1JpdA5tEO5zDS2B4WdBz0qsY-XIV3NWzVjcPWrH9WX0Twh7EpzCijcTGAEbdpXnrVbal2fv27hWXfS1TLw32Fub-hXJXFjRE0O199Ssin-FczRZJTK5t90Xx5Fva3yvWSQ~ZFRsdtFrYDPu~EWTZFMeW6iL-CwFArBCcXqxDqySOmMYXUZddhAQp0NREIbbCdmolb4SR~KApnogUkYFAL91Qv3xrd5unJKGsoBzkurVrRbltZ83q5jyN11-GBYszBsHR-U0sCaxxtinPrUI-kY-KJyml~QjL8lj-ccqKQ0pAhkYSGWSkoIOQ__&Key-Pair-Id=K2NXBXLF010TJW" id="1462226302" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/424992844_17902197995941752_1006452958683291932_n-fce02705.jpeg" width="676" height="507" onerror="handleImageLoadError(this)"/></div> 
+ <div class="dmNewParagraph u_1352049507" id="1352049507" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-24 text-align-center size-24"><span class="m-font-size-24 font-size-24" m-font-size-set="true" style="color: rgb(255, 255, 255); display: initial; font-weight: bold; text-transform: uppercase;">Conservatory WARM Roofs</span></p></div> <div class="u_1664155352 dmNewParagraph" id="1664155352" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-16 text-align-center"><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial;">Transform your conservatory into a comfortable living space with our specialised warm roof installations.</span></p></div> <a data-display-type="block" class="u_1394057601 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/conservatory-roofing" data-element-type="dButtonLinkId" id="1394057601"> <span class="iconBg" aria-hidden="true" id="1024730380"> <span class="icon hasFontIcon icon-star" id="1965364196"></span> 
+</span> 
+ <span class="text" id="1005498219">READ MORE</span> 
+</a> 
+</div> 
+ <div class="u_1007928771 dmRespCol small-12 medium-4 large-4" id="1007928771"> <div class="imageWidget align-center u_1693656168" data-widget-type="image" id="1693656168" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/WhatsApp-Image-2024-04-24-at-18.37.43--281-29-1920w.jpeg?Expires=1776879295&Signature=o5exQ8EBZhiObtWyYP-0~HHYrcpYeUR6oEdncDZN7mn-q4qPh6be2sOsOZwnnch0XPZIZ1~AB1QR6kVWFvwBJuhBVX3FOpUj9zrpqFnedj4OF~eicH1E33zNTPBcrubj6rzBm8oAo8knosEdqNt3Jx3cYgf2dXdfUQMTB51ea2IMy4Fk2aBMQncN0G38Qd0H-IY8fW6C9hKKrH6Yt7oFjZOqCLQlk7cnluheM1BE~tzMXuZB~1BzQBdvooDnkzEQFI0k9Gl1pL3NxTNR6x2Y9FZEEusW4vOMy0TssEr7F7XykUpzWj4bndVP1yrhZtVh2U5J5ElKld-bsbtao-HXaA__&Key-Pair-Id=K2NXBXLF010TJW" id="1519723741" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/WhatsApp-Image-2024-04-24-at-18.37.43--281-29.jpeg" width="1536" height="1152" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1085940091 dmNewParagraph" id="1085940091" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-24 text-align-center size-24"><span class="m-font-size-24 font-size-24" m-font-size-set="true" style="color: rgb(255, 255, 255); display: initial; font-weight: bold; text-transform: uppercase;">RoofING Carpentry SERVICES</span></p></div> <div class="u_1717739844 dmNewParagraph" id="1717739844" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-16 text-align-center"><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial;">Whether it's hand-cut or pre-fabricated timber truss roofs, our skilled carpenters deliver.</span></p></div> <a data-display-type="block" class="u_1646293132 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/roofing-carpentry" data-element-type="dButtonLinkId" id="1646293132"> <span class="iconBg" aria-hidden="true" id="1163526497"> <span class="icon hasFontIcon icon-star" id="1643002331"></span> 
+</span> 
+ <span class="text" id="1481726431">READ MORE</span> 
+</a> 
+</div> 
+ <div class="u_1028268805 dmRespCol small-12 medium-4 large-4" id="1028268805"> <div class="u_1800501995 imageWidget align-center" data-widget-type="image" id="1800501995" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/366282599_166391786477166_342489830380274040_n-e7c7a353-1920w.jpeg?Expires=1776879295&Signature=XQR1zFZnr4iyMNFTx72bhM1BXblgM4mDcvbkEbh8LAHS3TNObkjEDBV26t0GZu8ttfZ0KQSFnMCLZ7HjMjApc-A4tYS85WxMEuD~HGj2C9EVR4Sbk4fO8JvzBYu3Ay5GooxNCYJh7uf0LIQHjLrMCTaUgjESAU4GQeqdt-hNjFINXSypv2rgBpcXBa7pGFJmMFHlhzEZ34TpgaDaNfPtgaRXDzGlNI2u~ProOr3s2tCZYuWMRa2ieECCUOLQEUMby5oRL9auYTLgUG37KoGOxXcO-hv2VfmjCKcd30G4NAouWvaw0QzWClYmOMymMqU3Eg1-nOXv9r6P4GC9roXlKQ__&Key-Pair-Id=K2NXBXLF010TJW" id="1104199328" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/366282599_166391786477166_342489830380274040_n-e7c7a353.jpeg" width="1440" height="1080" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1303269029 dmNewParagraph" id="1303269029" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="text-align-center m-size-24 size-24"><span class="font-size-24 m-font-size-24" m-font-size-set="true" style="text-transform: uppercase; font-weight: bold; display: initial; color: rgb(255, 255, 255);">Fascia, Soffits &amp; Guttering</span></p></div> <div class="u_1159022275 dmNewParagraph" id="1159022275" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-16 text-align-center"><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial;">Enhance your property with our expertly installed fascia, soffits, and guttering systems.</span></p></div> <a data-display-type="block" class="u_1667013213 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/fascias-soffits-guttering" data-element-type="dButtonLinkId" id="1667013213"> <span class="iconBg" aria-hidden="true" id="1597539335"> <span class="icon hasFontIcon icon-star" id="1585324203"></span> 
+</span> 
+ <span class="text" id="1195527598">READ MORE</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1884857474 fullBleedChanged fullBleedMode" style="text-align: center;" id="1884857474"> <div class="dmRespColsWrapper" id="1230873952"> <div class="u_1838487230 dmRespCol small-12 medium-4 large-4" id="1838487230"> <div class="u_1812794007 imageWidget align-center" data-widget-type="image" id="1812794007" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/366072550_166391766477168_7763755380423417180_n-cce2952e-1920w.jpeg?Expires=1776879295&Signature=EkuFzPKZ47C9bO0BA3r-4sK368hNGLi92WFVKqcpg~DG0hufzK1emRRWyoX2kcMPJUg9MxjcWhePk64OifoyHd~c9brb-B0NiN-j0rKQ~CrF1ZbNiMiB34zRgVvlYMqT7EkLwEe66QaCXOzgLQpDJlbiJ9chKksPOscd~lE4dbBVxOzXDLqMcP8uaWNVIOUYlby8GNlYNehhwFWeI~P3AmPFSimscicWZPDMaXMc7Q6MueSOExImiYaAVzaRVBUYqfiZ3UvoEjN57DNBbwvRDTGcKjE3OxtxLVHpOC4t1C4rmJDFrxTXxZ5B4ebY~RGvOMfaPK2a-Y~~LZWcoyr32A__&Key-Pair-Id=K2NXBXLF010TJW" id="1296039808" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/366072550_166391766477168_7763755380423417180_n-cce2952e.jpeg" width="1273" height="955" onerror="handleImageLoadError(this)"/></div> 
+ <div class="dmNewParagraph u_1372688941" id="1372688941" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-24 text-align-center size-24"><span class="m-font-size-24 font-size-24" m-font-size-set="true" style="color: rgb(255, 255, 255); display: initial; font-weight: bold; text-transform: uppercase;">Lead Work</span></p></div> <div class="u_1527171914 dmNewParagraph" id="1527171914" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-16 text-align-center"><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial;">Our professionals excel in lead work, ensuring watertight seals and long-lasting performance for your roof.</span></p></div> <a data-display-type="block" class="u_1791024556 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/lead-work" data-element-type="dButtonLinkId" id="1791024556"> <span class="iconBg" aria-hidden="true" id="1837215776"> <span class="icon hasFontIcon icon-star" id="1325182900"></span> 
+</span> 
+ <span class="text" id="1796474846">READ MORE</span> 
+</a> 
+</div> 
+ <div class="u_1723394253 dmRespCol small-12 medium-4 large-4" id="1723394253"> <div class="imageWidget align-center u_1034485086" data-widget-type="image" id="1034485086" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/367452854_166382973144714_3235707510304282474_n-8aff3b5c-1920w.jpeg?Expires=1776879295&Signature=lz6cWisXJLZRd41NMNKcUMIZ7Me~K9r8ThaLO-XCXOfOPhjHJdKwIrCRZ5v9n9NdhC4a2nCGdBPztuEEbi~GmqhXfzJi7km1noo~-7K42aA9aSgMJDOLpWmiuYKUKWAH9BkbCxChWAGWCpFmOf7ACMqd0APHIfhQUoTcHRScU74OoPUQnO1NZrAzrHp0gE76iSZWZZts95XIp3ddfSLa9ux8xtppwqWcSDvpMPWtV96U5s8APOEN-zzJujnXq9yJb-h~8P40go85fw5u~oe0rTAXs8m-J06-yyn4xb8whKVWgIuCuXwtfa27neJ60b7IgXgb-qPop9ZQ0HQY-clBeA__&Key-Pair-Id=K2NXBXLF010TJW" id="1094553931" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/367452854_166382973144714_3235707510304282474_n-8aff3b5c.jpeg" width="1341" height="1006" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1955550131 dmNewParagraph" id="1955550131" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-24 text-align-center size-24"><span class="m-font-size-24 font-size-24" m-font-size-set="true" style="color: rgb(255, 255, 255); display: initial; font-weight: bold; text-transform: uppercase;">Velux Installations</span></p></div> <div class="u_1430846668 dmNewParagraph" id="1430846668" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-16 text-align-center"><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial;">Bring natural light and ventilation into your home with our Velux window installations.</span></p></div> <a data-display-type="block" class="u_1965506928 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/velux-window-installations" data-element-type="dButtonLinkId" id="1965506928"> <span class="iconBg" aria-hidden="true" id="1274695136"> <span class="icon hasFontIcon icon-star" id="1917810637"></span> 
+</span> 
+ <span class="text" id="1887573905">READ MORE</span> 
+</a> 
+</div> 
+ <div class="u_1523443150 dmRespCol small-12 medium-4 large-4" id="1523443150"> <div class="u_1949272463 imageWidget align-center" data-widget-type="image" id="1949272463" data-element-type="image"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/chim-e6451493-1920w.webp?Expires=1776879295&Signature=DtdjsBTCuhCNAheiDb0DByCpoLy97vUVteIqYvJ4l4UDe-aZbHBbQrqKJ0SFA6OjeGZhk10Bu6KQ2I8xBgil4AIeUDocG3Se9qbT3Y3CL6S6KMw1QH6Hdn8BxAQtBc1HDyznipe61ynL598Az8uJOGEDX4~U5DZ9FWKI2m0PpMgGssMp5cWsRrYGpxYhpQWkJKE0ZdamQCC5v41fM0bTPnZKtYWzjfodtqb8wTExcMRHnYqeZn1M8RV9w7KF3HvqFN2WFWHN69chb6T1ykoP8Bb8GpLxNzLWGS09rLVFsZ51mrftxYI5JyL0bryNeX9DHV3S0xsvf1prdvnGx~42Lg__&Key-Pair-Id=K2NXBXLF010TJW" id="1712673649" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/chim-e6451493.webp" width="750" height="563" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1343309357 dmNewParagraph" id="1343309357" style="transition: none 0s ease 0s; display: block; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-24 text-align-center size-24"><span class="m-font-size-24 font-size-24" m-font-size-set="true" style="color: rgb(255, 255, 255); display: initial; font-weight: bold; text-transform: uppercase;">Chimney Repairs</span></p></div> <div class="u_1910607349 dmNewParagraph" id="1910607349" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-16 text-align-center"><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial;">Protect your chimney and maintain the integrity of your brickwork with our specialised repairs.</span></p></div> <a data-display-type="block" class="u_1003410308 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/chimney-repairs-and-repointing" data-element-type="dButtonLinkId" id="1003410308"> <span class="iconBg" aria-hidden="true" id="1833329906"> <span class="icon hasFontIcon icon-star" id="1581107785"></span> 
+</span> 
+ <span class="text" id="1859180966">READ MORE</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1757643944 dmRespRow" id="1757643944"> <div class="dmRespColsWrapper" id="1244958392"> <div class="dmRespCol large-12 medium-12 small-12" id="1140009823"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1942254149" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255); font-weight: normal;">CUSTOMER</span><span class="" style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255);"> <span style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255);">REVIEWS</span></span></h2> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow fullBleedChanged fullBleedMode u_1621114344" id="1621114344"> <div class="dmRespColsWrapper" id="1652213164"> <div class="dmRespCol large-4 medium-4 small-12" id="1009956029"> <div class="u_1141222242 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1141222242"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/little+icon-1920w.png?Expires=1776879295&Signature=fqWQTwyu7oskvuViNi96lz5AHpmG9urTQUwhQe6Af3wJEqBbzQecX7sbX5MTO8z4Z-ZmGeEjkXkYYFd~-uKvrPWSQuLTvBv8Swyk4foh8UBtHiCTiMqmrlbAgxRmbn1xqmdiM7ULkeI6K0lBNTH12Wy0fpDNG0iFWGioTaGKdKJkJuW0EcWg~jmMi9YHDNp1UMPCBLekPp9Pn~J770fcMZwwxidrA9yIOs6VXRZ0A4W4RMBNQntusTpXXdNX32xPSkZPlt1KXYtLJedgZjuvqg8cMmv53kkFJOgdAIcPgqzns07LT7pjBLx0zabphj9B6pE6ZXbr21Lt31RlYNOXHQ__&Key-Pair-Id=K2NXBXLF010TJW" alt="" id="1046445020" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/little+icon.png" width="1381" height="253" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1705968500 dmNewParagraph" id="1705968500" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-24 text-align-center size-30"><span class="m-font-size-24 font-size-30" style="font-weight: bold; display: initial;">&quot;HIGHLY RECOMMEND&quot;</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);">&quot;Mac Roofing Services Ltd replaced our double garage roof.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);">They were very professional, cleaned up after themselves daily and removed all of the old roof.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);">I would highly recommend them.&quot;</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="m-size-18 text-align-center size-18"><span class="m-font-size-18 font-size-18" m-font-size-set="true" style="font-weight: bold; display: initial; color: rgb(42, 40, 40);">Helen Rees</span></p></div></div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1000037627"> <div class="u_1208449073 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1208449073"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/little+icon-1920w.png?Expires=1776879295&Signature=fqWQTwyu7oskvuViNi96lz5AHpmG9urTQUwhQe6Af3wJEqBbzQecX7sbX5MTO8z4Z-ZmGeEjkXkYYFd~-uKvrPWSQuLTvBv8Swyk4foh8UBtHiCTiMqmrlbAgxRmbn1xqmdiM7ULkeI6K0lBNTH12Wy0fpDNG0iFWGioTaGKdKJkJuW0EcWg~jmMi9YHDNp1UMPCBLekPp9Pn~J770fcMZwwxidrA9yIOs6VXRZ0A4W4RMBNQntusTpXXdNX32xPSkZPlt1KXYtLJedgZjuvqg8cMmv53kkFJOgdAIcPgqzns07LT7pjBLx0zabphj9B6pE6ZXbr21Lt31RlYNOXHQ__&Key-Pair-Id=K2NXBXLF010TJW" alt="" id="1650512308" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/little+icon.png" width="1381" height="253" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1238470967 dmNewParagraph" id="1238470967" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-24 text-align-center size-30"><span class="m-font-size-24 font-size-30" style="font-weight: bold; display: initial;">&quot;PROFESSIONAL JOB&quot;</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);">&quot;Mac Roofing Services Ltd done a fantastic job of replacing the car port roof for us.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);">Always on time and they done exactly what they promised.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);">Not overpriced and very focused on doing a professional job.&quot;</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="m-size-18 text-align-center size-18"><span class="m-font-size-18 font-size-18" m-font-size-set="true" style="font-weight: bold; display: initial; color: rgb(42, 40, 40);">MICK FITZMAURICE</span></p></div></div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1472347078"> <div class="u_1056212906 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1056212906"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/little+icon-1920w.png?Expires=1776879295&Signature=fqWQTwyu7oskvuViNi96lz5AHpmG9urTQUwhQe6Af3wJEqBbzQecX7sbX5MTO8z4Z-ZmGeEjkXkYYFd~-uKvrPWSQuLTvBv8Swyk4foh8UBtHiCTiMqmrlbAgxRmbn1xqmdiM7ULkeI6K0lBNTH12Wy0fpDNG0iFWGioTaGKdKJkJuW0EcWg~jmMi9YHDNp1UMPCBLekPp9Pn~J770fcMZwwxidrA9yIOs6VXRZ0A4W4RMBNQntusTpXXdNX32xPSkZPlt1KXYtLJedgZjuvqg8cMmv53kkFJOgdAIcPgqzns07LT7pjBLx0zabphj9B6pE6ZXbr21Lt31RlYNOXHQ__&Key-Pair-Id=K2NXBXLF010TJW" alt="" id="1132706122" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/little+icon.png" width="1381" height="253" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1376168808 dmNewParagraph" id="1376168808" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-size-24 text-align-center size-30"><span class="m-font-size-24 font-size-30" style="font-weight: bold; display: initial;">&quot;EXCELLENT VALUE&quot;</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-16"><span class="m-font-size-16" style="display: initial; color: rgb(42, 40, 40);">&quot;Mac roofing are friendly and efficient.</span></p><p class="text-align-center"><br/></p><p class="text-align-center m-size-16"><span style="display: initial; color: rgb(42, 40, 40);" class="m-font-size-16">Work carried out is tidy and to a high standard.</span></p><p class="text-align-center"><br/></p><p class="text-align-center m-size-16"><span style="display: initial; color: rgb(42, 40, 40);" class="m-font-size-16">Excellent value for money.</span></p><p class="text-align-center"><br/></p><p class="text-align-center m-size-16"><span style="display: initial; color: rgb(42, 40, 40);" class="m-font-size-16">Would recommend to others&quot;</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="m-size-18 text-align-center size-18"><span class="m-font-size-18 font-size-18" m-font-size-set="true" style="font-weight: bold; display: initial; color: rgb(42, 40, 40);">Mickela Victoria</span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1076253893 dmRespRow" id="1076253893"> <div class="dmRespColsWrapper" id="1985686587"> <div class="dmRespCol large-12 medium-12 small-12" id="1806480781"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1380633757" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span class="" style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255); font-weight: normal;"><span style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255); font-weight: normal;">Our</span> 
+</span><span style="text-transform: uppercase; display: unset; color: rgb(255, 255, 255);">Gallery</span></h2> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1236461969 dmRespRow fullBleedChanged fullBleedMode" id="1236461969"> <div class="dmRespColsWrapper" id="1037352507"> <div class="dmRespCol large-12 medium-12 small-12 u_1068020479" id="1068020479"> <div class="u_1460385598 dmPhotoGallery newPhotoGallery dmPhotoGalleryResp photo-gallery-done text-layout-over captionAlignment-center_center photoGallery" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="5" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1460385598" data-placeholder="false" data-rows-to-show="100"> <div class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1362986591"></div> 
+ <div class="layout-container square"> <div class="photogallery-row " data-index=""> <div class="photogallery-column column-5" data-index="0"> <div index="0" class="photoGalleryThumbs animated  " data-index="0"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1328327788" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/425413953_284514911331519_1917754771602676864_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/425413953_284514911331519_1917754771602676864_n-640w.jpeg?Expires=1776879295&Signature=Po91tSs4yCdRqoxUPap~OeY-pBQwzJN9HPmRtH-KgXQlAL2xeGHtumbkqfFHQANXvhfzWyIcnb6J0bT~R-pror5BlJyfVNkJf92VTy~~3EF8vX7bATEwx5zcaQR0fPx4vnFQSKHdEENTtu5oz03E0WM7R7V50bpKPZfnsYRwZvFm2y-Vcq~oNWYQCaS2e~K3jpGf8Q4O5qCGCraJWzOrVr-1fWh31CAh8KHutQitdsqoqpUQlhXXHioUkZdUXQT7NtjpzIvgw9khDy2RoLOaO4TMV5PVB5S4v6~6cY8S7FOuD6JepzAyWbwNmyZTG-Eqx1JGwxS-vRD~c53gySBQPA__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1767619155" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/425413953_284514911331519_1917754771602676864_n-1920w.jpeg?Expires=1776879295&Signature=skB1jHkMIR5GjEALPerQ20nxIrPHT6ZZAah5orIhjVXclUHa-rv4a6gA5~e~0NCeU7mO6F1RnliBViVJiF26lf4~TFh55SLaVUIfjkfciDDyMmX3lBf2WKuk76lBVNl-SUoli17y4JlZdYpKjm5pyP05MqZX5ZTs5QpmconG18CH3tl2FnlCgVhinAnutM3OH3bY1bXR-n4g69YlPXusQ-bQyv-DEgBmDTnYo-dNv2bP9YF1ZJRfrTjI4~ROQS6DlYhgAS9pBIp9BMyItDP~c~kCI4aufF8Le9iMNicQtmrAUQE7ZyzZBySWVnTI0FQQtIcrZsin5JWC3kVUdrXBEA__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1376282373" class="caption-container u_1376282373" style="display:none"> <span class="caption-inner"> <a id="1740358871" class="caption-button dmWidget  clearfix u_1740358871" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="1"> <div index="1" class="photoGalleryThumbs animated  " data-index="1"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1056441903" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/431148545_17903434016941752_3204147647934433943_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/431148545_17903434016941752_3204147647934433943_n-640w.jpeg?Expires=1776879295&Signature=PB3gmFhUFdd0Vq7dhMb~aXrq7AFvGFcSI8hImHV-KWZ8Mthg4vNcCW5vMwEmyStDBmSLCv-CxI5oDhWlb-wuEOIKZJ23ULLOHyfk5~4uiwLvK~Z~ZioPCHUDDIBS1JsJZxNPG5vapED~8pEcWvl4QxKrvLgJxR8fPXC2k4w3tAwCrXA3f2RqctK09PUfNbwhs2ESKme-w9UCryA~Ub9-L8YiFVQFe6GzBnPcWvqV8q3iGzhAZTQ1rXDY7zlFV9ej7SmOoWK37dsgRY5vPVMII5QufEVhW3RpXI-gfW~pKoQqphUO0def1U1FzMlNTzkdMUubWy3ncQGrrc2aRhV-Rw__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1672281968" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/431148545_17903434016941752_3204147647934433943_n-1920w.jpeg?Expires=1776879295&Signature=NII9dtclXaxuRFYC4RQlyCoOHhTbpfHFM0pwFX0NbfXADozuE10TZSMOH1AyyxBtB11diQ~aQg15Mo0AJJhzEp8RbDUiMWYfKVcTneh31mXounl2~z0KEyge9fr5bQcbPUU~1RxDpO5vDLnInklSoa8yjfjBWj6Pf1EGyAEGcWvW4Ol7Ok58iSH9tEMg0oyAkNUzZqn-YtRdHDyRWuj7g5eLdHUtY6GWneEOXW0H7vXC3JAEIhOPGeCpS2XQdgr9DeP3hRfl1aZr8GDLSPD1CCrUQN~g508IklHcWivaMb2Rbu~~vlc8edU7Nu5veHfnxG25T~48rLS6zDSjfdIU0A__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1145363930" class="caption-container u_1145363930" style="display:none"> <span class="caption-inner"> <a id="1313124211" class="caption-button dmWidget  clearfix u_1313124211" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="2"> <div index="2" class="photoGalleryThumbs animated  " data-index="2"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1185148249" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/425279828_17902873886941752_5942356578898151589_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/425279828_17902873886941752_5942356578898151589_n-640w.jpeg?Expires=1776879295&Signature=AMzVDovot~YBKtIXoR-4BX4b0W4w7XT4tZcLPCdl8m1S-kDRnlfR4YTijlZ6h55mj-DET6Uao5yGHphekYNPnAhtfgts7uXk7K3w020RXfVES5UvfDkBon5B~JrVAG~I5c~ZTHriMMJReEwrY3kjTH8cCmjUbyXY~bro4aEmvVk-Yfxoc3idn8-GzOH2r2gaYXQCwv6iSMuTvjj-JRGdAvqBOJiVEHIx~3sRVhH654n-A27X-G8RgA8mLbx3hEinKAYBrlyITrr5VsjNQCi2BnxIQhE1FKznjhtd8AEQxs6LmOWdrT9MFA9bCSbpPJDIaBMk~1qGQZfQYigjHLV-Qw__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1011279901" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/425279828_17902873886941752_5942356578898151589_n-1920w.jpeg?Expires=1776879295&Signature=SJWstlBkthymlIJxi-NvAgB514hfKVsIJqWnvIDoPStC4T~mpbK9YfrBitpKPzhi~q9hLR46tdMxak~2B6GuKvb2Fl7T0TxocTsmJc3fm-I61vLbId1dVtQ3uxVykO0Krd7nCBYPWIJXdvehi5MbKaO6B6H1GAL~dnyQU8V2DqPGjk1oaXKJCSMrDyRKcE2qd~LaZVFxrPECAUAHIb9uJvLJsTNjlf7PofYmj-eRCbx441URiEmsbK0SMkRYuCHwZRJ7aQ7SC~XVb9wpX3DZqXe6jABTxUNxFfyqZDMEvmSTqI3gBUO7fJqKjWKBfQa7tlzmVGxbOAfTGaieBpjNdg__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1577760923" class="caption-container u_1577760923" style="display:none"> <span class="caption-inner"> <a id="1884001901" class="caption-button dmWidget  clearfix u_1884001901" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="3"> <div index="3" class="photoGalleryThumbs animated  " data-index="3"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1658800478" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/424753188_17902416491941752_4815790647216927357_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/424753188_17902416491941752_4815790647216927357_n-640w.jpeg?Expires=1776879295&Signature=qCHMXs8qjtBUtP8zSU86HcfWRISAJiaLg-zy6yP3jTdRi-7xpJ9MNIRh7Qf1an4NhWDyHYvh-z5cGSSpbZEJvwXi9ojSFRG5AjPpo3VpKGjW3Q4-~z-vSEk1Rdh2vFaIAGRHovQqyno7OknTgLzkxVEgHY4OW0i12GTIWdo0Z9K~HkPTF1etyGUlHCSNNu-IgvQXcaOJsSAvr022XuYDDj6ZVbA3JE3HY-Uq5ONJ8AIX8t4fF-yvofKoTvRMWiwICvrQAAbf98Gc-MThVptBslVOnfe9tsUZ6RtAjB1W5V7grzqLHw9t-GQIROytFK7NUdoAsR6FdSK2mVqoh7fYUQ__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1411598948" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/424753188_17902416491941752_4815790647216927357_n-1920w.jpeg?Expires=1776879295&Signature=Hl88fy48Yz7rkEu8NrXqcLXRGlffHX4R4t4~T9tiXX5-lzRZrtWkEKjbK1P8b7zxCROO3zlBm2zQ4wmL8Nf86ekDYaNoxe1ckJsFXqoIcYcx9XZ49NZtte6fd5XLX-Bx44dmCdfxfRwXIfOR2muAFpdN84HtlReWhAqq2wFQo-LFFVeBxgFQmcCA1T4e~yCzqN220hozcQr~Nzp855cSRGla5K3QJ-WorPIYLMVBS2M7ZF6Gd8w3eJln3Cyn11kM~jXF~MGnA5cEOst12aHwBf-LlRfW8Q9WT3TsA~cH00c1KwQCwBu2omhcHR1Z3coC0kk~cLaB~JAHEzRxqegk3Q__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1796818365" class="caption-container u_1796818365" style="display:none"> <span class="caption-inner"> <a id="1961221446" class="caption-button dmWidget  clearfix u_1961221446" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="4"> <div index="4" class="photoGalleryThumbs animated  " data-index="4"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1811894913" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/398090398_17887424108941752_6679830182685312101_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/398090398_17887424108941752_6679830182685312101_n-640w.jpeg?Expires=1776879295&Signature=Kh8VCLXkPSBEDvAVhaVYoGvia0tWjbCta-hcuTHIrPi0z-ueBVgj3FGwY~Uqs7RcDWGb94mOx2r5ILN8EiK5G0ERtpeN3PyM8jUPCbubgC8T3nimetpD6uq2Geb8d~xR11-yWHioNsYKlax9bb4KFX~iMjmE2dxTQqoVHk7OzEvvJDJlKUMJ0xCQS4Mt--jx7VJSCjoV1DoH6nG20K13yWF67uQJd4f4gPY60EOSnCXJMFBgdfDXRMvW-jwn7NhuqzQaTzyRrgDrLlNXJXRJzgvnjO1zh~4GzDaWXToftr6pEpamc6xu~RZYzYrxuA09EaMTxv0LKw9DYikOzlzwGQ__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1355171930" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/398090398_17887424108941752_6679830182685312101_n-1920w.jpeg?Expires=1776879295&Signature=T44SIlSTq-NxrLEMWPXrdeAy0cM2aDZyJIF1JHTqG6ygSzpaHKtXvl8Kg4E8gZNlWj0aDGTY3azGdmvdH~uaGl1tD3o8oOi90AXo7kWmIaYUH7xRqSMif3FhPJLq~Lp8PZcVq3bxYaXADSeR2tqRMzvpxUZq-K7XUko2oS07fk2ugiIsnlhlwqt44rqMMNrG81ppew28XA4LRsPQkj1A~NOIE695bEFXy0~kHG28xjyv~qZqHo6JWImVyjR47OvobRj10lHBz41KK7Qd8Oo1OWM6IEV2myKfBi9j0mMgS8BbyxbjjWBWsOYWz3SN0CZ~uxo7DI3vREYAiS2M42ucNA__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1918022789" class="caption-container u_1918022789" style="display:none"> <span class="caption-inner"> <a id="1059310188" class="caption-button dmWidget  clearfix u_1059310188" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-row " data-index=""> <div class="photogallery-column column-5" data-index="5"> <div index="5" class="photoGalleryThumbs animated  " data-index="5"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1943316231" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/398112717_17887985603941752_4910109434423515152_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/398112717_17887985603941752_4910109434423515152_n-640w.jpeg?Expires=1776879295&Signature=PicHt2-lXo9EnkmbBNh-BjMXBs5meJzTVqGaQfQUu0Qwp~foM8VVbYPdwYAJEfieltAfe4X47cqPhXq9KIOey0IRaWcTU-nS3KaRvm1Ar1RjMsZBxpplx3B-pFiO3260ADtNKHJ~aCa22fBP933bHsy1t-mOGinwTcZ-dmYO7H5GhDt1SovCab4NbG7lXeUZ7MHzLSvlYUWPyS6k~69NxJulsk27bK2wFdYL-Fspa8IZNroEyypbUThMEJD5011g5NAirazWkjptvAb0VuweKaV2laDuW2dUbbqZwqc0~L5MywGGB-gQvYndFDoi3aUU8ioqbP0-vnou-8-qzsJsjg__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1673884917" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/398112717_17887985603941752_4910109434423515152_n-1920w.jpeg?Expires=1776879295&Signature=UIa1du36ACi6XUToVc15MqWLOvDBn3eHXee-s67L~uel6akVTPrFZ6cYvky2KSSOc28j1bRgOgk~5gA7xDxMkeE-qvB5uPongBnuVMdBNbkJ86Ac12mksjKTWIYRApyckXJgZR6LHrwQ9kG0pqdmp86zPaNiCa~B0eYscvz2-9p4XrtDbBvzw6-Z2evJcE47gpZlCu6Sg0MqwpI4-THGWuKf7oO5S4adHMF9B1VRB0Y6k7DMXqgLnjSOy1WZ64cXxFFRNlJJ3nC--IpWTV59iQReJZfWphp4348ufdHaK3OH3PgRpwcUCst5go~-WkPc7PU868I2VHmYsZNduUuRlg__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1457495521" class="caption-container u_1457495521" style="display:none"> <span class="caption-inner"> <a id="1837836895" class="caption-button dmWidget  clearfix u_1837836895" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="6"> <div index="6" class="photoGalleryThumbs animated  " data-index="6"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1312519442" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/398134053_17887825535941752_236253241645299717_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/398134053_17887825535941752_236253241645299717_n-640w.jpeg?Expires=1776879295&Signature=dwsxlUgw9vojly86K8POWIfZZmcVZn3xEFRWUEsDcM0KoHdqKHy~MmyFtjSoUeSk9rz1zHp3bTX7Lr5nw1ggep5ZtbwkvJjCoNGN6pTU14VtiMekPPDwwvVb2CHnRuQfHITnNZ~r9b4aPXqR-3pklZ4JR-wa1bA0t2gP5IG9UF-tTn4kljvQw3jxLEHBc7okCro9Vh-GA~EkBlwZanFqAugUl2Odl0SeGyWfDJT9qDPHE-Fg26kwFFZOcpZ9zIN3H0o4h05inMEMVmHiV3y17wvbUY2h5J-43wD9fOIU0cx0j5-3x9RtnSghgdyRoQViM3Cn63AW3uVfzEdmUBvyTg__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1139978262" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/398134053_17887825535941752_236253241645299717_n-1920w.jpeg?Expires=1776879295&Signature=d~QtyR5FXFR1nIyQPQbcZcj1Vqwh4BhCESw3UQ5Hi12fXC~bnpyQc84RT2OybA5YxUqCymsfHxDd0NCoW1wqY8Xw~7hOLF34b25gW1pcea9fT3ZiuAweWUKe3rcKJYdDRD8XVI~tQGEj9BtnH8YmqPTv1XlfVObfzNuFDndedhxWv6RojmLbwFJe276DM8M2yuFgsYFgo6cbzYkb5G2aD7BuUvUXQL3wMwv7ttvolYu0~qKhvSNHETVTX1gn0EJVJvZ6uM8xssG3q8AVb4qhTdbCTBOHhAHqxxg9dVM1UKmQy78Exgkxuiel8WdAhD8N51aSBnthe9oqVzVIzluYTw__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1333917465" class="caption-container u_1333917465" style="display:none"> <span class="caption-inner"> <a id="1305377706" class="caption-button dmWidget  clearfix u_1305377706" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="7"> <div index="7" class="photoGalleryThumbs animated  " data-index="7"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1698255171" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/402405278_221366190979725_4405815310801882415_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/402405278_221366190979725_4405815310801882415_n-640w.jpeg?Expires=1776879295&Signature=SjooT~66q~umub3WrRQxNkWdi6Aa1QQ5hHrOWeGiXOl1ZnL9PDLqEOuNNwhID2-MjmCuilIvQLLgNwh~kVezhdOOIMN11zapDTUCWXdZFduxQpxArDTROK93iyPS~hUkycRPDHytTlTUD271aJl4lummZTnI2kZoA8fhhewP4bZbomE49Qe77mQ7O556uiNYwRHmWYH5xUoBxBf-48QRw3~bv5CAZTBQWCHNS7zO0ZG1m7N3kmkXTIxRYCgRdWIfso-5ZKpPhqC4Mg7M53d-wAT5049yCHNUlku0-6v7ofb74Nk1mcKgL-i7CtXjITJamziZBiHrfvhizU-x8GUNFQ__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1311487688" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/402405278_221366190979725_4405815310801882415_n-1920w.jpeg?Expires=1776879295&Signature=M--an-g30mTdI1Xj0rldFXDfVx3KwOLl1vbMFvSeN1HiZboGnM7T9S4YzdY5KHRYU19wPc7OZk2l6ozndbYe64QEi0vJ5MCjKibbLlXvOUpSM9EpfJdfqFhvDnd0qzV9mhPMah27UuIdb3uNCPZOrYvhQrQ408XOfAaV2ML0QpAQAfdCP6tGun-GoC9fuWijuQ7lvR6xT-tEWTfgTNCXE6T3ZpRsL~UcFtXu9vLzaH3iRvEeG7R7PINnI3s~2nEgkV9svBq0EZJu~DvZCP3GZAjGF45Aqt0H0Ky39yj8chzt3WDt8PujbpLVFI4KOQC3HB-t2XalxqwKAJMaHZ4fIw__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1747385329" class="caption-container u_1747385329" style="display:none"> <span class="caption-inner"> <a id="1088835307" class="caption-button dmWidget  clearfix u_1088835307" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="8"> <div index="8" class="photoGalleryThumbs animated  " data-index="8"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1979985566" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/371854497_174397812343230_4913445322943507850_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/371854497_174397812343230_4913445322943507850_n-640w.jpeg?Expires=1776879295&Signature=NOjt0GR6PT5WdZasdekXft3V~6wlNwgVkLedQCbo7D75mYwyhPhVXTu1PH8oMPvtvzFru2FOHfmEnnNOjb59adqdYU5yMSdjUTsJsQmZuwMWNsIlbj~ThiD4LE1lL4vq7fdLLVmaImRV9ytca5pqBn7GsjOEynkmgMENIoBhOfB0k5kLL0sIe-d8qIpaFacrPYPyQnAW0iF3q9dKViZj-9xRlx81i6N-4R3o8V~lDCuYl2AnzzMwXPzKW8iIH2FbGwWuOLpjtGrzENmL4xbvVDtZ4UQNXYeixkoSAFy62N6mNzsunKpHxQgXj~o8Q-9V~Txx-63V2ATMz6pRDjlHig__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1241194869" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/371854497_174397812343230_4913445322943507850_n-1920w.jpeg?Expires=1776879295&Signature=oVa6G62V85lH5m8jid3qe-lfMDHB49eUsBL1zIvnjS5NJeqBRyZtbuFKf~wzxrjKDK-wp-dvWuH7CU25lKsbIsytYLBV3FkEL1l3W666~HiH1RMBlwSxKR1xgnWplVrQJ~bkSphHurz0ytOxvVbYPqNqR8W95FH6IArNc-~z-piASPrgbePL4o4Cbtzvq6W9PS7Uf4wkIArQnH6o2j2g7RVdXHdfsZSn6rzhnw9rosE53UAJXPvlpF1e0aLqqDVaL47CVJ4KWKeUMCWKfwYQBAIdGqdmGt1AUvPHcCXrdbBVBT1rD2TkF~biBu7NuNxbEU~kPi8EcxyR7LFQnNxFFg__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1398763504" class="caption-container u_1398763504" style="display:none"> <span class="caption-inner"> <a id="1848812549" class="caption-button dmWidget  clearfix u_1848812549" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="9"> <div index="9" class="photoGalleryThumbs animated  " data-index="9"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1784992202" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/368789709_10162059749238594_5784189802781887584_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/368789709_10162059749238594_5784189802781887584_n-640w.jpeg?Expires=1776879295&Signature=rZBbzg~dYK2R7pp1FbiPErCEbXeOgT7-TOPuxXaCnfbSrSe5ChE0K-Z03F4Xh2f~O1VJ47i~FqOej2bGtgM9a-1uA0Hkdk9Zt80fZ5CX1qkRCG3lSFf~WSjbsPeRgWPzq9i3gV95e4mqstYY49fHJ44IsIQ~1XXOmtfFg6vgByao-6s1m8Laczp7Tv~PLyJeuJ5hBeIQ2DOGPUZ2nmi6zj5q~T5wVAApbgdYovt8zwqM3hyNaJ9e3F-KuDi4HETPzL76CSjjQlLzRpN-f2lcfZcV1SaPEbe062uFjeNWyQt7k8qn8Hagv6IPBhHJp55kNFY1WImPQmwlyndSRB8ghQ__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1563311961" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/368789709_10162059749238594_5784189802781887584_n-1920w.jpeg?Expires=1776879295&Signature=g-uA2weNV~suyXJuriKq5VTVDghhDnzI3txansUd3Xwid65~83hMj1UT8l0siG55xf~DFroTNJghNYDlMS0WFFBwjpfpMQsrzf5KhAdA05lcAqlqfgS6n4u7AuNN2TKmNESDvoo8yNWTAMVA9B7HnePh0QUveqaWgIwf8~n4unB9R-F4ZiP4Rc~rQJW7wRkBHjg927j~huwGRL~9CCLQ0UuN1ial~zSSlZNQPPRbKCMso8PC671ZKsHNJ-s3QoAztV87zLb4E3fhrzkkTi~fetcdx8ri5u4pU~l-NkxX-Istqh2PZJpTlehf3RHz09VX~CSA1395yTTHN04dNeqq0A__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1860406627" class="caption-container u_1860406627" style="display:none"> <span class="caption-inner"> <a id="1398018053" class="caption-button dmWidget  clearfix u_1398018053" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-row " data-index=""> <div class="photogallery-column column-5" data-index="10"> <div index="10" class="photoGalleryThumbs animated  " data-index="10"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1075267459" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/367452854_166382973144714_3235707510304282474_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/367452854_166382973144714_3235707510304282474_n-640w.jpeg?Expires=1776879295&Signature=BsE-2FlU3pumJACymAVmFxKelIWerGhSyFjNMFGkT5uFgR8ewlKAC2EbK6qSdpzgdbY9WBCJ2aQBydxJf45Tb~2fPSVYueLi3IpAAOZ0obr7eWTvD2E5qiG-pvrP7lQB8mQyqMfSk~qgjWc106s19ZszI6mwkDJsUhlkGv~f5idNPTm7uriNHPPdcDMgIvQjA4RVIOlDMvYdGMD-D4yvpQfw62xJfc7pCEqttulabW9f4dMUzJIoCBZDpf--l5qjniGugTt0CI6vQXcY4cpD9s8Iy5NiL1cZJbAH8KEhLr-XV~kR60B8fKrKUt00lkMY2k4zy4HBEkNAQTQYLmpluw__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1499856515" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/367452854_166382973144714_3235707510304282474_n-1920w.jpeg?Expires=1776879295&Signature=jZdLHfCCKfZFDNzP8N6GOMujGX4U5TWc~TdbgJimot5dasspbqvG0HUktglbIEb-xjBzDAm1ik2-tcCbDCo01kgB0Ja6nkt-GHdt19aUpNTpLoTCx4GbqM~sr9tVWGB6IBvzF5GA7gVzCiaL2BD-OTm9AHVUrl7wWFUE6DiKGSixMhYCmzbW03wSsFHXHFpmWqcnu1Tjg3w3KP-n73AWdiPCKtYJ7HZbrpU0Sj2-U00Nma~HVtyqPMo18y6Ad7swTUbUDVdC8LJlP782WlPvx5SNgoGgKDW8fjXZo1CR~okIOn34sqzqGChOzQvh5FS~DtR01PTb-5iEI3GtD4GipA__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1217448833" class="caption-container u_1217448833" style="display:none"> <span class="caption-inner"> <a id="1457387210" class="caption-button dmWidget  clearfix u_1457387210" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="11"> <div index="11" class="photoGalleryThumbs animated  " data-index="11"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1499228048" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/369532535_168652719584406_5435103828804180416_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/369532535_168652719584406_5435103828804180416_n-640w.jpeg?Expires=1776879295&Signature=R0-tlnFkj0BqgU3oEdPgr3FqsO06JNX6C29emBfJ0moySTgY0PSfQu4pV45ZiZDiXtiMNaVYZcqrs-TPXhtopaheyTiRiyqbWxfg8d7W5urFPYZC0o6UiYiBa-H-6NbsVUhPl2cnk7BAqyE-Y9LrJAvLkmIdDuvEPZTlj72v0ur1R0KLJidiS-NYX-pPjx6SHXa7HlTjIFKl7OPvEzL37dPdUt6coSoneuDheIsSWE6bAQ0XxbqxjYpwgUvjeZ5udXZ9PCv0-FNqzKSu3irmiOHiNsgO2YFRxpjHH9~Vexf8TPzuzefWLN0Y5z~dCg-hJwVBvm1ghZXIDIca~a3GIw__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1886986215" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/369532535_168652719584406_5435103828804180416_n-1920w.jpeg?Expires=1776879295&Signature=G~LXrg~Wl1nU17PMeJgQ7v6rODlDP8ZMU8nag3KzGbAnwYO6lF7vJHml15mI7b8fcCLRwswTdPwZuHq4nDyi8yOWJZYlbLbGCa51Se3hDqSnepiQPrZmJLYCZ2px2kR~x6lRAZ9hRjuRIw4~1LDMwv9sdGtmpAvqT3Gp49NBvGICEH4YwkyNZwOtDJC-Q~6FpXytGUSMjshuKjVdRz0aSIg4YGeziqzf5S7ig~FysEfwsyHKSvI5bwSYLweIYjANVdJbBt0lINi4XNea-HybsT5HdkelBjmgJnnNJxnTUBg9KNag-c0z3iZZoueAJO0K9cpLUryxKYcl4hOjomkyXg__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1200668879" class="caption-container u_1200668879" style="display:none"> <span class="caption-inner"> <a id="1431619534" class="caption-button dmWidget  clearfix u_1431619534" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="12"> <div index="12" class="photoGalleryThumbs animated  " data-index="12"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1026130236" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/366088583_166391776477167_6505313111982687034_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/366088583_166391776477167_6505313111982687034_n-640w.jpeg?Expires=1776879295&Signature=rF4jCJwREKz3k5oFt2LPa3buTrgl2TfIoBXQ9c5bpDB6pdC~sv8fRCZmsLNLMYdELA8NKypJE3nULnUaVos3P5eVfBeR67D2AFN6LtJVpVbrNUDsj9tDX7BaePV39T1UZFkX1f~WZspjRx1ughqJtKxY58KgGEtgH2RsWghLGTYPCd5eQja0zkHAtuJAbD8dK9Toa0nKj75E27Ico8FJFCmPqdobVV8nS2LVtbSGd5CVhhpsxqB6xMa1RxiW1Vy936m-QOvwW2UWRW8flvNjPmuCS4CAXarWGEyBy6aPkIGrh3i-HfzEKlr6Zpxcb6rXOVw7eslTvZi2MxJhcgdg5w__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1301976473" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/366088583_166391776477167_6505313111982687034_n-1920w.jpeg?Expires=1776879295&Signature=Vfir4lhkrkf1JlfXp~R1xC2OwQZ5jHlmfTnOJ3W2TJ~WhN2rkMnoSNhh~PuYouw0xV0sTvOXwrJZIAL4CYyDUZshSUaGPzEh6~m2Rb7JRfEbC5tGKWCWErDckZkdVGrejf1l8VPoAO8eLemXqojLrdpcEl2ZJxRLxB1SesTbOw8OdpXZCevlEDglM5OBt2U4tS6iKcsIW8KeIYY5Q79fO-GpjyOYg3dKpB8Toj9BJgNrzz1ftjIkPCr7I5j3u0Kp8dp1BX0ZhAXe1Noq0Uzjr7Kw19S5AYSK~gNTntp1oA-R91CloIKV-6S3yJha3XpHbnUuawfKqebzUwWTbNAfBg__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1205360404" class="caption-container u_1205360404" style="display:none"> <span class="caption-inner"> <a id="1376954906" class="caption-button dmWidget  clearfix u_1376954906" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="13"> <div index="13" class="photoGalleryThumbs animated  " data-index="13"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1967595093" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/355097911_125490383900640_6256968702117511061_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/355097911_125490383900640_6256968702117511061_n-640w.jpeg?Expires=1776879295&Signature=a8Xb9ZgIQZF0sp8axNkAewl~59J91h-6g8EoZ~pNCVyUkHaNkkQGpQ1efah1JnPixJoCgH0lopjfIGPSrg-Oip~P8Wkn-z1KMsnvyERc7LICz0cCdVnbZiExlvm5OwAWSXEmfP1auErpiTvFbSWclhB79WxD6y-dFPMENYJLKItmtk0Xzcpbm3NEv5sKKlqzJXyvTACMPMdpbGr-y169TFKryI8926-06owWluIEzj~YmkVEByC6GonN7Mvm-GVXATjMTT2xwS5f7Im2EGBRcEZX1ZW1KlYiIRPpzNPl6iFDwiVfyOXzMkSNFJbyOXE8-q1LBsSdAL30IklSwwedWQ__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1190989458" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/355097911_125490383900640_6256968702117511061_n-1920w.jpeg?Expires=1776879295&Signature=foKkKancveda1wmdXiUPHbct4boVwgWe7OyLf3uOhekkVC2oM7cxqarBQJfnDRKpcbxSzs8x6wwgroVlJDbtV3h5ETV6e0mF3oUgMveSj6WM1T51oPd4QDhfxGycrOW3f9xOmnAQBCByV~-I9URVRcvIP~NupTbrz3IbqmUYbEd0ss1LgHCcDzarCpbZNXgyMuVQjgH~~Hv9vYUrPzN3Y~yTS7ECjfT3Xr6WYp3DQPgLcfZ1iZ8kClBXA97ObjOj2xa~4ZadFQWUEarHL~veEI8LF6YWhR-0WTmaI51aDXQNrXb0RtJ7dpPp2i1ZKhJc2ZmGTu5yZUlxwhOjls0pJA__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1917393100" class="caption-container u_1917393100" style="display:none"> <span class="caption-inner"> <a id="1490142265" class="caption-button dmWidget  clearfix u_1490142265" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="photogallery-column column-5" data-index="14"> <div index="14" class="photoGalleryThumbs animated  " data-index="14"> <div class="thumbnailInnerWrapper" style="opacity: 1;"> <div class="image-container revealed"> <a data-dm-multisize-attr="temp" aria-label="" data-dm-force-device="mobile" class="u_1317177709" data-image-url="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/366072550_166391766477168_7763755380423417180_n.jpeg" style="background-image: url('https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/366072550_166391766477168_7763755380423417180_n-640w.jpeg?Expires=1776879295&Signature=fJpGJTwMHyBe6H7QjPaIlm9SpLN6E8U5hahFONlpCzT5uH4H0Znp-g0tryE9Th0Fy7QJBSOGA2N~CQPkrRfCxgg2Xa2XWhlcLhVUaTb-5mG3b2ttTLuz7nTcsdt28JokBZgtY8JnCre~ZNdha~gY-wuUntpHfbXOOtbL6uLBfErugyJnE-JF7iSeOPrbxLUmvg2eLnyVW2v-0UwfUi0iR-tLRLAVAi~eZ17daTeSRhXi5KD4yfT~Cl89LDCKs9LrVWmJwwsI3L83-UhJREfS-rHie~E~qpRn3v6fXhDOlZ29h4s1ffEZyXBS5--U8acDv1KTQPmkq~SAC~CWLhdItw__&Key-Pair-Id=K2NXBXLF010TJW');"><img id="1607727788" data-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/366072550_166391766477168_7763755380423417180_n-1920w.jpeg?Expires=1776879295&Signature=pgh9AhN0XJ-iMfV4Em3RDiuiOZprkcRvkg746jlOEdUrAWHqCDnmOgfK4VNPt5-M5LnILCEjEgLKtMcRP4fPmmmiCfoIKn4A0OnDDHDxRD~35Vjs4EC1egpI01jlYLMC0MMhyj-9JehVNRdXEriz~CQ419NJGe3dq5KyVuE4fSeS1ygbP5187mdm0KhCl-iir-u~oTmY7ZhuOHp4BtXvbEnyq~qcl~jOGG7lCgZeAnhtiOSFKLrhtFpCEVdLBt3nubGA6J02dlpzUsmyaomh08c5DgxMs3XOQnUaLNs0Lf6t93XvgYBJrrL6APn911Qob6Xve5JtrHISuRbDNKki9Q__&Key-Pair-Id=K2NXBXLF010TJW" alt="" aria-label="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div id="1223003480" class="caption-container u_1223003480" style="display:none"> <span class="caption-inner"> <a id="1542285835" class="caption-button dmWidget  clearfix u_1542285835" href="" style=""> <span class="iconBg"> <span class="icon hasFontIcon "></span> 
+</span> 
+ <span class="text">Button</span> 
+</a> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1106984985 dmRespRow" id="1106984985"> <div class="dmRespColsWrapper" id="1480095309"> <div class="dmRespCol large-12 medium-12 small-12" id="1273234674"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1135892270" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span class="" style="color: rgb(255, 255, 255); display: unset; font-weight: normal;"><span style="color: rgb(255, 255, 255); display: unset; font-weight: normal;">REQUEST A</span> 
+</span><span style="color: rgb(255, 255, 255); display: unset;">FREE</span><span style="color: rgb(255, 255, 255); display: unset; font-weight: normal;">,</span><span class="" style="color: rgb(255, 255, 255); display: unset;"> <span style="color: rgb(255, 255, 255); display: unset;">NO OBLIGATION</span> 
+</span><span style="color: rgb(255, 255, 255); display: unset; font-weight: normal;">QUOTE</span></h2> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow fullBleedChanged fullBleedMode u_1143716480" id="1143716480"> <div class="dmRespColsWrapper" id="1246447752"> <div class="u_1478198812 dmRespCol small-12 large-8 medium-8" id="1478198812"> <div class="u_1102778583 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1102778583" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-left m-size-19 size-24 m-text-align-center" style="line-height: 2;"><span class="font-size-24 m-font-size-19" style="font-weight: bold; display: initial;"><span class="font-size-24 m-font-size-19" style="font-weight: bold; display: initial;">Thank you</span> 
+</span><span class="font-size-24 m-font-size-19" style="font-weight: normal; display: initial;"><span class="font-size-24 m-font-size-19" style="font-weight: normal; display: initial;">for considering us for your</span> 
+</span><span class="font-size-24 m-font-size-19" style="font-weight: bold; display: initial;">roofing</span><span class="font-size-24 m-font-size-19" style="font-weight: normal; display: initial;"> <span class="font-size-24 m-font-size-19" style="font-weight: normal; display: initial;">needs.</span></span></p><p class="text-align-left m-text-align-center" style="line-height: 2;"><span style="display: initial;"><br/></span></p><p class="text-align-left m-text-align-center" style="line-height: 2;"><span style="display: initial;">For a free, no obligation quotation, please call or email using the details below.</span></p><p class="text-align-left m-text-align-center" style="line-height: 2;"><span style="display: initial;"><br/></span></p><p class="text-align-left m-text-align-center" style="line-height: 2;"><span style="display: initial;">Alternatively, you can use the contact form provided and we will get back in touch as soon as possible!</span></p></div> 
+ <div class="u_1793208137 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1793208137" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="m-size-25 m-text-align-center text-align-left size-31"><span class="m-font-size-25 font-size-31" style="display: unset; color: rgb(28, 162, 93);">Tel:</span><span single-space="true" class="m-font-size-25 font-size-31" style="display: unset;"> <span class="m-font-size-25 font-size-31" style="display: unset;"></span> 
+</span><span class="m-font-size-25 font-size-31" style="display: unset; font-weight: bold;">01604 315 366 / 07547 127654</span></p><p class="m-size-24 m-text-align-center text-align-left size-30"><span class="m-font-size-24 font-size-30" style="display: unset; color: rgb(28, 162, 93);">Email:</span><span single-space="true" class="m-font-size-24 font-size-30" style="display: unset;"> <span class="m-font-size-24 font-size-30" style="display: unset;"></span> 
+</span><span class="m-font-size-24 font-size-30" style="display: unset; font-weight: bold;">mac.roofing@outlook.com</span></p></div> 
+ <div class="u_1311115887 align-center text-align-center dmSocialHub gapSpacing" id="1311115887" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/profile.php?id=100093190369049" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="mailto:mac.roofing@outlook.com" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Email&apos;)"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="tel:07547 127654" target="_blank" dm_dont_rewrite_url="true" aria-label="phone" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Phone&apos;)"> <span class="dmSocialPhone icon-phone oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="https://www.instagram.com/mac.roofing.services/?img_index=1" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1820088694 dmRespCol small-12 large-4 medium-4" id="1820088694"> <div class="u_1072447248 dmform default native-inputs" data-element-type="dContactUsRespId" captcha="true" data-captcha-position="bottomleft" id="1072447248"> <h3 class="dmform-title dmwidget-title" id="1597532674" hide="true">Contact Us</h3> 
+ <div class="dmform-wrapper" id="1138033599" captcha-lang="en"> <form method="post" class="dmRespDesignRow" locale="UK" id="1373882964"> <div class="spacing-container" id="1076256937"> <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1000335756"> <label for="1229758072" id="1864039104" data-dm-for="dmform-0">Name:</label> 
+<input type="text" class="" name="dmform-0" id="1229758072"/><input type="hidden" name="label-dmform-0" value="Name" id="1815741970"/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1866332779"> <label for="1788650233" id="1384547054" data-dm-for="dmform-1">Email:</label> 
+<input type="email" class="" name="dmform-1" id="1788650233"/><input type="hidden" name="label-dmform-1" value="Email" id="1490642451"/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1288758392"> <label for="1991340907" id="1512362742" data-dm-for="dmform-2">Phone:</label> 
+<input type="tel" class="" name="dmform-2" id="1991340907"/><input type="hidden" name="label-dmform-2" value="Phone" id="1604490395"/></div> 
+ <div class="dmforminput large-12 medium-12 dmRespDesignCol required" id="1913764925"> <label for="1788487162" id="1327705324" data-dm-for="dmform-3">Message:</label> 
+ <textarea name="dmform-3" id="1788487162"></textarea> 
+<input type="hidden" name="label-dmform-3" value="Message" id="1358140211"/></div> 
+</div> 
+ <span id="1568868321" class="dmWidgetClear"></span> 
+ <span id="1568868321_clear" class="dmWidgetClear"></span> 
+ <div class="dmformsubmit dmWidget R" id="1842862979"><input class="" name="submit" type="submit" value="Send Message" id="1575376292"/></div> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLvWAeRAiJVwcOFCSg4XBGDhQu8VSj+GBGgpx1xp12bQHeNnsWoOcTDWN3KYLdnOLG8=" id="1230374688" class="" data-dec="true"/><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1408698798"/><input name="dmformsubject" type="hidden" value="Website Message" id="1594817694" class="" data-email-subject="Website Message"/><input name="dmformfrom" type="hidden" id="1839052300" class="" value="www.macroofingservices.uk"/><input name="dmformautoreplyenabled" type="hidden" value="true" id="1894193445"/><input name="dmformautoreplyfrom" type="hidden" value="form-processor" id="1038415197"/><input name="dmformautoreplysubject" type="hidden" value="Thank you for your submission" id="1318167451"/><input name="dmformautoreplymsg" type="hidden" value="V2UndmUgcmVjZWl2ZWQgeW91ciBtZXNzYWdlIOKAkyB0aGFuayB5b3UuIE9uZSBvZiBvdXIgdGVhbSBtZW1iZXJzIHdpbGwgZ2V0IGJhY2sgdG8geW91IHNvb24u" id="1587784655"/><input name="dmformautoreplyincludeformcopy" type="hidden" value="true" id="1899028610"/><input name="dmformsubmitparams" type="hidden" value="8mpKnCSiNQXK/d9M7IDrS0Hahh0tGT3j6E8rAEIZvHCp4BpuR9LXllqAA2FHZotHNGd1IOc6Z/ax8xFrPkwBRTVYD2skaT8sR9EBqwr0OwVyNGxAwkGxjamx0H9LqV5YrhpU2pYWFBcJH4lY+hgQt3I+Dp1THb4cXDu78jkZMQwJH0QP0/k3TjIydhodeNvExcrFTxcNUs+lQKwrwAQP5m/FDecMvgzysihDSsNTYQ/XghnZKb8q532XOH56qRWLCIngQb4Tt92S9AP3YLDAFXcNPlERgTrf/IYPWtmxDgXpqLKZ/10sTDiBadzQOqd/TheOBHcbHG9JW4UGDlyaWyVFJ7PWth4k1mWhXgwyQt4ngdOJaBGsqMubyTnqzkhqeGFK+ThFacu3GM1D3228gfGbIdhUGxMf5VHlouIDZqdSdfI1YhxJ5AneFGHQJcjTYKpg/qGPOZHrtPZkd8vVDRBsGb7LJbJepUMs09AsBevahoewq+njK4FScILo+T/mOHmmaXmXVPPk16vWh5+LdMVuNw+84UY9Yorgv1ATHxB71fJ8xOLUtOg7TcWmhMiK" data-dec="true"/><input type="hidden" name="page_uuid" value="fb8cd2f3597c4ddcaf8e00db76e5d51f"/></form> 
+</div> 
+ <div class="dmform-success" style="display:none" id="1127995667"><br/><p class="rteBlock">Thank you for contacting us.</p><br/><p class="rteBlock">We will get back to you as soon as possible.</p></div> 
+ <div class="dmform-error" style="display:none" id="1512839605">Oops, there was an error sending your message.<br id="1505830536"/>Please try again later.</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1384224795 dmRespRow fullBleedChanged fullBleedMode" id="1384224795"> <div class="dmRespColsWrapper" id="1973475117"> <div class="dmRespCol large-12 medium-12 small-12 u_1834221757" id="1834221757"> <div class="u_1438360765 default align-center inlineMap" data-type="inlineMap" data-lat="52.27957" data-lng="-0.85812" data-address="Cottingham Drive, 83 Northampton Lane South Northampton Northampton NN3 7RJ United Kingdom" data-height="" data-msid="" data-mapurl="" data-lang="en" data-color-scheme="" data-zoom="13" data-layout="layout4" data-popup-display="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-popup-description="" data-popup-description-visible="false" id="1438360765" dmle_extension="mapextension" data-element-type="mapextension" modedesktop="map" modemobile="map" addresstodisplay="Cottingham Drive, 83 Northampton Lane South Northampton Northampton NN3 7RJ United Kingdom" geocompleteaddress="Cottingham Drive, 83 Northampton Lane South Northampton Northampton NN3 7RJ United Kingdom" data-popup-display-desktop="" data-popup-display-mobile="" data-display-type="block" layout="layout4" modetablet="map" wr="true" icon="true" surround="true" adwords="" icon-name="icon-map-marker" street="" city="" country="US" country_full="United States" state="" zip="" provider="mapbox" lon="-0.85812" lat="52.27957" zoom="13"> <div class="mapContainer" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1740658852 dmRespRow fullBleedChanged fullBleedMode" style="text-align: center;" id="1740658852"> <div class="dmRespColsWrapper" id="1815705988"> <div class="dmRespCol small-12 medium-3 large-3 u_1132006558" id="1132006558"> <div class="u_1238770689 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1238770689"><img src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/Logo-1920w.png?Expires=1776879295&Signature=WXP5LOfibJI1jQPVpQsCLV5Ie64GZ-MKVVDVxNRhU8ASWkUVKWPiKn-WvUonFfmJ7tjdJWcV-rf-c-zsY2JjTJgCA0tQRs~-OHm3dCJHXhxyojukuqV6uVKZiM1J2fH4S5aIjQqRbOMaJkU4C-UEJvy42XbAKXmLca3o1Ojc2Suv855YfO7oeNkkx9llqXxB~D6cMsKymdkLZ6M5GGVuLLlMmtBA3-Q3141RvWU8GPRqJR7e5U0EOuc-s0zgTtUPp1GvS6WTFWtdpHHODEKFvhyQjZpIZwfHOY19~KSgPXnaPfCAR4yG-Rf4-kSmJQty6E9Yz-Es~pQURMFWB-2n~A__&Key-Pair-Id=K2NXBXLF010TJW" id="1131634826" class="" data-dm-image-path="https://cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/Logo.png" width="1381" height="506" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1430628913 dmNewParagraph" id="1430628913" data-version="5" style="text-align: center; display: block; transition: none 0s ease 0s;"><p class="text-align-left m-text-align-center"><span style="display: initial; color: rgb(255, 255, 255);">&copy; MAC Roofing Services LTD</span></p><p class="text-align-left m-text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-left m-text-align-center"><a href="/privacy" runtime_url="/privacy" type="page" style="color: rgb(28, 162, 93); display: initial;">Privacy Policy</a></p><p class="text-align-left m-text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-left m-text-align-center"><span class="" style="color: rgb(250, 250, 250); display: initial;"><span style="color: rgb(250, 250, 250); display: initial;">Website</span> 
+</span><a href="http://www.gocre8ive.media" runtime_url="http://www.gocre8ive.media" type="url" style="display: initial; font-weight: bold; color: rgb(255, 255, 255);"><strong>Cre8ive Works Ltd</strong></a></p></div></div> 
+ <div class="dmRespCol small-12 medium-3 large-3 u_1517464847" id="1517464847"> <div class="u_1500126691 dmNewParagraph" id="1500126691" data-element-type="paragraph" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="m-text-align-center"><span style="display: initial; color: rgb(255, 255, 255); font-weight: bold;">Quick links</span></p></div> <nav class="u_1618105118 effect-text-color unifiednav_vertical main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_1" layout-sub="" data-show-vertical-sub-items="HOVER" id="1618105118" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://le-cdn.website-editor.net/s/893a3b5a7a444aff81005d56b6a31333/dms3rep/multi/opt/Logo-1920w.png" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/roof-tiling-and-slating" class="unifiednav__item    " target="" data-target-page-alias="roof-tiling-and-slating"> <span class="nav-item-text " data-link-text="Roof Tiling and Slating" data-auto="page-text-style">Roof Tiling and Slating<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/roof-replacements" class="unifiednav__item    " target="" data-target-page-alias="roof-replacements"> <span class="nav-item-text " data-link-text="Roof Replacements" data-auto="page-text-style">Roof Replacements<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/flat-roofing" class="unifiednav__item    " target="" data-target-page-alias="flat-roofing"> <span class="nav-item-text " data-link-text="Flat Roofing" data-auto="page-text-style">Flat Roofing<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/conservatory-roofing" class="unifiednav__item    " target="" data-target-page-alias="conservatory-roofing"> <span class="nav-item-text " data-link-text="Conservatory Roofing" data-auto="page-text-style">Conservatory Roofing<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/roofing-carpentry" class="unifiednav__item    " target="" data-target-page-alias="roofing-carpentry"> <span class="nav-item-text " data-link-text="Roofing Carpentry" data-auto="page-text-style">Roofing Carpentry<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/fascias-soffits-guttering" class="unifiednav__item    " target="" data-target-page-alias="fascias-soffits-guttering"> <span class="nav-item-text " data-link-text="Fascias, Soffits and Guttering" data-auto="page-text-style">Fascias, Soffits and Guttering<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/lead-work" class="unifiednav__item    " target="" data-target-page-alias="lead-work"> <span class="nav-item-text " data-link-text="Lead Work" data-auto="page-text-style">Lead Work<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/velux-window-installations" class="unifiednav__item    " target="" data-target-page-alias="velux-window-installations"> <span class="nav-item-text " data-link-text="Velux Window Installations" data-auto="page-text-style">Velux Window Installations<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/chimney-repairs-and-repointing" class="unifiednav__item    " target="" data-target-page-alias="chimney-repairs-and-repointing"> <span class="nav-item-text " data-link-text="Chimney Repairs and Repointing" data-auto="page-text-style">Chimney Repairs and Repointing<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1761321693 dmRespCol small-12 large-3 medium-3" id="1761321693"> <div class="u_1964680213 dmNewParagraph" id="1964680213" data-element-type="paragraph" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="size-16 m-text-align-center"><span class="font-size-16" style="color: rgb(255, 255, 255); font-weight: bold; display: initial;">Contact us</span></p></div> <div class="u_1237141538 dmNewParagraph" id="1237141538" style="transition: none 0s ease 0s; text-align: left;" data-element-type="paragraph" data-version="5"><p class="m-size-16 m-text-align-center text-align-left size-16"><span class="m-font-size-16 font-size-16" m-font-size-set="true" style="display: initial; color: rgb(28, 162, 93);">Tel:</span></p><p class="m-size-16 m-text-align-center text-align-left size-16"><span class="m-font-size-16 font-size-16" m-font-size-set="true" style="display: initial; color: rgb(255, 255, 255); font-weight: bold;">01604 315366</span></p><p class="m-size-16 m-text-align-center text-align-left size-16"><span class="m-font-size-16 font-size-16" m-font-size-set="true" style="display: initial; color: rgb(255, 255, 255); font-weight: bold;">07547 127654</span></p><p class="m-text-align-center text-align-left"><span style="display: initial;"><br/></span></p><p class="m-size-16 m-text-align-center text-align-left"><span class="m-font-size-16" m-font-size-set="true" style="color: rgb(28, 162, 93); display: initial;">Email:</span><span single-space="true" class="m-font-size-16" style="color: rgb(28, 162, 93); display: initial;"> <span class="m-font-size-16" style="color: rgb(28, 162, 93); display: initial;"></span> 
+</span><span class="m-font-size-16" style="color: rgb(255, 255, 255); display: initial; font-weight: bold;" m-font-size-set="true">mac.roofing@outlook.com</span><span style="display: initial;"><br/></span></p></div></div> 
+ <div class="u_1371330736 dmRespCol small-12 large-3 medium-3" id="1371330736"> <div class="u_1597493624 dmNewParagraph" id="1597493624" data-element-type="paragraph" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="size-16 m-text-align-center"><span class="font-size-16" style="display: initial; font-weight: bold; color: rgb(255, 255, 255);">Social Links</span></p></div> <div class="u_1592896231 align-center text-align-center dmSocialHub gapSpacing" id="1592896231" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/profile.php?id=100093190369049" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="mailto:mac.roofing@outlook.com" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Email&apos;)"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="tel:07547 127654" target="_blank" dm_dont_rewrite_url="true" aria-label="phone" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Phone&apos;)"> <span class="dmSocialPhone icon-phone oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+ <a href="https://www.instagram.com/mac.roofing.services/?img_index=1" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect="zoomout"></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH_UK"
+    window.isSitePreview = false;
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_6300";
+    var build = "2026-03-23T13_48_19";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2026-03-23T13_48_19";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static-cdn.website-editor.net/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.website-editor.net';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/6300';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static-cdn.website-editor.net';
+    rtCommonProps["common.resources.folder"] = 'https://static-cdn.website-editor.net/mnlt/production/6300';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+    rtCommonProps["booking.cal.api.domain"] = 'api.cal.com';
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://le-cdn.website-editor.net/';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =false;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =false;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["fnb.animations.tracking.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.accountPage.emptyBaseUrl.enabled"] = true;
+    rtFlags["ecom.ecwid.pages.links.disable.listeners"] = true;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["flex.animation.design.panel.layout"] =true;
+    rtFlags["runtime.cwv.report.cls.enabled"] =false;
+    rtFlags["runtime.cwv.report.lcp.enabled"] =false;
+    rtFlags["contact.form.useActiveForm"] =true;
+    rtFlags["contact.form.custom.errors.enabled"] =false;
+    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
+    rtFlags["runtime.ssr.productCustomizations"] =true;
+    rtFlags["runtime.ssr.runtime.filter-sort.newFilterSortWidgetWithOptions.enabled"] =true;
+    rtFlags["runtime.ssr.ssrSlider.jumpThreshold.enabled"] =true;
+</script>
+<script src="https://static-cdn.website-editor.net/mnlt/production/6300/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+    if (!window.location.search) {
+        return;
+    }
+	const cleanParams = window.location.search.substring(1); // Strip ?
+	const queryParams = cleanParams.split('&');
+
+	const expires = 'expires=' + new Date().getTime() + 24 * 60 * 60 * 1000;
+	const domain = 'domain=' + window.location.hostname;
+	const path = "path=/";
+
+	queryParams.forEach((param) => {
+		const [key, value = ''] = param.split('=');
+		if (key.startsWith('utm_')) {
+			const cookieName = "_dm_rt_" + key.substring(4);
+			const cookie = cookieName + "=" + value;
+			const joined = [cookie, expires, domain, path].join(";");
+			document.cookie = joined;
+		}
+	});
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1dxoqu0t5mb7j.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd1dxoqu0t5mb7j.cloudfront.net', { // Initialise a tracker
+  appId: '893a3b5a7a444aff81005d56b6a31333'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   
+
+
+<div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en_GB"></div>
+<!-- Alias: 893a3b5a7a444aff81005d56b6a31333 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'More';
+    
+    Parameters.NavigationAreaParams.LessButtonText = '......';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<script>
+function call1and1Tracking() {
+	var externalId = dmAPI.getSiteExternalId();
+	var siteName = dmAPI.getSiteName();
+	var src = 'https://integration.mywebsite-editor.com/dakota-snippet-service/snippet/integration/snippet.js?sitename='+siteName+'&external_uid='+externalId+'&mode=visit'
+	var tracking = document.createElement('script');
+     tracking.setAttribute('src',src);
+   	document.head.appendChild(tracking);
+}
+call1and1Tracking();
+</script><!--  End Product Custom HTML Markup -->
+</body>
+</html>
