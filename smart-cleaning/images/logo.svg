@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+
+  <!-- ON NEW SERVER -->
+  <!-- THIS SNIPPET NEEDS TO GO AS HIGH UP IN THE <head> SECTION AS POSSIBLE -->
+  <!-- Google Tag Manager -->
+  <script>
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-NQVJT27');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Global site tag (gtag.js) - Google AdWords: 875473961 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-875473961"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'AW-875473961');
+  </script>
+
+  <!-- Google Call Conversion Tracking -->
+  <script>
+  gtag('config', 'AW-875473961/QISuCNP2xmkQqdi6oQM', {
+    'phone_conversion_number': '01904 788 788'
+  });
+  </script>
+  <!-- End og Google Call Conversion Tracking -->
+
+  <!-- Event snippet for Mailto link click conversion page -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function() {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-875473961/OqJ8CPnpqXkQqdi6oQM',
+      'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
+
+  <meta charset="UTF-8">
+  <meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v26.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - Smart Cleaning</title>
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:title" content="Page not found - Smart Cleaning" />
+	<meta property="og:site_name" content="Smart Cleaning" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://smartcleaninguk.co.uk/#website","url":"https://smartcleaninguk.co.uk/","name":"Smart Cleaning","description":"Commercial Cleaning Services Company","publisher":{"@id":"https://smartcleaninguk.co.uk/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://smartcleaninguk.co.uk/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https://smartcleaninguk.co.uk/#organization","name":"Smart Cleaning","url":"https://smartcleaninguk.co.uk/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://smartcleaninguk.co.uk/#/schema/logo/image/","url":"https://smartcleaninguk.co.uk/wp-content/uploads/2025/04/Screenshot-2025-04-08-at-15.26.27-png.webp","contentUrl":"https://smartcleaninguk.co.uk/wp-content/uploads/2025/04/Screenshot-2025-04-08-at-15.26.27-png.webp","width":288,"height":174,"caption":"Smart Cleaning"},"image":{"@id":"https://smartcleaninguk.co.uk/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect' />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='sbr_styles-css' href='https://smartcleaninguk.co.uk/wp-content/plugins/reviews-feed-pro/assets/css/sbr-styles.min.css?ver=2.4.2' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='smart-cleaning-typography-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/typography.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-variables-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/variables.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-button-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/button.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-wp-admin-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/wp-admin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-default-hero-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/blocks/default-hero/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-forms-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/blocks/form-cta/style.min.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans%3Aital%2Cwght%400%2C200..800%3B1%2C200..800&#038;display=swap&#038;ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-normalize-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-header-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/header.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-footer-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/footer.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-breadcrumbs-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/breadcrumbs.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-css' href='https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/css/main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-cleaning-swiper-css' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' type='text/css' media='all' />
+<script type="text/javascript" id="breeze-prefetch-js-extra">
+/* <![CDATA[ */
+var breeze_prefetch = {"local_url":"https://smartcleaninguk.co.uk","ignore_remote_prefetch":"1","ignore_list":["wp-admin","wp-login.php"]};
+//# sourceURL=breeze-prefetch-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://smartcleaninguk.co.uk/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js?ver=2.2.20" id="breeze-prefetch-js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" id="smart-cleaning-swiper-js"></script>
+<link rel="https://api.w.org/" href="https://smartcleaninguk.co.uk/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://smartcleaninguk.co.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<meta name="generator" content="webp-uploads 2.6.0">
+<meta name="generator" content="optimization-detective 1.0.0-beta3">
+<meta name="generator" content="embed-optimizer 1.0.0-beta2">
+<meta name="generator" content="image-prioritizer 1.0.0-beta2">
+		<style type="text/css" id="wp-custom-css">
+			/* Smash Balloon Reviews Feed – Match Smart Cleaning UK Styling */
+
+/* Base font + text colour */
+.sb-feed,
+.sb-feed * {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  color: #323943 !important;
+}
+
+/* Review text */
+.sb-item-text,
+.sb-item-text p {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  color: #323943 !important;
+}
+
+/* Reviewer name */
+.sb-item-name {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  color: #323943 !important;
+  font-weight: 600;
+}
+
+/* ⭐ Individual review stars = Google yellow */
+.sb-item-rating,
+.sb-item-rating * {
+  color: #fbbc04 !important;
+  fill: #fbbc04 !important;
+  stroke: #fbbc04 !important;
+}
+
+/* If the individual stars are images */
+.sb-item-rating img {
+  filter: brightness(0) saturate(100%) invert(78%) sepia(73%) saturate(749%) hue-rotate(359deg) brightness(103%) contrast(101%) !important;
+}
+
+/* Buttons */
+.sb-feed .sb-button,
+.sb-feed a.sb-button {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* ⭐ TOP header stars = Google yellow */
+.sb-feed-header-average,
+.sb-feed-header-average * {
+  color: #fbbc04 !important;
+  fill: #fbbc04 !important;
+  stroke: #fbbc04 !important;
+}
+
+.sb-feed-header-average svg path {
+  fill: #fbbc04 !important;
+}
+
+.sb-feed-header-average img {
+  filter: brightness(0) saturate(100%) invert(78%) sepia(73%) saturate(749%) hue-rotate(359deg) brightness(103%) contrast(101%) !important;
+}
+
+/* ===== Layout: match page template ===== */
+
+/* Constrain the entire reviews section so it doesn't stretch edge-to-edge */
+.sb-feed {
+  max-width: 1100px;              /* tweak 1050–1150 if needed */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Ensure inner wrappers also respect the same container width */
+.sb-feed-items,
+.sb-feed-list,
+.sb-feed-container {
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Give the cards a bit of breathing room */
+.sb-feed .sb-item {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* ===== Header: match "Our Leeds Commercial Cleaning Sectors" H2 ===== */
+
+/* Make header inherit same typography as your H2 (48px, weight 500, left aligned) */
+.sb-feed-header,
+.sb-feed-header * {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  color: #323943 !important;
+}
+
+/* Your header title appears to be a span.sb-relative, so target that and common fallbacks */
+.sb-feed-header .sb-relative,
+.sb-feed-header-title,
+.sb-feed-header h1,
+.sb-feed-header h2,
+.sb-feed-header h3 {
+  text-align: left !important;
+  font-size: 48px !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0 !important;
+  margin: 0 0 12px 0 !important;
+  display: block;
+}
+
+/* Keep the rating line under the title aligned with the title (not centered) */
+.sb-feed-header-average {
+  justify-content: flex-start !important;
+  text-align: left !important;
+  margin: 0 0 18px 0 !important;
+}
+/* Fine alignment adjustment – move reviews section slightly left */
+.sb-feed {
+  position: relative;
+  left: -60px;   /* adjust between -10px and -30px until perfectly aligned */
+}
+		</style>
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/favicon-96x96.png"
+    sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/favicon.svg" />
+  <link rel="shortcut icon" href="https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/apple-touch-icon.png" />
+  <link rel="manifest" href="https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/site.webmanifest" />
+
+  <!-- SCHEMAS FROM ACF -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Smart Cleaning UK",
+      "image": "https://smartcleaninguk.co.uk/static/images/smart-cleaning-group.png",
+      "priceRange": "£5 - £64",
+      "url": "https://smartcleaninguk.co.uk/",
+      "logo": "https://smartcleaninguk.co.uk/static/images/smart-cleaning-group.png",
+      "hasMap": "https://goo.gl/maps/uUbstrbnB1J2",
+      "telephone": "01904 345304",
+      "email": "info@smartcleaninguk.co.uk",
+      "description": "Cleaning Service",
+      "openingHours": "Mo,Tu,We,Th,Fr,St,Su 09:00-18:00",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Unit 13 Fairway Drive",
+        "addressLocality": "Upper Poppleton",
+        "addressRegion": "York",
+        "postalCode": "YO26 6HE"
+      }
+    }
+  ]
+}
+</script></head>
+
+<body class="error404 wp-theme-smart-cleaning-bbm">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQVJT27" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+<div class="header-nav-mobile">
+  <nav class="header-nav-mobile-list">
+    <ul id="menu-mobile-menu" class="header-nav-mobile-list"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home" data-item-id="706"><a href="https://smartcleaninguk.co.uk/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-submenu" data-item-id="685"><a href="#">Services</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-submenu" data-item-id="693"><a href="#">Sectors</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-submenu" data-item-id="708"><a href="#">Areas</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-submenu" data-item-id="717"><a href="#">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page" data-item-id="714"><a href="https://smartcleaninguk.co.uk/contact/">Contact</a></li>
+<div class="submenu-wrapper" data-parent-id="685"><button class="submenu-back">&larr; Back</button><div class="list-wrapper"><ul class="submenu-level-1">	<li class="menu-item menu-item-type-post_type menu-item-object-services" data-item-id="691"><a href="https://smartcleaninguk.co.uk/services/daily-office-cleaning/">Daily Office Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services" data-item-id="688"><a href="https://smartcleaninguk.co.uk/services/commercial-carpet-cleaning/">Commercial Carpet Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services" data-item-id="690"><a href="https://smartcleaninguk.co.uk/services/commercial-window-cleaning/">Commercial Window Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services" data-item-id="689"><a href="https://smartcleaninguk.co.uk/services/commercial-floor-cleaning/">Commercial Floor Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services" data-item-id="686"><a href="https://smartcleaninguk.co.uk/services/builders-sparkle-cleaning-services/">Builders &#038; Sparkle Cleaning Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services" data-item-id="687"><a href="https://smartcleaninguk.co.uk/services/cleaning-consumables/">Cleaning Consumables</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services" data-item-id="692"><a href="https://smartcleaninguk.co.uk/services/washroom-services/">Washroom Services</a></li>
+</ul>
+</div>
+</div>
+<div class="submenu-wrapper" data-parent-id="693"><button class="submenu-back">&larr; Back</button><div class="list-wrapper"><ul class="submenu-level-1">	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="697"><a href="https://smartcleaninguk.co.uk/sectors/medical-centre-cleaning/">Medical Centre Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="705"><a href="https://smartcleaninguk.co.uk/sectors/school-cleaning/">School Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="694"><a href="https://smartcleaninguk.co.uk/sectors/car-showroom-cleaning/">Car Showroom Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="695"><a href="https://smartcleaninguk.co.uk/sectors/dental-surgery-cleaning/">Dental Surgery Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="699"><a href="https://smartcleaninguk.co.uk/sectors/nursery-cleaning/">Nursery Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="702"><a href="https://smartcleaninguk.co.uk/sectors/pub-bar-restaurant-cleaning/">Pub, Bar &#038; Restaurant Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="704"><a href="https://smartcleaninguk.co.uk/sectors/retail-store-cleaning/">Retail Shop Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="700"><a href="https://smartcleaninguk.co.uk/sectors/pharmaceutical-cleaning/">Pharmaceutical Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="703"><a href="https://smartcleaninguk.co.uk/sectors/public-sector-cleaning/">Public Sector Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="698"><a href="https://smartcleaninguk.co.uk/sectors/museums-theatres-aquarium-cleaning/">Museums, Theatres &amp; Aquarium Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="696"><a href="https://smartcleaninguk.co.uk/sectors/industrial-factory-cleaning/">Industrial Factory Cleaning</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-sectors" data-item-id="701"><a href="https://smartcleaninguk.co.uk/sectors/property-management-cleaning/">Property Management Cleaning</a></li>
+</ul>
+</div>
+</div>
+<div class="submenu-wrapper" data-parent-id="708"><button class="submenu-back">&larr; Back</button><div class="list-wrapper"><ul class="submenu-level-1">	<li class="menu-item menu-item-type-post_type menu-item-object-areas" data-item-id="711"><a href="https://smartcleaninguk.co.uk/local-commercial-cleaning/york/">Commercial Cleaning York</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-areas" data-item-id="710"><a href="https://smartcleaninguk.co.uk/local-commercial-cleaning/leeds/">Commercial Cleaning Leeds</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom" data-item-id="709"><a href="/local-commercial-cleaning/">View all areas</a></li>
+</ul>
+</div>
+</div>
+<div class="submenu-wrapper" data-parent-id="717"><button class="submenu-back">&larr; Back</button><div class="list-wrapper"><ul class="submenu-level-1">	<li class="menu-item menu-item-type-post_type menu-item-object-page" data-item-id="712"><a href="https://smartcleaninguk.co.uk/about-us/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page" data-item-id="715"><a href="https://smartcleaninguk.co.uk/faqs/">FAQs</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page" data-item-id="716"><a href="https://smartcleaninguk.co.uk/testimonials/">Testimonials</a></li>
+</ul>
+</div>
+</div>
+</ul>  </nav>
+</div>
+
+
+<div>
+  <div class="header-wrap">
+    <!-- <div class="header-contact-bar">
+      <div class="wrapper">
+
+        <div class="contact-details">
+          <a class="email" href="mailto:info@smartcleaninguk.co.uk">
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 16V0H20V16H0ZM10 8.45L1.5 2.875V14.5H18.5V2.875L10 8.45ZM10 6.95L18.4 1.5H1.625L10 6.95ZM1.5 2.875V1.5V14.5V2.875Z" fill="#00AFEF"/>
+</svg>
+            <span class="desktop">info@smartcleaninguk.co.uk</span>
+            <span class="mobile">Email</span>
+            <a class="phone" href="tel:+441904936555">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 22V0H14V22H0ZM1.5 18.25V20.5H12.5V18.25H1.5ZM7.0045 20.125C7.21815 20.125 7.39585 20.0527 7.5375 19.908C7.67915 19.7635 7.75 19.5844 7.75 19.3705C7.75 19.1569 7.67765 18.9791 7.533 18.8375C7.3885 18.6959 7.20935 18.625 6.9955 18.625C6.78185 18.625 6.60415 18.6973 6.4625 18.842C6.32085 18.9865 6.25 19.1656 6.25 19.3795C6.25 19.5931 6.32235 19.7709 6.467 19.9125C6.6115 20.0541 6.79065 20.125 7.0045 20.125ZM1.5 16.75H12.5V3.75H1.5V16.75ZM1.5 2.25H12.5V1.5H1.5V2.25Z" fill="#00AFEF"/>
+</svg>
+              <span class="desktop">01904 936 555</span>
+              <span class="mobile">Phone</span>
+            </a>
+        </div>
+      </div>
+    </div> -->
+    <header class="header">
+      <div class="wrapper">
+        <a href="https://smartcleaninguk.co.uk" class="logo"><img data-od-xpath="/HTML/BODY/DIV/*[1][self::DIV]/*[1][self::HEADER]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]"
+            src="https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/assets/logo.svg"
+            alt="Smart Cleaning - Commercial Cleaning Services"></a>
+        <nav class="header-nav">
+          <ul id="menu-main-menu-desktop" class="header-nav-list"><li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-68"><a href="https://smartcleaninguk.co.uk/">Home</a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-73"><a href="#">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-83"><a href="https://smartcleaninguk.co.uk/services/daily-office-cleaning/">Daily Office Cleaning</a></li>
+	<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-81"><a href="https://smartcleaninguk.co.uk/services/commercial-carpet-cleaning/">Commercial Carpet Cleaning</a></li>
+	<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-82"><a href="https://smartcleaninguk.co.uk/services/commercial-window-cleaning/">Commercial Window Cleaning</a></li>
+	<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-450"><a href="https://smartcleaninguk.co.uk/services/commercial-floor-cleaning/">Commercial Floor Cleaning</a></li>
+	<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-79"><a href="https://smartcleaninguk.co.uk/services/builders-sparkle-cleaning-services/">Builders &#038; Sparkle Cleaning Services</a></li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-80"><a href="https://smartcleaninguk.co.uk/services/cleaning-consumables/">Cleaning Consumables</a></li>
+	<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-84"><a href="https://smartcleaninguk.co.uk/services/washroom-services/">Washroom Services</a></li>
+</ul>
+</li>
+<li id="menu-item-74" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-74"><a href="#">Sectors</a>
+<ul class="sub-menu">
+	<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-87"><a href="https://smartcleaninguk.co.uk/sectors/medical-centre-cleaning/">Medical Centre Cleaning</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-91"><a href="https://smartcleaninguk.co.uk/sectors/school-cleaning/">School Cleaning</a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-85"><a href="https://smartcleaninguk.co.uk/sectors/car-showroom-cleaning/">Car Showroom Cleaning</a></li>
+	<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-86"><a href="https://smartcleaninguk.co.uk/sectors/dental-surgery-cleaning/">Dental Surgery Cleaning</a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-88"><a href="https://smartcleaninguk.co.uk/sectors/nursery-cleaning/">Nursery Cleaning</a></li>
+	<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-89"><a href="https://smartcleaninguk.co.uk/sectors/pub-bar-restaurant-cleaning/">Pub, Bar &#038; Restaurant Cleaning</a></li>
+	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-90"><a href="https://smartcleaninguk.co.uk/sectors/retail-store-cleaning/">Retail Shop Cleaning</a></li>
+	<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-452"><a href="https://smartcleaninguk.co.uk/sectors/pharmaceutical-cleaning/">Pharmaceutical Cleaning</a></li>
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-454"><a href="https://smartcleaninguk.co.uk/sectors/public-sector-cleaning/">Public Sector Cleaning</a></li>
+	<li id="menu-item-456" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-456"><a href="https://smartcleaninguk.co.uk/sectors/museums-theatres-aquarium-cleaning/">Museums, Theatres &amp; Aquarium Cleaning</a></li>
+	<li id="menu-item-458" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-458"><a href="https://smartcleaninguk.co.uk/sectors/industrial-factory-cleaning/">Industrial Factory Cleaning</a></li>
+	<li id="menu-item-460" class="menu-item menu-item-type-post_type menu-item-object-sectors menu-item-460"><a href="https://smartcleaninguk.co.uk/sectors/property-management-cleaning/">Property Management Cleaning</a></li>
+</ul>
+</li>
+<li id="menu-item-193" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-193"><a href="/local-commercial-cleaning/">Areas</a>
+<ul class="sub-menu">
+	<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-areas menu-item-78"><a href="https://smartcleaninguk.co.uk/local-commercial-cleaning/york/">Commercial Cleaning York</a></li>
+	<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-areas menu-item-77"><a href="https://smartcleaninguk.co.uk/local-commercial-cleaning/leeds/">Commercial Cleaning Leeds</a></li>
+	<li id="menu-item-194" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-194"><a href="/local-commercial-cleaning/">View all areas</a></li>
+</ul>
+</li>
+<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-69"><a href="https://smartcleaninguk.co.uk/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-492"><a href="https://smartcleaninguk.co.uk/about-us/">About Smart Cleaning</a></li>
+	<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://smartcleaninguk.co.uk/faqs/">FAQs</a></li>
+	<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="https://smartcleaninguk.co.uk/testimonials/">Testimonials</a></li>
+</ul>
+</li>
+<li id="menu-item-990" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-990"><a href="https://smartcleaninguk.co.uk/news/">News</a></li>
+</ul>        </nav>
+        <div class="header-right">
+          
+<a href="https://smartcleaninguk.co.uk/contact/" class="btn primary large">
+
+  
+  <span class="button_text">Get a Quote</span>
+    <div class="arrow-wrapper">
+    <div class="arrow-left arrow">
+      <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+    <div class="arrow-right arrow">
+      <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  </div>
+  </a>
+
+          <div class="btn secondary header-nav-mobile-trigger">
+            <span class="button_text">Menu</span>
+            <div class="nav-toggle">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+<main>
+
+  <div class="micro-hero">
+    <div class="heading heading-large font-medium">
+      <h1>Latest news</h1>
+    </div>
+  </div>
+
+  <div class="blog-hero">
+      </div>
+
+  <div class="article-grid-wrapper">
+
+    
+    <header>
+      <div class="heading heading-medium font-medium">
+        <h2>All news <sup>10</sup></h2>
+      </div>
+      <div class="filters">
+        <label for="filter-by">Filter by</label>
+        <ul>
+          <li class="active">
+            <a href="https://smartcleaninguk.co.uk/news/">All</a>
+          </li>
+          <li><a href="https://smartcleaninguk.co.uk/category/case-study/">Case Study</a></li><li><a href="https://smartcleaninguk.co.uk/category/news/">News</a></li>        </ul>
+      </div>
+    </header>
+
+    <div class="article-grid">
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/multi-storey-office-cleaning-case-study/">
+          <div class="image">
+            <img data-od-removed-fetchpriority="high" data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[1][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="510" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/10/kate-sade-2zZp12ChxhU-unsplash-768x510.webp" class="img-fluid wp-post-image" alt="Office carpet clean" decoding="async"  srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/10/kate-sade-2zZp12ChxhU-unsplash-768x510.webp 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/10/kate-sade-2zZp12ChxhU-unsplash-300x199.webp 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/10/kate-sade-2zZp12ChxhU-unsplash-1024x680.webp 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/10/kate-sade-2zZp12ChxhU-unsplash-1536x1020.webp 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/10/kate-sade-2zZp12ChxhU-unsplash-2048x1360.webp 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>Case Study</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>Case Study: Office Cleaning for a Multi-Storey Commercial Building in Leeds</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                20 Jan 2026              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/office-window-cleaning-costing-guide/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[2][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="512" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/chris-window-cleaning-v1-768x512.jpg" class="img-fluid wp-post-image" alt="Cleaner Washing Windows" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/chris-window-cleaning-v1-768x512.jpg 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/chris-window-cleaning-v1-300x200.jpg 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/chris-window-cleaning-v1-1024x683.jpg 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/chris-window-cleaning-v1-1536x1024.jpg 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/chris-window-cleaning-v1-2048x1366.jpg 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>News</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>Office Window Cleaning Costing Guide</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                16 Jan 2026              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/the-yorkshire-dirt-index/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[3][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="431" src="https://smartcleaninguk.co.uk/wp-content/uploads/2026/01/The-Yorkshire-Dirt-Index-768x431.webp" class="img-fluid wp-post-image" alt="The Yorkshire Dirt Index" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2026/01/The-Yorkshire-Dirt-Index-768x431.webp 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2026/01/The-Yorkshire-Dirt-Index-300x168.webp 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2026/01/The-Yorkshire-Dirt-Index-1024x574.webp 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2026/01/The-Yorkshire-Dirt-Index-1536x861.webp 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2026/01/The-Yorkshire-Dirt-Index.webp 2015w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>News</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>The Yorkshire Dirt Index 2026</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                7 Jan 2026              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/case-study-medical-centre-cleaning-for-a-high-footfall-gp-practice-in-yorkshire/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[4][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="512" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/02/washroom-picture-v1-768x512.jpg" class="img-fluid wp-post-image" alt="Cleaner wiping washroom mirror" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/02/washroom-picture-v1-768x512.jpg 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/02/washroom-picture-v1-300x200.jpg 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/02/washroom-picture-v1-1024x683.jpg 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/02/washroom-picture-v1-1536x1024.jpg 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/02/washroom-picture-v1-2048x1366.jpg 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>Case Study</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>Case Study: Medical Centre Cleaning for a High-Footfall GP Practice in Yorkshire</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                22 Dec 2025              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/how-much-does-office-cleaning-cost-a-practical-guide-to-setting-a-budget/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[5][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="512" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/japi-and-joysse-meeting-768x512.jpg" class="img-fluid wp-post-image" alt="Smart Cleaners in a Meeting" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/japi-and-joysse-meeting-768x512.jpg 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/japi-and-joysse-meeting-300x200.jpg 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/japi-and-joysse-meeting-1024x683.jpg 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/japi-and-joysse-meeting-1536x1024.jpg 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/japi-and-joysse-meeting-2048x1366.jpg 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>News</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>How Much Does Office Cleaning Cost? A Practical Guide to Setting a Budget</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                11 Dec 2025              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/case-study-smart-cleaning-achieves-98-client-satisfaction-with-trustmarques-york-office-cleaning-contract/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[6][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="512" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/wiping-in-reception-768x512.jpg" class="img-fluid wp-post-image" alt="Cleaner Wiping Chair" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/wiping-in-reception-768x512.jpg 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/wiping-in-reception-300x200.jpg 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/wiping-in-reception-1024x683.jpg 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/wiping-in-reception-1536x1024.jpg 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/wiping-in-reception-2048x1366.jpg 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>Case Study</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>Case Study: Smart Cleaning achieves 98% client satisfaction with Trustmarque’s York office cleaning contract</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                21 Nov 2025              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/office-cleaning-checklist-how-to-keep-every-workplace-clean-and-productive/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[7][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="512" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/dentist-mopping-768x512.jpg" class="img-fluid wp-post-image" alt="Cleaner Mopping Stairs" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/dentist-mopping-768x512.jpg 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/dentist-mopping-300x200.jpg 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/dentist-mopping-1024x683.jpg 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/dentist-mopping-1536x1024.jpg 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/dentist-mopping-2048x1366.jpg 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>News</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>Commercial cleaning checklist: How to keep every workplace clean and productive</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                12 Nov 2025              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/commercial-carpet-cleaning-guide/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[8][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="512" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/Joysse-coach-vacuuming-v1-768x512.jpg" class="img-fluid wp-post-image" alt="Cleaner Vacuuming Store" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/Joysse-coach-vacuuming-v1-768x512.jpg 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/Joysse-coach-vacuuming-v1-300x200.jpg 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/Joysse-coach-vacuuming-v1-1024x683.jpg 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/Joysse-coach-vacuuming-v1-1536x1024.jpg 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/Joysse-coach-vacuuming-v1-2048x1366.jpg 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>News</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>Commercial Carpet Cleaning Guide</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                27 Oct 2025              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+            <article class="article-grid-item">
+        <a href="https://smartcleaninguk.co.uk/smart-cleaning-helps-university-of-york/">
+          <div class="image">
+            <img data-od-replaced-sizes="(max-width: 768px) 100vw, 768px" data-od-xpath="/HTML/BODY/DIV/*[2][self::MAIN]/*[3][self::DIV]/*[2][self::DIV]/*[9][self::ARTICLE]/*[1][self::A]/*[1][self::DIV]/*[1][self::IMG]" width="768" height="512" src="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/washroom-picture-768x512.jpg" class="img-fluid wp-post-image" alt="Cleaner Mopping Bathroom" decoding="async" srcset="https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/washroom-picture-768x512.jpg 768w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/washroom-picture-300x200.jpg 300w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/washroom-picture-1024x683.jpg 1024w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/washroom-picture-1536x1024.jpg 1536w, https://smartcleaninguk.co.uk/wp-content/uploads/2025/03/washroom-picture-2048x1366.jpg 2048w" sizes="(600px &lt; width &lt;= 782px) 768px, (max-width: 768px) 100vw, 768px" />          </div>
+          <div class="content">
+            <div class="categories">
+              <ul>
+                <li>Case Study</li>              </ul>
+            </div>
+            <div class="heading heading-xs font-medium">
+              <h1>Smart Cleaning helps University of York tackle student accommodation</h1>
+            </div>
+            <div class="excerpt"></div>
+            <div class="bottom fake-button">
+              <div class="date">
+                25 Sep 2025              </div>
+              <div class="arrow-wrapper">
+  <div class="arrow-left arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  <div class="arrow-right arrow">
+    <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+</div>            </div>
+          </div>
+        </a>
+      </article>
+          </div>
+  </div>
+  <div class="pagination">
+    <ol class="wp-paginate font-inherit"><li><span class='page current'>1</span></li><li><a href='https://smartcleaninguk.co.uk/wp-content/uploads/2025/01/cropped-Smart-Cleaning-Logo-192x192.png/page/2/' title='2' aria-label='Go to page 2' class='page'>2</a></li><li><a href="https://smartcleaninguk.co.uk/wp-content/uploads/2025/01/cropped-Smart-Cleaning-Logo-192x192.png/page/2" class="next" aria-label="Go to next page">&raquo;</a></li></ol>  </div>
+  </div>
+</main>
+
+<!-- WordPress Footer -->
+<script type="module">
+/* <![CDATA[ */
+import detect from "https:\/\/smartcleaninguk.co.uk\/wp-content\/plugins\/optimization-detective\/detect.min.js?ver=1.0.0-beta3"; detect( {"minViewportAspectRatio":0.4,"maxViewportAspectRatio":2.5,"isDebug":false,"extensionModuleUrls":["https:\/\/smartcleaninguk.co.uk\/wp-content\/plugins\/image-prioritizer\/detect.min.js?ver=1.0.0-beta2"],"restApiEndpoint":"https:\/\/smartcleaninguk.co.uk\/wp-json\/optimization-detective\/v1\/url-metrics:store","currentETag":"e132ec6025708fcebf2f67ebb83a61a1","currentUrl":"https:\/\/smartcleaninguk.co.uk\/wp-content\/uploads\/2025\/01\/cropped-Smart-Cleaning-Logo-192x192.png","urlMetricSlug":"f608448810478f889dfb63ff723b5b3b","cachePurgePostId":1086,"urlMetricHMAC":"856b2ded6b87a15825c7023faed7cb76","urlMetricGroupStatuses":[{"minimumViewportWidth":0,"maximumViewportWidth":480,"complete":false},{"minimumViewportWidth":480,"maximumViewportWidth":600,"complete":false},{"minimumViewportWidth":600,"maximumViewportWidth":782,"complete":false},{"minimumViewportWidth":782,"maximumViewportWidth":null,"complete":false}],"storageLockTTL":60,"freshnessTTL":604800,"webVitalsLibrarySrc":"https:\/\/smartcleaninguk.co.uk\/wp-content\/plugins\/optimization-detective\/build\/web-vitals.js?ver=4.2.4"} );
+/* ]]> */
+</script>
+</div>
+
+
+<footer class="footer">
+  <div class="wrapper">
+    <div class="top">
+      <div class="heading">
+        <p>See How <strong>We Can Help</strong> Your Business Today&#8230;</p>
+      </div>
+
+      <div class="buttons">
+        
+<a href="tel:+441904936555" class="btn outline large">
+
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.3312 14.1004V16.6004C18.3322 16.8325 18.2846 17.0622 18.1917 17.2749C18.0987 17.4875 17.9623 17.6784 17.7913 17.8353C17.6203 17.9922 17.4184 18.1116 17.1985 18.186C16.9787 18.2603 16.7457 18.288 16.5146 18.2671C13.9503 17.9884 11.4871 17.1122 9.32291 15.7087C7.30943 14.4293 5.60236 12.7222 4.32291 10.7087C2.91456 8.53474 2.03811 6.05957 1.76458 3.48374C1.74375 3.2533 1.77114 3.02104 1.84499 2.80176C1.91885 2.58248 2.03755 2.38098 2.19355 2.21009C2.34954 2.0392 2.53941 1.90266 2.75107 1.80917C2.96272 1.71569 3.19153 1.66729 3.42291 1.66707H5.92291C6.32733 1.66309 6.7194 1.80631 7.02604 2.07002C7.33269 2.33373 7.53297 2.69995 7.58958 3.10041C7.6951 3.90046 7.89078 4.68601 8.17291 5.44207C8.28503 5.74034 8.30929 6.0645 8.24283 6.37614C8.17637 6.68778 8.02196 6.97383 7.79791 7.20041L6.73958 8.25874C7.92587 10.345 9.65329 12.0724 11.7396 13.2587L12.7979 12.2004C13.0245 11.9764 13.3105 11.8219 13.6222 11.7555C13.9338 11.689 14.258 11.7133 14.5562 11.8254C15.3123 12.1075 16.0979 12.3032 16.8979 12.4087C17.3027 12.4658 17.6724 12.6697 17.9367 12.9817C18.201 13.2936 18.3414 13.6917 18.3312 14.1004Z" stroke="#323943" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.3312 14.1004V16.6004C18.3322 16.8325 18.2846 17.0622 18.1917 17.2749C18.0987 17.4875 17.9623 17.6784 17.7913 17.8353C17.6203 17.9922 17.4184 18.1116 17.1985 18.186C16.9787 18.2603 16.7457 18.288 16.5146 18.2671C13.9503 17.9884 11.4871 17.1122 9.32291 15.7087C7.30943 14.4293 5.60236 12.7222 4.32291 10.7087C2.91456 8.53474 2.03811 6.05957 1.76458 3.48374C1.74375 3.2533 1.77114 3.02104 1.84499 2.80176C1.91885 2.58248 2.03755 2.38098 2.19355 2.21009C2.34954 2.0392 2.53941 1.90266 2.75107 1.80917C2.96272 1.71569 3.19153 1.66729 3.42291 1.66707H5.92291C6.32733 1.66309 6.7194 1.80631 7.02604 2.07002C7.33269 2.33373 7.53297 2.69995 7.58958 3.10041C7.6951 3.90046 7.89078 4.68601 8.17291 5.44207C8.28503 5.74034 8.30929 6.0645 8.24283 6.37614C8.17637 6.68778 8.02196 6.97383 7.79791 7.20041L6.73958 8.25874C7.92587 10.345 9.65329 12.0724 11.7396 13.2587L12.7979 12.2004C13.0245 11.9764 13.3105 11.8219 13.6222 11.7555C13.9338 11.689 14.258 11.7133 14.5562 11.8254C15.3123 12.1075 16.0979 12.3032 16.8979 12.4087C17.3027 12.4658 17.6724 12.6697 17.9367 12.9817C18.201 13.2936 18.3414 13.6917 18.3312 14.1004Z" stroke="#00AFEF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+  
+  <span class="button_text">01904 936 555</span>
+  </a>
+
+        
+<a href="/contact/" class="btn primary large">
+
+  
+  <span class="button_text">Get in touch</span>
+    <div class="arrow-wrapper">
+    <div class="arrow-left arrow">
+      <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+    <div class="arrow-right arrow">
+      <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.25 1L13.25 6L8.25 11" stroke="#323943" stroke-width="1.5"/>
+<path d="M12.75 6H0.75" stroke="#323943" stroke-width="1.5"/>
+</svg>
+</div>
+  </div>
+  </a>
+
+      </div>
+    </div>
+    <div class="bottom">
+
+      <div class="logo">
+        <?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 128.9 70">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #323943;
+      }
+
+      .st1 {
+        fill: #00afef;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="st2" d="M0,52.4c.3,0,.1-.1.2-.3.8-5.5,5.2-10.2,9.5-13.5.3-.2,2.5-1.9,2.6-1.8.1.1-.1.2-.2.2-8.7,6.5-14.2,17.5-3,24.9,12.4,8.2,32.8,6.7,46.8,3.8,9.1-1.9,17.9-4.9,26.4-8.3-.1.2-.5.3-.7.4-13.3,6.9-29.4,11.4-44.5,12.1h-.2c0,0-6.5,0-6.5,0l-5.9-.5c-8.8-1.3-22.6-3.8-24.5-14.3,0-.2,0-.3-.2-.3v-.2h0c0,0,0-.2,0-.2v-1.9h0c0,0,0-.2,0-.2v-.2Z"/>
+    <path class="st1" d="M116.3,41.6c-.2,3-1,7-1.6,10-.7,3.9-2.1,6.7-6.4,7.3-3.1.4-7.7-.5-7.7-4.4h4.7c0,0,.2.4.2.5.6.9,2.3.8,3.2.4,1.3-.6,1.6-2.2,1.7-3.5,0,0-.9.6-1,.7-2.8,1.7-6.8.8-7.8-2.6-1.1-3.9,1.9-8.4,5.9-9,1.6-.3,3.5,0,4.3,1.5.1,0,.2-1.1.2-1.2h4.2c0,.1,0,.3,0,.4h0ZM108.5,44.5c-1.3.2-2.5,1.4-2.6,2.7-.4,3.7,5,3.2,5.4,0,.2-1.9-.9-3-2.8-2.7Z"/>
+    <path class="st0" d="M66,0h-.2c-.5,0-1,0-1.4,0h0c0,0,1.6,0,1.6,0Z"/>
+    <path class="st0" d="M70.4,0h0c-.3,0-.6.2-.8,0h.8Z"/>
+    <path class="st2" d="M27.7,22.1s-.2.9-.2,1.1c0,.1,0,.2.1.2,1.7-2.2,6.1-2.5,7.3.4.1,0,.5-.5.7-.7,2.7-2.4,7.5-1.9,6.8,2.6l-1.2,7.8h-4c0-.1,0-.3,0-.4.2-1.9.8-4,1-6,0-1.2,0-2.2-1.5-2.2-1.7,0-2,1.8-2.2,3.2-.3,1.8-.5,3.6-.9,5.4h-4l1-6.3c0-1.1,0-2.3-1.3-2.3-1.7,0-2.1,1.5-2.3,2.8-.4,1.9-.5,3.9-.9,5.9h-4l1.9-11.5h4Z"/>
+    <path class="st1" d="M27,36l-.8,5.4c-2.6-3.4-7.7-1.8-8.9,2.1-1.4,4.4,2.5,6.8,6.3,4.9l1.6-1.1-.9,5.3c-3,1.2-6.3,1.2-9-.6-3-2-3.6-5.4-2.8-8.7,1.6-6,8.6-9.9,14.4-7.3h0Z"/>
+    <path class="st2" d="M19.5,21c-.5-.2-.9-.6-1.5-.8-.5-.2-1-.3-1.5-.3-1.5.1-2.8,1.7-1.1,2.6,2.3,1.3,5.7,1,5.5,4.8-.4,6.2-7.4,8.1-12.2,5.3-.1,0-.9-.6-.9-.6-.1-.2,2.1-3.1,2.3-3.5.6.3,1.1.9,1.7,1.2,1.1.6,3.1.8,4-.3,2-2.4-3.2-3-4.4-3.7-2.2-1.3-1.5-4.5-.4-6.3,2-3.3,6.1-3.8,9.5-2.4.3.1.9.4,1.2.6,0,0,.2,0,.1.2l-2.1,3.3h0Z"/>
+    <path class="st1" d="M56.9,53.1v-1.2c-2.4,2.7-7.1,2.1-8.5-1.5-1.4-3.9,1.7-8.8,5.7-9.4,1.7-.2,3.2.1,4.4,1.4l.2-1.1h4.2l-1.8,11.9h-4.2ZM55.1,44.5c-3.4.4-3.7,6.1.4,5.2,3.2-.7,3.5-5.7-.4-5.2Z"/>
+    <path class="st2" d="M52.3,33.6l.2-1.2c-2.3,2.5-6.9,2-8.2-1.3-1.2-3.2.6-7.1,3.5-8.6,1.9-1,4.7-1.1,6.2.8l.2-1.1h4l-1.9,11.5h-4,0ZM50.9,25.3c-3.2.3-4,5.3-.5,5.2,3.5-.1,4.2-5.5.5-5.2Z"/>
+    <path class="st1" d="M47,47.9h-8.8c-.5,2,1.2,3,3,2.5.6-.2,1.3-1,1.4-1h4c-1.2,3.5-5.3,4.7-8.7,3.9-3.4-.8-4.5-3.6-3.8-6.9,1-4.3,5.4-6.4,9.6-5.3,3.2.9,3.8,3.8,3.2,6.8h0ZM43.5,45.4c-.2-2.7-4.3-2.2-4.8,0h4.8Z"/>
+    <path class="st1" d="M72.1,53.1l1.1-7.2c0-1.5-1.1-1.9-2.4-1.6-1.1.3-1.5,1.3-1.8,2.3l-1,6.5h-4.2l1.8-11.9h4.2l-.2,1.5c.7-.8,1.6-1.5,2.6-1.7,2.5-.6,5.1.2,5.3,3.1-.1,3-.9,5.9-1.3,8.9h-.1c0,.1-4.2.1-4.2.1h0Z"/>
+    <path class="st1" d="M98.7,53.1h-4.3c.3-2.1.8-4.2,1.1-6.3.1-1.3.1-2.6-1.6-2.6-1.7,0-2.3,1.4-2.6,2.9-.4,2-.6,4-.9,6h-4.2l1.8-11.9h4.2l-.2,1.5c.8-.8,1.5-1.5,2.6-1.7,3-.7,5.6.5,5.3,3.9l-1.2,8.2h0Z"/>
+    <path class="st1" d="M34.2,34.6l-3,18.5h-4.2l3.1-18.5h4.1Z"/>
+    <path class="st2" d="M76.3,18.7l-.5,3.4h2.2l-.5,3.4h-2.3s-1.4,8.1-1.4,8.1h-4l1.2-8.1h-1.2l.5-3.4h1.3s.6-3.4.6-3.4h4Z"/>
+    <path class="st2" d="M69.4,21.9l-.6,3.9c-2.5-.9-4.3,0-4.9,2.5-.4,1.7-.5,3.5-.9,5.2h-4l1.9-11.5h4c0,.6-.3,1.2-.2,1.8.6-.8,1.4-1.4,2.3-1.7.2,0,.9-.3,1.1-.3h1.3,0Z"/>
+    <path class="st1" d="M85.2,41.2l-1.9,11.9h-4.2l1.9-11.9h4.2Z"/>
+    <path class="st1" d="M83.8,35.2c3.4-.5,2.9,4.3.1,4.7-3.5.5-3.1-4.3-.1-4.7Z"/>
+    <path class="st0" d="M19.1,12.6s-.1.3-.3.2c0-.2.2-.2.3-.2h0Z"/>
+    <path class="st0" d="M18.5,12.9c0,0,.2-.2.2-.1,0,0-.1.2-.2.1Z"/>
+    <path class="st1" d="M69.6,0c.2.2.6,0,.8,0,8.1,0,22.1,2.4,27.8,8.6,4.6,5,3.8,11,.1,16.2-2.4,3.4-5.8,6.3-9.3,8.5,0,0,.1-.2.2-.2.7-.6,1.6-1.1,2.3-1.8,7.4-6.6,10.7-16.3,1.2-22.9-5.6-3.9-12.3-5.5-19.1-6.1-18.5-1.5-37.6,3.3-54.5,10.3h0c1.4-1,3.4-1.8,4.9-2.5C36.6,4.4,50.4.6,64.3,0c.5,0,1,0,1.4,0h.2c0,0,3.6,0,3.6,0h0Z"/>
+  </g>
+  <path class="st2" d="M128.6,36.2c0,2.6-2,4.6-4.7,4.6s-4.7-2-4.7-4.6,2.1-4.6,4.7-4.6,4.7,2,4.7,4.6ZM120.4,36.2c0,2,1.5,3.6,3.6,3.6s3.5-1.6,3.5-3.6-1.5-3.7-3.5-3.7-3.5,1.6-3.5,3.6ZM123.2,38.6h-1.1v-4.6c.4,0,1-.1,1.7-.1s1.2.1,1.6.3c.2.2.4.6.4,1s-.4.9-.9,1.1h0c.4.2.7.6.8,1.2.1.7.2,1,.3,1.1h-1.1c-.1-.2-.2-.6-.4-1.1,0-.5-.4-.7-.9-.7h-.5v1.8ZM123.3,36h.5c.6,0,1.1-.2,1.1-.7s-.3-.7-1-.7-.5,0-.6,0v1.3Z"/>
+</svg>      </div>
+      <div class="content">
+        <nav class="footer-nav col">
+          <label for="footer-nav-toggle">Navigation</label>
+          <ul id="menu-footer-menu" class="footer-nav-menu"><li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="https://smartcleaninguk.co.uk/about-us/">About Us</a></li>
+<li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="https://smartcleaninguk.co.uk/faqs/">FAQs</a></li>
+<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="https://smartcleaninguk.co.uk/contact/">Contact</a></li>
+<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="https://smartcleaninguk.co.uk/testimonials/">Testimonials</a></li>
+</ul>        </nav>
+
+        <div class="contact col">
+          <label for="contact-toggle">Contact</label>
+
+          <div class="address">
+            Smart Cleaning Group Limited <br />
+<br />
+York Office:<br />
+Unit 3 Isis Court <br />
+Rosetta Way <br />
+York<br />
+YO26 5NA<br />
+<br />
+Leeds Office:<br />
+International House<br />
+14 King Street<br />
+Leeds<br />
+LS1 2HL <br />
+          </div>
+
+          <div class="phone">
+            <span>T:</span>
+            <a href="tel:+441904936555">01904 936 555</a>
+          </div>
+
+          <div class="email">
+            <span>E:</span>
+            <a href="mailto:info@smartcleaninguk.co.uk">info@smartcleaninguk.co.uk</a>
+          </div>
+        </div>
+
+        <div class="connect col">
+          <label for="connect-toggle">Connect</label>
+
+          <div class="socials">
+            
+                        <a class="social-link" href="https://www.facebook.com/smartcleaninguk/" target="_blank">
+              <div class="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>              </div>
+              <div class="label">Facebook</div>
+            </a>
+            
+                        <a class="social-link" href="https://www.linkedin.com/company/smart-cleaning" target="_blank">
+              <div class="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>              </div>
+              <div class="label">LinkedIn</div>
+            </a>
+                      </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-footer">
+      <div class="copyright">
+        &copy; All rights reserved 2026 Smart Cleaning Group. | Company Registration 09804292 | VAT
+        257
+        353 393.
+      </div>
+
+      <div class="sub-footer-menu">
+        <ul id="menu-sub-footer-menu" class="sub-footer-menu-menu"><li id="menu-item-736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736"><a href="https://smartcleaninguk.co.uk/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737"><a href="https://smartcleaninguk.co.uk/cookie-policy/">Cookie Policy</a></li>
+<li id="menu-item-738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-738"><a href="https://smartcleaninguk.co.uk/terms-and-conditions/">Terms &amp; Conditions</a></li>
+<li id="menu-item-739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-739"><a href="https://smartcleaninguk.co.uk/privacy-policy/">Privacy Policy</a></li>
+</ul>      </div>
+    </div>
+  </div>
+</footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/smart-cleaning-bbm/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="module" src="https://smartcleaninguk.co.uk/wp-content/themes/smart-cleaning-bbm/dist/js/main.min.js?ver=6.9.4" id="smart-cleaning-js-js-module"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://smartcleaninguk.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://smartcleaninguk.co.uk/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
