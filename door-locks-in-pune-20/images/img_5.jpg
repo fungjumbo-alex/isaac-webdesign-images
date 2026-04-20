@@ -1,0 +1,282 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	404 Not Found
+</title><meta name="robots" content="NOINDEX,NOFOLLOW" /><meta http-equiv="content-type" content="text/html; charset=utf-8" /><link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="css/NotFound.css" rel="stylesheet" type="text/css" />
+   
+    
+    
+    <script type="text/javascript">
+        function disableSelection(target) {
+            if (typeof target.onselectstart != "undefined") //IE route
+                target.onselectstart = function () { return false }
+            else if (typeof target.style.MozUserSelect != "undefined") //Firefox route
+                target.style.MozUserSelect = "none"
+            else //All other route (ie: Opera)
+                target.onmousedown = function () { return false }
+            target.style.cursor = "default"
+        }
+        function SelDisable() {
+            disableSelection(document.getElementById("divContent"))
+        }
+
+        if (navigator.appName == "Microsoft Internet Explorer") {
+            document.onselectstart = new Function('return false');
+            function dMDown(e) { return false; }
+            function dOClick() { return true; }
+            document.onmousedown = dMDown;
+            document.onclick = dOClick;
+        }
+
+        function openpproduct() {
+            try {
+                var left = (screen.width / 2) - 315;
+                window.open('https://www.grotal.com/UserAccount/NewAddProducts.aspx', 'mywindow', 'left=185,width=630,height=720,scrollbars=1,left=' + left);
+            }
+            catch (err) {
+
+            }
+        }
+    </script>
+
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = { atrk_acct: "N1Avn1QolK10bm", domain: "grotal.com", dynamic: true };
+        (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+    </script>
+    <noscript>
+        <img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=N1Avn1QolK10bm" style="display: none"
+            height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->
+</head>
+<body onclick="HideList1()">
+    <form method="post" action="./FileNotFound.aspx?404%3bhttps%3a%2f%2fwww.grotal.com%3a443%2fPune%2fDoor-Locks-C66%2fImages%2fBulkSMSPromotion.jpg" id="form1" onselectstart="return false">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTkxNTQ3NDI3MmRkgqJDq2Q2XOK13Qi/t0Hp4gBts4sm3s8aGJcIi7Yet+0=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="22538B75" />
+</div>
+    <input name="txtHdnCountryId" type="hidden" id="txtHdnCountryId" value="0" />
+    <input name="txtHdnCityId" type="hidden" id="txtHdnCityId" value="0" />
+    <input name="txtHdnAreaId" type="hidden" id="txtHdnAreaId" value="0" />
+    <div id="loading" style="position: absolute; left: 40%; top: 40px; z-index: 200;
+        display: none;">
+        <img src="https://www.grotal.com/Images_new/loading.gif" alt="Please wait while loading areas..."
+            title="Please wait while loading areas..." />
+    </div>
+    <div class="mainPage">
+        <!--Header-->
+        <div class="header">
+            <div class="topmenu">
+                <ul id="div_header" class="fl">
+                </ul>
+                <ul class="fr">
+                    <li id="aLogin"><a href="UserAccount/UserLogin.aspx">Login</a></li>
+                    <li><a href="https://www.grotal.com/UserAccount/popup.aspx" target="_blank">Help </a></li>
+                </ul>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="header_search  clr">
+                <div class="logo fl">
+                    <a href="https://www.grotal.com/" title="Go to homepage of grotal.com" class="">
+                        <img src="https://www.grotal.com/images/2ndpage_logo.gif" id="ImgLogo" border="0" alt="grotal-logo" />
+                    </a>
+                </div>
+                <div class="hdr-search">
+                    <div class="form-group mb5">
+                        <div id="CityDiv" class="row">
+                            <div class="fl disnone">
+                                <div id="divAllCountry" class="box">
+                                    <span id="txtCountry" class="txtCountryCLs"></span><span class="ImgArrowImg">
+                                    </span>
+                                </div>
+                                <div id="ViewCountry" class="text">
+                                </div>
+                            </div>
+                            <div class="city hdr-search-lt">
+                                <input name="txtActCity" type="text" id="txtActCity" readonly="readonly" value="Select City" class="menu_txtBox_home fl" onclick="divCities()" />
+                                <div id="divcity" style="width: 100%" class="layer">
+                                    <input type="text" id="txtCity" autocomplete="off" class="menu_txtBox_home fl" onfocus="setFocus(this,'Type City')"
+                                        onblur="outFocus(this,'Type City')" onkeyup="showSeletedCity(event)" />
+                                    <div id="divAllCities" class="layerContents bdrColor">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hdr-search-rt area">
+                                <input name="txtArea" type="text" id="txtArea" readonly="readonly" value="Any Area" class="menu_txtBox_home  fl" onclick="divArea()" />
+                                <div id="divArea" style="width: 100%" class="layer">
+                                    <input type="text" id="txtTempArea" autocomplete="off" class="menu_txtBox_home fl"
+                                        onfocus="setFocus(this,'Type Area')" onblur="outFocus(this,'Type Area')" onkeyup="showSeletedArea(event)" />
+                                    <div id="divAllArea" class="layerContents bdrColor">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div_Search" class="col-md-12 pos-relative">
+                        <div class="input-group">
+                            <input name="txt_srctxt" type="text" id="txt_srctxt" autocomplete="Off" onkeypress="return GoToNamingSearch(event);" onkeyup="showResult(this.value, event); stopHere();" onfocus="setFocus(this,&#39;Search by Business Name, Product Name or Service&#39;)" onblur="outFocus(this,&#39;Search by Business Name, Product Name or Service&#39;)" maxlength="80" class="form-control" />
+                            <div onmouseover="ShowContent('uniquename3'); return true;" onmouseout="HideContent('uniquename3'); return true;"
+                                class="HideContent fr">
+                                <span class="input-group-btn">
+                                    <input type="button" name="search" onclick="return GoToNamingSearch(event)" onkeyup="return GoToNamingSearch(event)"
+                                        class="btn btn-default" id="Button1" value="Search" /></span>
+                                <div id="uniquename3">
+                                    Search by Business, Product or Service.</div>
+                            </div>
+                        </div>
+                        <div id="livesearch" class="livesearch clr fl">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="gplus" class="fl" style="display: none;">
+                    <g:plusone style="width: 25px; height: 20px;"></g:plusone>
+                </div>
+                <div class=" contact fr">
+                    <br />
+                    <img src="https://www.grotal.com/images/mob.png" id="imgHelpline" alt="phone" /><br />
+                    <a href="#" id="googleResults" target="_blank" style="visibility: hidden; display: none">Click to see google search</a></div>
+            </div>
+            <div class="cl">
+            </div>
+        </div>
+        <!--banner Ends here-->
+        <!--Main Content for Searched Results-->
+        <div id="divContent" class="content" style="min-height: 200px;">
+            <div class="mid_search" style="margin-left: 288px; margin-top: 44px;">
+                <b>Ooops ! We think we missunderstood your requirement.</b><br />
+                <br />
+                The url may be wrong, <a href="https://www.grotal.com/">Click here to retry.</a>
+                <br />
+                The page may be corrupted.<br />
+                The page may not be existing.
+            </div>
+        </div>
+        <div class="clr w100 mgt5 he1">
+            &nbsp;</div>
+        <div id="div_footer" class="footer size10">&nbsp;&nbsp;2026&nbsp;Grotal – <a href='https://www.grotal.com/staticpages/AboutUs.aspx'>About Us</a>&nbsp;&nbsp;<a href='https://www.grotal.com/management/ManagementTeam.aspx'>Management Team</a>&nbsp;&nbsp;<a href='https://www.grotal.com/staticpages/PrivacyPolicy.aspx'>Privacy Policy</a>&nbsp;&nbsp;<a href='https://www.grotal.com/staticpages/contact.aspx'>Contact Us</a>&nbsp;&nbsp;<a href='https://www.grotal.com/staticpages/termCondition.aspx'>Terms and conditions</a>&nbsp;&nbsp;<a href='https://www.grotal.com/staticpages/RefundPolicy.aspx'>Refund Policy</a>&nbsp;&nbsp;<a href='https://www.grotal.com/staticpages/Disclaimer.aspx'>Disclaimer</a>&nbsp;&nbsp;<a href='https://www.grotal.com/staticpages/PriceList.aspx'>Price List</a>&nbsp;&nbsp;</div>
+    </div>
+    <div id="divScript" style="display: none;">
+    </div>
+    </form>
+    <script type="text/javascript" src="https://www.grotal.com/js/JsResSecond.js"></script>
+    
+    
+    
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-25423991-2']);
+        _gaq.push(['_setDomainName', '.grotal.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script type="text/javascript">
+        if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) { //test for MSIE x.x;
+            var ieversion = new Number(RegExp.$1) // capture x.x portion and store as a number
+            if (ieversion >= 8) { }
+            else if (ieversion >= 7) { }
+            else if (ieversion >= 5) {
+                if (document.getElementById('divAllCities')) {
+                    document.getElementById('divAllCities').style.height = 150 + 'px';
+                    document.getElementById('divDynamiclink').style.height = 150 + 'px';
+                }
+                if (document.getElementById('divAllArea')) {
+                    document.getElementById('divAllArea').style.height = 150 + 'px';
+                    document.getElementById('divDynamiclink').style.height = 150 + 'px';
+                }
+            }
+        }
+
+        function HideCity(from) {
+            if (from == 'nat') {
+                document.getElementById('CityDiv').style.display = 'none';
+                document.getElementById('txt_srctxt').value = '';
+                document.getElementById("txt_srctxt").focus();
+                document.getElementById("topPagination").innerHTML = '<b>Please Enter text for Search</b>';
+                document.getElementById("divContent").innerHTML = '';
+                document.getElementById("bottomPagination").style.display = 'none';
+                document.getElementById("topPagination").style.display = 'none';
+                document.getElementById("netCategories").innerHTML = '';
+                document.getElementById("divFooter").style.position = 'fixed';
+                document.getElementById("divFooter").style.marginLeft = '360px'
+                document.getElementById("divFooter").style.bottom = '40px';
+
+
+
+                //            var s=document.getElementById("txt_srctxt").value;  
+                //            s=s.replace(/ /g,'-');s=s.replace(/&/g,'(and)'); s=s.replace(/</g,'');  s=s.replace(/>/g,'');s=s.replace(/"/g,''); 
+                //            s=s.replace(/#/g,'') ; s=s.replace(/@/g,''); s=s.replace(/!/g,''); s=s.replace('^',''); s=s.replace('$','');  s=s.replace(/%/g,''); s=s.replace('?',''); s=s.replace('?',''); s=s.replace('?',''); s=s.replace('?',''); s=s.replace('?',''); s=s.replace('/',''); s=s.replace('/',''); s=s.replace('/',''); s=s.replace('/',''); s=s.replace('/',''); s=s.replace('*','') ;s=s.replace('*','');s=s.replace('*','');s=s.replace('*',''); 
+                //            s=s.replace('+','Pls') ; s=s.replace('+','Pls'); s=s.replace('+','Pls')
+                //            if(s!='' && s!='+' && s!='_' && document.getElementById("txt_srctxt").value.toUpperCase()!=('Search By Business Name, Product Name, Contact Person, Cell Number').toUpperCase())
+                //            {
+                //                window.location.href=siteUrl+'India/'+s+'-P1A0N0/';
+                //                return false;
+                //            }
+
+            }
+            else if (from == 'city') {
+                //             document.getElementById('txt_srctxt').value='';
+                //             document.getElementById("txt_srctxt").focus(); 
+                //             document.getElementById("topPagination").innerHTML='<b>Please Enter text for Search</b>';
+                //             document.getElementById("divContent").innerHTML='';
+                //             document.getElementById("bottomPagination").innerHTML='';
+                document.getElementById('CityDiv').style.display = 'block';
+                document.getElementById('txt_srctxt').value = '';
+                document.getElementById("txt_srctxt").focus();
+                document.getElementById("netCategories").innerHTML = '';
+
+
+
+
+            }
+
+        }
+
+
+
+        function disableSelection(target) {
+            if (typeof target.onselectstart != "undefined") //IE route
+            {//alert('IE')
+
+                target.onselectstart = function () { return false }
+                document.getElementById('div_Search').onselectstart = saveonselect
+
+            }
+            else if (typeof target.style.MozUserSelect != "undefined") //Firefox route
+            {
+                //alert('Mozila')
+                target.style.MozUserSelect = "none"
+            }
+            else //All other route (ie: Opera)
+            {
+                //alert('Safari')
+                target.onmousedown = function () { return false }
+                target.style.cursor = "default"
+            }
+        }
+        function SelDisable1() {
+            disableSelection(document.getElementById("divContent"))
+
+        }
+        SelDisable1();
+    </script>
+    
+    
+    
+</body>
+</html>
