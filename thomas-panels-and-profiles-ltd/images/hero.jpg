@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="manifest" href="manifest.json?v1">
+<meta name="theme-color" content="rgba(40,48,49,1.00);">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Thomas panels and profiles">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128">
+<meta name="application-name" content="Thomas panels and profiles">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png">
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+
+  <meta property="og:url"           content="https://www.panelsandprofiles.co.uk/index.php">
+  <meta property="og:type"          content="website">
+  <meta property="og:title"         content="Thomas panels and profiles Ltd">
+  <meta property="og:description"   content="For more than thirty years, Thomas Panels and Profiles have supplied and manufactured roofing and cladding products for a diverse client base, providing tailor made solutions and developing product ranges.">
+  <meta property="og:image"         content="www.panelsandprofiles.co.uk/favicon-196x196.png">
+
+
+
+<!--Add google webfonts script-->
+<!--<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">--><!-- | replace with %7C for w3. org Validation-->
+<!--END Add google webfonts script-->
+<!--END Add Adobe webfonts script-->
+<link rel="stylesheet" href="https://use.typekit.net/mdo5hlh.css">
+<!--END Add Adobe webfonts script-->
+
+<!--Add google Analytics script-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EDL8XCV0WN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+cookie_flags: 'max-age=7200;secure;samesite=none'
+  gtag('config', 'G-EDL8XCV0WN');
+</script>
+<!-- END Google tag (gtag.js) -->
+
+
+<link href="_/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="_/css/mystyles.css?v2" rel="stylesheet" media="screen">
+<link href="_/css/animate.css" rel="stylesheet"   media="screen">
+<link  href="_/css/bootstrap-icons.css" rel="stylesheet" media="screen"><title>Welcome to Thomas panels and profiles Ltd</title>
+<meta name="description" content="For more than thirty years, Thomas Panels and Profiles have supplied and manufactured roofing and cladding products for a diverse client base, providing tailor made solutions and developing product ranges. ">
+<meta name="keywords" content="">
+</head>
+<body id="home" class="position-relative">
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"name": "Thomas panels and profiles Ltd",
+	"url": "http://www.panelsandprofiles.co.uk",
+	"alternateName": "Thomas panels and profiles"
+
+}
+</script>
+
+<div  itemscope itemtype="http://schema.org/Organization">
+<meta itemprop="sameAs" content= "https://twitter.com/thomas_tpp">
+<meta itemprop="sameAs" content= "panelsandprofiles">
+<meta itemprop="sameAs" content= "">
+<meta itemprop="sameAs" content= "">
+<meta itemprop="sameAs" content= "">
+<meta itemprop="sameAs" content= "">
+<meta itemprop="sameAs" content= "">
+</div>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Organization",
+	"name": "Thomas panels and profiles",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "Thomas panels and profiles Ltd, Unit 5,Southern Avenue, Leominster",
+		"addressLocality": "Southern Avenue",
+		"addressRegion": "Wales",
+		"postalCode": "SHR6 0QF",
+        "addressCountry": "UK"
+	},
+	"image": "http://www.panelsandprofiles.co.uk/images/core/logo.png",
+    "logo": "http://www.panelsandprofiles.co.uk/images/core/logo.png",
+	"email": "sales@panelsandprofiles.co.uk",
+	"telePhone": "01568 61 00 00 ",
+
+	"url": "http://www.panelsandprofiles.co.uk"
+}
+</script>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "LocalBusiness",
+	"name": "Thomas panels and profiles Ltd",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "Thomas panels and profiles Ltd, Unit 5,Southern Avenue, Leominster",
+		"addressLocality": "Southern Avenue",
+		"addressRegion": "Wales",
+		"postalCode": "SHR6 0QF"
+	},
+	"image": "http://www.panelsandprofiles.co.uk/images/core/logo.png",
+    "logo": "http://www.panelsandprofiles.co.uk/images/core/logo.png",
+	"email": "sales@panelsandprofiles.co.uk",
+	"telePhone": "01568 61 00 00 ",
+	"url": "http://www.panelsandprofiles.co.uk",
+	"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "17:30"
+  },
+
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "00:00"
+  }
+],
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "=",
+		"longitude": "="
+	},
+	"priceRange":"£"
+
+}
+</script>
+
+<noscript>
+This website requires Javascript to run, Please enable javascript
+</noscript>
+
+<!--Menu System-->
+<!--<div class="" style="background-color: rgba(0,0,0,0.0);">
+  <div class="container">
+    <div class="row " id="header">
+      <div class="col-12 ">
+          <a href="/" title="go to Thomas panels and profiles home page" class="d-block w-100 d-flex align-items-center justify-content-between">
+     
+          <img src="images/core/TPP-logo.svg" alt="Thomas panels and profiles logo" width="800" height="157" class="img-fluid  mx-auto py-4" style="max-height:110px; width: auto" id="logo"  title="Thomas panels and profiles logo" >
+        </a>
+        
+      </div>
+    </div>
+  </div>
+ </div> -->
+  
+<!--END Menu System--> 
+<!--END social--><!-- header --> 
+<a class = "back-to-top" href = "#" title = "Back to Top" ><i class="bi bi-chevron-double-up"></i></a> <!-- Main -->
+
+<section class="container-fluid">
+    
+    <div class="row">
+    <div class="col-12 p-0" style="position: relative;">
+        <img src="images/set-up/hero-mobile.webp" width="1600" height="900" alt="Hero image" class="img-fluid w-100 d-md-none"/>
+         <img src="images/set-up/hero.webp" width="1600" height="900" alt="Hero image" class="img-fluid w-100 d-none d-md-block"/>
+      <div style="position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(255,0,0,0);" class=" d-md-block">
+  <div class="info d-flex flex-column align-items-top justify-content-center pt-xxl-4 pt-xl-4">
+    
+    <img src="images/core/TPP-logo.svg" alt="Thomas panels and profiles logo" width="800" height="157" class="img-fluid  mx-auto pt-4 pb-3 pb-lg-4"  id="logo"  title="Thomas panels and profiles logo" >
+      
+    
+    <h1 class="color-white fw-bold title mx-auto mb-2">We're currently building something special!</h1>
+    <!--<h2 class="color-primary fw-normal subtitle mx-auto">MANUFACTURING &amp; CONSTRUCTION IS IN OUR DNA</h2>-->
+    
+    
+  </div>
+      </div>
+        
+      </div></div>
+</section>
+    
+    
+    <section class="background-primary py-5 curve" >
+      <div class="container">
+  <div class="row">
+    <div class="col-10 col-lg-8 mx-auto">
+      <h3 class="color-white fw-bold fs-4 mx-auto text-center mb-3">Our new Thomas Panels &amp; Profiles website is on the way - we're building a faster, clearer and more informative experience.</h3>
+      <p  class="color-white text-center mb-3 fw-light">With clearer navigation and more detailed product information, exploring our extensive range of <strong>steel roofing, cladding, purlins
+        and structural components</strong> will soon be easier than ever. This launch forms part of a major investment
+        across the business, ensuring we continue to <strong>deliver more</strong>, and <strong>deliver it faster</strong>.</p>
+        <h4 class="color-white fw-bold fs-6 mx-auto mb-3 text-center"> Launching soon!</h4>
+        
+         <p  class="color-white text-center mb-3">For all enquiries please contact <a href="tel:01568 610000" class="color-white">01568 610000</a> or email <a href="mailto:enquiries@panelsandprofiles.co.uk" class="color-white">enquiries@panelsandprofiles.co.uk</a></p>
+        
+        <p  class="color-white text-center mb-3 fw-light" style="font-size: 0.7em">LOOK IN AGAIN SOON OR STAY UP TO DATE BY FOLLOWING US ON SOCIAL MEDIA</p>
+        <div class="col-12 text-center">
+            <a href="https://www.facebook.com/panelsandprofiles" target="_blank"><img src="images/set-up/facebook.webp" alt="Thomas panels and profiles logo" width="35" height="35" class=" pe-1" style="width: 35px; height: auto;" title="Facebook" ></a>
+          <a href="https://www.linkedin.com/company/thomas-panels-and-profiles/" target="_blank"><img src="images/set-up/linkedin.webp" alt="Thomas panels and profiles logo" width="35" height="35" class=" ps-1" style="width: 35px; height: auto;" title="linkedin" ></a></div>
+    </div>
+  </div>
+      </div>
+    </section>
+    
+    
+<!-- END Main -->
+<footer id="footer">
+<!-- Footer main -->
+
+    
+    <div class=" contain-animation footer_curve" >
+      <div class="container-fluid py-3">
+         <h5 class="color-white fw-light fs-6 mx-auto mb-0 text-center"> Built on knowledge, <strong>made to last.</strong></h5>
+        </div>
+    </div>
+    
+    
+    	    
+  <!-- END Footer main -->
+    <!-- Footer leagal 
+     <div class="background-gray contain-animation regular">
+      <div class="container">
+        <div class="row  color-white py-3">
+   
+          <div class="col-12 small mx-auto text-center d-block d-sm-flex justify-content-center scroll-animations animated" data-id="slideInUp">
+    
+  <div class="col-12 col-sm ms-auto text-nowrap">&#169; Thomas panels and profiles. 2026</div>   
+                 <span class="mx-3 d-none d-sm-inline-flex">|</span>   
+                  <div class="col-12 col-sm">Company Number: 5535688</div> 
+                   <span class="mx-3 d-none d-sm-inline-flex">|</span>   
+                 <div class="col-12 col-sm"><a href="/privacy-policy.php" class="color-white">Privacy Policy</a></div>
+             <span class="mx-3 d-none d-sm-inline-flex">|</span>   
+                 <div class="col-12 col-sm me-auto"><a href="https://www.plum-design.co.uk" target="_blank" class="color-white">Website designed by www.plum-design.co.uk</a></div>
+  
+          
+          </div>
+          </div>
+        </div>
+    </div>-->
+    <!-- END Footer leagal -->
+</footer>
+<script src="_/js/jquery.min.js" ></script> 
+<script src="_/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="_/js/myscripts.js"></script> <!-- container -->
+</body>
+</html>
+
